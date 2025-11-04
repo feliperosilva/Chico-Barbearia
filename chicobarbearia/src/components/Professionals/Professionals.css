@@ -1,6 +1,6 @@
 .professionals {
     width: 100dvw;
-    height: 100dvh;
+    min-height: 100dvh;
     padding-top: 20px;
     background-color: #919c9d;
 }
