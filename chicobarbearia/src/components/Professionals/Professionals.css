@@ -1,8 +1,15 @@
 .professionals {
     width: 100dvw;
     height: 100dvh;
-    padding-top: 120px;
+    padding-top: 20px;
     background-color: #919c9d;
+}
+
+.professionals h1 {
+    display: flex;
+    justify-content: center;
+    color: #31331f;
+    font-size: 40px;
 }
 
 .prof-swiper {
@@ -23,18 +30,30 @@
     flex-direction: column !important;
     justify-content: center !important;
     align-items: center !important;
+    margin-bottom: 30px;
 }
 
 .swiper-button-prev,
 .swiper-button-next {
   color: #d5cdbc !important; /* your custom color */
+  height: 70px !important;
 }
 
 .swiper-pagination-bullet {
   background-color: #ccc !important; /* inactive color */
-  opacity: 1 !important; /* make them fully visible */
+  opacity: 1 !important; /* make them fully visible */  
+  height: 10px !important;
+  width: 10px !important;
 }
 
 .swiper-pagination-bullet-active {
   background-color: #31331f !important; /* active bullet color */
+}
+
+.prof-name {
+    font-size: 28px;
+}
+
+.prof-role {
+    font-size: 18px;
 }

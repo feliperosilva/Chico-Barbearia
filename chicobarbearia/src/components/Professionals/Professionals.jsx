@@ -55,10 +55,8 @@ const Professionals = () => {
         {team.map((person, index) => (
             <SwiperSlide key={index} className='prof-slide'>
                 <img src={person.img} alt={person.name} className='prof-img'/>
-                <h2>{person.name}</h2>
-                <ul>
-                    {person.role.map((act, index) => <li key={index}>{act}</li>)}
-                </ul>
+                <h2 className='prof-name'>{person.name}</h2>
+                {person.role.map((act, index) => <span key={index} className='prof-role'>{act}</span>)}                
             </SwiperSlide>
         ))}
       </Swiper>
