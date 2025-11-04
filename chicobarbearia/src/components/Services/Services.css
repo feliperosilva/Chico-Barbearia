@@ -1,4 +1,33 @@
 .services {
     width: 100dvw;
     min-height: 100dvh;
+    padding: 30px 50px;
+}
+
+.img-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80dvw;
+}
+
+.all-img {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.all-serv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.serv-img {
+    width: 30dvw;
+    height: 30dvh;
 }

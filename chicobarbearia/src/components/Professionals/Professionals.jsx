@@ -8,8 +8,8 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-import chico from '../../assets/chico.jpeg'
-import felipe from '../../assets/felipe.jpeg'
+import chico from '../../assets/images/chico.jpeg'
+import felipe from '../../assets/images/felipe.jpeg'
 
 const team = [
     {

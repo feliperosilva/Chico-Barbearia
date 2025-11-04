@@ -1,5 +1,5 @@
 import './Banner.css'
-import barbershop from '../../assets/barbershop.jpg'
+import barbershop from '../../assets/images/barbershop.jpg'
 
 const Banner = () => {
   return (

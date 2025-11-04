@@ -1,7 +1,7 @@
 .banner {
     width: 100%;
     height: 100dvh;
-    background-image: url('../../assets/barbershop.jpg');
+    background-image: url('../../assets/images/barbershop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
 }
