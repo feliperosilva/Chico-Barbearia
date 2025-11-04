@@ -2,4 +2,39 @@
     width: 100dvw;
     height: 100dvh;
     padding-top: 120px;
+    background-color: #919c9d;
+}
+
+.prof-swiper {
+    max-width: 85%;
+    padding: 20px 40px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.prof-img {
+    max-height: 50dvh;
+    border-radius: 10px;
+}
+
+.prof-slide {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #d5cdbc !important; /* your custom color */
+}
+
+.swiper-pagination-bullet {
+  background-color: #ccc !important; /* inactive color */
+  opacity: 1 !important; /* make them fully visible */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #31331f !important; /* active bullet color */
 }
