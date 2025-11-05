@@ -5,6 +5,7 @@ import Banner from "./components/Banner/Banner"
 import Contact from "./components/Contact/Contact"
 import Services from "./components/Services/Services"
 import Professionals from "./components/Professionals/Professionals"
+import Strip from "./components/Strip/Strip"
 
 const App = () => {
   return (
@@ -12,7 +13,9 @@ const App = () => {
       <Router>
         <Navbar />
         <Banner />
+        <Strip />
         <About />
+        <Strip />
         <Services />
         <Professionals />
         <Contact />

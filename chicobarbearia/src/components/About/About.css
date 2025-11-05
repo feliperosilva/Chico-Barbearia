@@ -1,4 +1,43 @@
 .about {
-    width: 100dvw;
+    width: 100%;
     min-height: 100dvh;
+    padding: 30px 50px;
+}
+
+.about h1 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.chico {
+    display: flex;
+    padding-right: 50px;
+    gap: 15%;
+    padding-bottom: 70px;
+}
+
+.about-chico {
+    font-size: 20px;
+}
+
+.chico-img {
+    max-height: 50dvh;
+    border-radius: 10px;
+}
+
+.concept {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 50px;
+    gap: 15%;
+}
+
+.about-concept {
+    font-size: 20px;
+}
+
+.barbershop-img {
+    max-width: 60dvh;
+    border-radius: 10px;
 }

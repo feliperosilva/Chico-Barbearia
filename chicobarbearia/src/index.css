@@ -9,4 +9,5 @@ html, body {
 
 section {
   scroll-margin-top: 120px; /* equal to your fixed navbar height */
+  box-sizing: border-box;
 }
