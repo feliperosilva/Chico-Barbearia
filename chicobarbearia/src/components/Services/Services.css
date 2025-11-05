@@ -17,7 +17,8 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    gap: 20px;
+    column-gap: 40px;
+    row-gap: 20px;
 }
 
 .all-serv {
@@ -28,6 +29,14 @@
 }
 
 .serv-img {
-    width: 30dvw;
+    width: 28dvw;
     height: 30dvh;
+    border-radius: 10px;
+    opacity: 0.8;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+
+.serv-img:hover {
+    opacity: 1;
 }
