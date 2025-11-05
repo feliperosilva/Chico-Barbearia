@@ -1,12 +1,13 @@
 import './Professionals.css'
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination } from 'swiper/modules';
+import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
 // Import Swiper styles (only in this file!)
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 import chico from '../../assets/images/chico.jpeg'
 import felipe from '../../assets/images/felipe.jpeg'
@@ -44,12 +45,16 @@ const Professionals = () => {
     <section id='professionals' className='professionals'>
       <h1>Conheça a nossa equipa</h1>
       <Swiper
-        modules={[Navigation, Pagination]}
+        modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
         slidesPerView={3}
         navigation
         pagination={{clickable: true}}
-        loop
+        loop={true}
+        autoplay={{
+          delay: 2500, // Delay between slides (ms)
+          disableOnInteraction: false, // Keeps autoplay even after user interaction
+        }}
         className='prof-swiper'
       >
         {team.map((person, index) => (
