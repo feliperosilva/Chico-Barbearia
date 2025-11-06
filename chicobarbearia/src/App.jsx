@@ -6,6 +6,7 @@ import Contact from "./components/Contact/Contact"
 import Services from "./components/Services/Services"
 import Professionals from "./components/Professionals/Professionals"
 import Strip from "./components/Strip/Strip"
+import Footer from "./components/Footer/Footer"
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
         <Services />
         <Professionals />
         <Contact />
+        <Footer />
       </Router>      
     </div>
   )
