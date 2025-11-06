@@ -13,7 +13,7 @@ const Footer = () => {
         }
     }
   return (
-    <section className='footer'>
+    <section id='footer' className='footer'>
         <div className='footer-info'>
             <div className='footer-logo'>
                 <img src={logo} alt="logo" />                
