@@ -6,19 +6,6 @@ const About = () => {
   return (
     <section id='about' className='about'>
       <h1>Conheça a Chico Barbearia Nudista</h1>
-      <div className='chico'>
-        <div className='about-chico'>
-          <div>
-            <h2>Quem é o Chico?</h2>
-            <p>O Chico é daquelas pessoas que não passam despercebidas — simpático, divertido e sempre com uma boa história para contar. Depois de anos a viver no mundo da tecnologia, decidiu despir-se das rotinas e abrir espaço para algo novo — literalmente.</p>
-
-            <p>Massagista certificado, o Chico é o criador da <strong>PRIMEIRA BARBEARIA NUDISTA DE LISBOA</strong>. Um conceito ousado, descontraído e cheio de charme, onde o bem-estar começa pela liberdade de ser quem se é.</p>
-
-            <p>Aqui, entre risadas, boas conversas e o toque profissional do Chico, o corpo relaxa, a mente desliga e a experiência… é simplesmente única.</p>
-          </div>          
-        </div>
-        <img src={chico} alt="chico" className='chico-img'/>
-      </div>
       <div className='concept'>
         <div className='about-concept'>
           <div>
