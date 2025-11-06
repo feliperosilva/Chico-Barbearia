@@ -1,4 +1,5 @@
 import './Services.css'
+import { useState } from 'react'
 
 import barba from '../../assets/images/barba.jpg'
 import barboterapia from '../../assets/images/barboterapia.jpg'
@@ -9,6 +10,8 @@ import masstantra from '../../assets/images/mass-tantra.jpg'
 import pedicure from '../../assets/images/pedicure.jpg'
 import pedrasquentes from '../../assets/images/pedras-quentes.jpg'
 import tintura from '../../assets/images/tintura.jpg'
+
+import Modal from '../Modal/Modal'
 
 const images = [
   {
@@ -52,6 +55,9 @@ const images = [
 ]
 
 const Services = () => {
+  const [selected, setSelected] = useState(null);
+
+
   return (
     <section id='services' className='services'>
       <h1>Nossos Serviços</h1>
@@ -59,13 +65,20 @@ const Services = () => {
         <div className='all-img'>
           {images.map(image =>
             <div className='all-serv'>
-              <img src={image.image} alt={image.image} className='serv-img'/>
+              <img src={image.image} alt={image.image} className='serv-img' onClick={() => setSelected(image)}/>
               <h3 className='serv-title'>{image.name}</h3>   
             </div> 
             )}         
         </div>
+        
       </div>
-      
+      <Modal 
+          isOpen={!!selected}
+          onClose={() => setSelected(null)}
+          image={selected?.image}
+          title={selected?.name}
+          description='Descrição'
+        />
     </section>
   )
 }
