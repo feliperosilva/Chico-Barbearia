@@ -36,6 +36,11 @@ const Navbar = () => {
             </Link>
         </li>
         <li>
+            <Link onClick={() => scrollToSection('faq')}>
+                FAQ
+            </Link>
+        </li>
+        <li>
             <Link onClick={() => scrollToSection('contact')}>
                 Contacto
             </Link>

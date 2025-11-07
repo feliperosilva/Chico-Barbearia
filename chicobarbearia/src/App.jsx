@@ -6,6 +6,7 @@ import Contact from "./components/Contact/Contact"
 import Services from "./components/Services/Services"
 import Professionals from "./components/Professionals/Professionals"
 import Footer from "./components/Footer/Footer"
+import Faq from "./components/FAQ/Faq"
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <About />
         <Services />
         <Professionals />
+        <Faq />
         <Contact />
         <Footer />
       </Router>      
