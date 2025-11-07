@@ -32,4 +32,20 @@
     color: #d5cdbc;
     font-weight: bold;
     font-size: 18px;
+    position: relative;
+}
+
+.links a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #d5cdbc;
+    transition: width 0.3s ease-in-out;
+    bottom: 0;
+    left: 0;
+}
+
+.links a:hover::after {
+    width: 100%;
 }

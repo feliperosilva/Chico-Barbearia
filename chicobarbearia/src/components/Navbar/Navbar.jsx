@@ -22,22 +22,22 @@ const Navbar = () => {
         </li>
         <li>
             <Link onClick={() => scrollToSection('about')}>
-                About us
+                O Conceito
             </Link>
         </li>
         <li>
             <Link onClick={() => scrollToSection('services')}>
-                Services
+                Serviços
             </Link>
         </li>
         <li>
             <Link onClick={() => scrollToSection('professionals')}>
-                Our Professionals
+                Nossos Profissionais
             </Link>
         </li>
         <li>
             <Link onClick={() => scrollToSection('contact')}>
-                Contact
+                Contacto
             </Link>
         </li>
       </ul>
