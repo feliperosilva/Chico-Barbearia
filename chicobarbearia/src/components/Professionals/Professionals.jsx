@@ -11,6 +11,9 @@ import 'swiper/css/autoplay';
 
 import chico from '../../assets/images/chico.jpeg'
 import felipe from '../../assets/images/felipe.jpeg'
+import barber1 from '../../assets/images/barber1.jpg'
+import barber2 from '../../assets/images/barber2.jpg'
+import mass2 from '../../assets/images/mass2.jpg'
 
 const team = [
     {
@@ -21,17 +24,17 @@ const team = [
     {
         name: 'Barbeiro 1',
         role: ['Corte','Barba','Tinturas'],
-        img: felipe
+        img: barber1
     },
     {
         name: 'Barbeiro 2',
         role: ['Corte','Barba','Químicas'],
-        img: chico
+        img: barber2
     },
     {
         name: 'Massagista 2',
         role: ['Massagem relaxante','Massagem tântrica','Pedras quentes'],
-        img: felipe
+        img: mass2
     },
     {
         name: 'Felipe',
