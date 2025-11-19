@@ -3,12 +3,12 @@
     height: 40dvh;
     display: grid;
     grid-template-rows: 80% 20%;
-    background-color: #d5cdbc;
+    background-color: #ebe6bc;
 }
 
 .copyright {
     color: #fff;
-    background-color: #31331f;
+    background-color: #23221e;
     font-size: 18px;
     width: 100%;
     display: flex;

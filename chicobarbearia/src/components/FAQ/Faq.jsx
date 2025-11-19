@@ -41,7 +41,7 @@ const faq = [
 ]
 
 const Faq = () => {
-    const [open, setOpen] = useState(false)
+    const [open, setOpen] = useState(null)
 
   return (
     <section id='faq' className='faq'>
@@ -52,11 +52,11 @@ const Faq = () => {
             <div>
                 {faq.map(qtn => 
                     <div className='questions' key={qtn.id}>
-                        <div className='question-title' onClick={() => setOpen(!open)}>
+                        <div className='question-title' onClick={() => open === qtn.id ? setOpen(null) : setOpen(qtn.id)}>
                             <p className='question'>{qtn.question}</p>
-                            <span><strong>{open ? '-' : '+'}</strong></span>
+                            <span><strong>{open === qtn.id ? '-' : '+'}</strong></span>
                         </div>
-                        <p className={open ? 'answer-open' : 'answer-close'}>{qtn.answer}</p>
+                        <p className={open === qtn.id ? 'answer-open' : 'answer-close'}>{qtn.answer}</p>
                     </div>
                 )}
             </div>            

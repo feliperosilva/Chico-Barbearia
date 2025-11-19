@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 100dvh;
     padding: 30px 50px;
-    background-color: #d5cdbc;
+    background-color: #ebe6bc;
 }
 
 .faq h1 {
@@ -22,9 +22,9 @@
 .question-title {
     border-radius: 10px;
     padding: 0 30px;
-    background-color: #29150c;
+    background-color: #23221e;
     color: #ebe5dc;
-    width: 100%;
+    width: 40dvw;
     cursor: pointer;
     display: flex;
     justify-content: space-between;

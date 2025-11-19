@@ -2,13 +2,13 @@
     width: 100%;
     min-height: 100dvh;
     padding-top: 20px;
-    background-color: #919c9d;
+    background-color: #9bcd9c;
 }
 
 .professionals h1 {
     display: flex;
     justify-content: center;
-    color: #31331f;
+    color: #23221e;
     font-size: 40px;
 }
 
@@ -35,7 +35,7 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: #d5cdbc !important; /* your custom color */
+  color: #ebe6bc !important; /* your custom color */
   height: 70px !important;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #31331f !important; /* active bullet color */
+  background-color: #23221e !important; /* active bullet color */
 }
 
 .prof-name {
