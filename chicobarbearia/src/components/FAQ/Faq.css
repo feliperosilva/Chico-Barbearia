@@ -51,3 +51,7 @@
 .answer-close {
     display: none;
 }
+
+.answer-open {
+    padding: 0 20px;
+}

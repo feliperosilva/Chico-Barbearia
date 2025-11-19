@@ -10,7 +10,7 @@ const About = () => {
         <div className='about-concept'>
           <div>
             <h2>O Conceito</h2>
-            <p>A Chico Barbearia Nudista nasce de uma ideia ousada e libertadora — inspirada nas experiências que ele viveu noutros países, onde descobriu espaços dedicados ao cuidado masculino sem barreiras, sem máscaras e sem preconceitos.</p>
+            <p>A Chico Barbearia Nudista nasce de uma ideia ousada e libertadora — inspirada nas experiências vividas pelo Chico noutros países, onde descobriu espaços dedicados ao cuidado masculino sem barreiras, sem máscaras e sem preconceitos.</p>
 
             <p>Aqui, todos os homens são bem-vindos, exatamente como são. Não há julgamentos, apenas aceitação, respeito e um ambiente seguro onde a naturalidade é celebrada. O corpo é apenas parte da experiência — o foco está no bem-estar, na confiança e na liberdade de ser autêntico.</p>
 
