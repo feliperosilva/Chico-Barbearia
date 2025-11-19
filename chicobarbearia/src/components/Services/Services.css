@@ -1,7 +1,7 @@
 .services {
     width: 100%;
     min-height: 100dvh;
-    padding: 30px 50px;
+    padding: 30px 10%;
 }
 
 .img-grid {
@@ -29,8 +29,8 @@
 }
 
 .serv-img {
-    width: 28dvw;
-    height: 30dvh;
+    width: 23dvw;
+    height: 27dvh;
     border-radius: 10px;
     opacity: 0.8;
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
