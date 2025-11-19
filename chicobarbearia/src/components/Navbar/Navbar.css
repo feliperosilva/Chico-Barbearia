@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #31331f;
+    background-color: #006539;
     position: fixed;
     width: 100%;
     top: 0;
@@ -12,10 +12,10 @@
 
 .logo img{
     position: absolute;
-    height: 120px;
+    height: 100px;
     padding: 0 20px;
-    left: 0;
-    top: 0;
+    left: 10px;
+    top: 10px;
 }
 
 .links {
@@ -29,7 +29,7 @@
 
 .links a {
     text-decoration: none;
-    color: #d5cdbc;
+    color: #ebe6bc;
     font-weight: bold;
     font-size: 18px;
     position: relative;

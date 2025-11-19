@@ -15,39 +15,50 @@ import Modal from '../Modal/Modal'
 
 const images = [
   {
+    id: 1,
     name: 'Barba',
     image: barba
   },
   {
+    id: 2,
     name: 'Barboterapia',
     image: barboterapia
   },
   {
+    id: 3,
     name: 'Corte',
     image: corte
   },
   {
+    id: 4,
     name: 'Manicure',
     image: manicure
   },
   {
+    id: 5,
     name: 'Massagem Relaxante',
     image: massrelax
   },
   {
+    
+    id: 6,
     name: 'Massagem Tântrica',
     image: masstantra
   },
   {
+    
+    id: 7,
     name: 'Pedicure',
     image: pedicure
   },
   {
+    id: 8,
     name: 'Massagem com Pedras Quentes',
     image: pedrasquentes,
 
   },
   {
+    id: 9,
     name: 'Tintura',
     image: tintura
 
@@ -64,7 +75,7 @@ const Services = () => {
       <div className='img-grid'>
         <div className='all-img'>
           {images.map(image =>
-            <div className='all-serv'>
+            <div className='all-serv' key={image.id}>
               <img src={image.image} alt={image.image} className='serv-img' onClick={() => setSelected(image)}/>
               <h3 className='serv-title'>{image.name}</h3>   
             </div> 

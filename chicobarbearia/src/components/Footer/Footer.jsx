@@ -1,5 +1,5 @@
 import './Footer.css'
-import logo from '../../assets/logo.jpeg'
+import logo from '../../assets/logo.png'
 import { Link } from 'react-router-dom'
 import instagram from '../../assets/images/instagram.png'
 import facebook from '../../assets/images/facebook.png'
