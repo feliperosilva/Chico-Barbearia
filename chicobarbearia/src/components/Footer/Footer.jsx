@@ -1,5 +1,5 @@
 import './Footer.css'
-import logo from '../../assets/logo.png'
+import emblem from '../../assets/emblem.png'
 import { Link } from 'react-router-dom'
 import instagram from '../../assets/images/instagram.png'
 import facebook from '../../assets/images/facebook.png'
@@ -16,7 +16,7 @@ const Footer = () => {
     <section id='footer' className='footer'>
         <div className='footer-info'>
             <div className='footer-logo'>
-                <img src={logo} alt="logo" />                
+                <img src={emblem} alt="emblem" />                
             </div>
             <div className='footer-nav'>
                 <ul className='footer-links'>

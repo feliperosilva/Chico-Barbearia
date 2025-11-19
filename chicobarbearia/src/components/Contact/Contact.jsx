@@ -18,6 +18,9 @@ const Contact = () => {
           <br />
           <h3>Telemóvel:</h3>
           <p>919919919</p>
+          <br />
+          <h3>Horário de funcionamento:</h3>
+          <p>De Quarta à Segunda das 13h às 20h</p>
         </div>
         <div className='maps'>
           <a 
