@@ -1,5 +1,5 @@
 import './Faq.css'
-import naturist from '../../assets/images/naturist.jpg'
+import mascot from '../../assets/images/Mascot_1@4x.png'
 import { useState } from 'react'
 
 const faq = [
@@ -61,7 +61,7 @@ const Faq = () => {
                 )}
             </div>            
             <div className='question-img'>
-                <img src={naturist} alt="" />
+                <img src={mascot} alt="" />
             </div>
         </div>      
     </section>

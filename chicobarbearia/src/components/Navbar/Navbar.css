@@ -29,10 +29,11 @@
 
 .links a {
     text-decoration: none;
-    color: #ebe6bc;
-    font-weight: bold;
+    color: #fff;
+    font-weight: 600;
     font-size: 18px;
     position: relative;
+    font-family: "Karla", sans-serif;
 }
 
 .links a::after {
@@ -40,7 +41,7 @@
     position: absolute;
     width: 0%;
     height: 2px;
-    background-color: #ebe6bc;
+    background-color: #fff;
     transition: width 0.3s ease-in-out;
     bottom: 0;
     left: 0;

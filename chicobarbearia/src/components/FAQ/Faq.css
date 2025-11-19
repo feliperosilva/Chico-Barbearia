@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 100dvh;
     padding: 30px 50px;
-    background-color: #ebe6bc;
+    background-color: #f5f3e7;
 }
 
 .faq h1 {
@@ -13,6 +13,7 @@
     display: flex;
     gap: 15%;
     padding: 0 5%;
+    position: relative;
 }
 
 .questions {    
@@ -41,11 +42,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    right: 15%;
 }
 
 .question-img img {
-    border: none;
-    border-radius: 10px;
+    max-height: 60dvh;
 }
 
 .answer-close {
@@ -54,4 +56,5 @@
 
 .answer-open {
     padding: 0 20px;
+    width: 40dvw;
 }
