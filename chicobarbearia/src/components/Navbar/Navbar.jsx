@@ -1,6 +1,12 @@
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
+import france from '../../assets/images/france.png'
+import germany from '../../assets/images/germany.png'
+import italy from '../../assets/images/italy.png'
+import portugal from '../../assets/images/portugal.png'
+import spain from '../../assets/images/spain.png'
+import uk from '../../assets/images/uk.png'
 
 const Navbar = () => {
     const scrollToSection = (id) => {
@@ -11,9 +17,6 @@ const Navbar = () => {
     }
   return (
     <nav className='navbar'>
-      <Link onClick={() => scrollToSection('banner')} className='logo'>
-        <img src={logo} alt="logo" />
-      </Link>
       <ul className='links'>
         <li>
             <Link onClick={() => scrollToSection('banner')}>
@@ -28,6 +31,11 @@ const Navbar = () => {
         <li>
             <Link onClick={() => scrollToSection('services')}>
                 Serviços
+            </Link>
+        </li>
+        <li>            
+            <Link onClick={() => scrollToSection('banner')} className='logo'>
+                <img src={logo} alt="logo" />
             </Link>
         </li>
         <li>
@@ -46,6 +54,14 @@ const Navbar = () => {
             </Link>
         </li>
       </ul>
+      <select name="" id="">
+        <option value="">PT</option>
+        <option value="">EN</option>
+        <option value="">ES</option>
+        <option value="">FR</option>
+        <option value="">IT</option>
+        <option value="">DE</option>
+      </select>
     </nav>
   )
 }
