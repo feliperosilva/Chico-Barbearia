@@ -3,12 +3,13 @@
     height: 40dvh;
     display: grid;
     grid-template-rows: 80% 20%;
-    background-color: #ebe6bc;
+    background-color: #EBE6DC;
+    font-family: "DM Serif Text", serif;
 }
 
 .copyright {
     color: #fff;
-    background-color: #23221e;
+    background-color: #006539;
     font-size: 18px;
     width: 100%;
     display: flex;

@@ -4,6 +4,7 @@
     padding: 40px 50px;   
     display: flex;
     flex-direction: column;
+    font-family: "DM Serif Text", serif;
 }
 
 .contact-title {
