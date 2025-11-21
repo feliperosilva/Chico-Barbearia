@@ -72,12 +72,13 @@ const Services = () => {
   return (
     <section id='services' className='services'>
       <h1>Nossos Serviços</h1>
-      <div className='img-grid'>
+      <div className='serv-grid'>
         <div className='all-img'>
           {images.map(image =>
             <div className='all-serv' key={image.id}>
-              <img src={image.image} alt={image.image} className='serv-img' onClick={() => setSelected(image)}/>
-              <h3 className='serv-title'>{image.name}</h3>   
+              <div className='serv-title' onClick={() => setSelected(image)}>
+                <h3>{image.name}</h3>
+              </div>   
             </div> 
             )}         
         </div>

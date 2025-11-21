@@ -1,15 +1,15 @@
 .services {
     width: 100%;
     min-height: 100dvh;
-    padding: 30px 10%;
+    padding: 30px 8%;
     font-family: "DM Serif Text", serif;
 }
 
-.img-grid {
+.serv-grid {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80dvw;
+    width: 85dvw;
 }
 
 .all-img {
@@ -18,26 +18,47 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    column-gap: 40px;
-    row-gap: 20px;
 }
 
 .all-serv {
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 25dvh;
+    z-index: 1;
 }
 
 .serv-img {
     width: 23dvw;
     height: 27dvh;
+}
+
+.all-serv:hover {
+    opacity: 1;
+}
+
+.serv-title {
+    width: 20dvw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 10px;
-    opacity: 0.8;
-    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.4);
     cursor: pointer;
 }
 
-.serv-img:hover {
-    opacity: 1;
+.all-serv::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('../../assets/images/courgette.png');
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.6; /* only affects the background */
+  border-radius: 10px; /* match parent */
+  z-index: -1; /* behind the content */
 }

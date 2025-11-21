@@ -33,21 +33,26 @@
     font-size: 17px;
     position: relative;
     font-family: "DM Serif Text", serif;
+    height: 100%;
 }
 
-.links .nav-link::after {
+.links .nav-link::before {
     content: '';
     position: absolute;
-    width: 0%;
-    height: 2px;
-    background-color: #fff;
-    transition: width 0.3s ease-in-out;
-    bottom: 0;
-    left: 0;
+    height: 0%;
+    width: 1dvw;
+    background-image: url('../../assets/images/courgette_vertical.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: height 0.3s ease-in-out;
+    transform: rotate(45deg);
+    bottom: 60%;
+    left: 100%;
+    z-index: 10;
 }
 
-.links .nav-link:hover::after {
-    width: 100%;
+.links .nav-link:hover::before {
+    height: 130%;
 }
 
 select {
