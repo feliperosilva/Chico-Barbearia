@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #006539;
+    background-color: none;
     position: fixed;
     width: 100%;
     top: 0;
@@ -11,7 +11,7 @@
 }
 
 .logo img{
-    height: 100px;
+    height: 12dvh;
     padding: 0 20px;
     left: 10px;
     top: 10px;
@@ -26,16 +26,16 @@
     margin: 0;
 }
 
-.links a {
+.links .nav-link {
     text-decoration: none;
     color: #fff;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 17px;
     position: relative;
-    font-family: "Karla", sans-serif;
+    font-family: "DM Serif Text", serif;
 }
 
-.links a::after {
+.links .nav-link::after {
     content: '';
     position: absolute;
     width: 0%;
@@ -46,11 +46,15 @@
     left: 0;
 }
 
-.links a:hover::after {
+.links .nav-link:hover::after {
     width: 100%;
 }
 
 select {
     position: absolute;
     right: 30px;
+}
+
+.scrolled {
+    background-color: #006539;
 }

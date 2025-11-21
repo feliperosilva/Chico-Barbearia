@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { useEffect } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 import france from '../../assets/images/france.png'
@@ -15,41 +16,59 @@ const Navbar = () => {
             section.scrollIntoView({behavior: 'smooth'})
         }
     }
+
+    useEffect(() => {
+        const handleScroll = () => {
+            const navbar = document.getElementById('navbar')
+            let scrollY = window.scrollY
+            let maxScroll = 300
+
+            let opacity = Math.min(scrollY / maxScroll, 1)
+
+            navbar.style.background = `rgba(0, 101, 57, ${opacity * 1})`
+        }
+        window.addEventListener('scroll', handleScroll)
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+        }        
+    }, [])
+
   return (
-    <nav className='navbar'>
+    <nav className='navbar' id='navbar'>
       <ul className='links'>
         <li>
-            <Link onClick={() => scrollToSection('banner')}>
+            <Link onClick={() => scrollToSection('banner')} className='nav-link'>
                 Home
             </Link>
         </li>
         <li>
-            <Link onClick={() => scrollToSection('about')}>
+            <Link onClick={() => scrollToSection('about')} className='nav-link'>
                 O Conceito
             </Link>
         </li>
         <li>
-            <Link onClick={() => scrollToSection('services')}>
+            <Link onClick={() => scrollToSection('services')} className='nav-link'>
                 Serviços
             </Link>
         </li>
         <li>            
-            <Link onClick={() => scrollToSection('banner')} className='logo'>
+            <div className='logo'>
                 <img src={logo} alt="logo" />
-            </Link>
+            </div>
         </li>
         <li>
-            <Link onClick={() => scrollToSection('professionals')}>
+            <Link onClick={() => scrollToSection('professionals')} className='nav-link'>
                 Nossos Profissionais
             </Link>
         </li>
         <li>
-            <Link onClick={() => scrollToSection('faq')}>
+            <Link onClick={() => scrollToSection('faq')} className='nav-link'>
                 FAQ
             </Link>
         </li>
         <li>
-            <Link onClick={() => scrollToSection('contact')}>
+            <Link onClick={() => scrollToSection('contact')} className='nav-link'>
                 Contacto
             </Link>
         </li>
