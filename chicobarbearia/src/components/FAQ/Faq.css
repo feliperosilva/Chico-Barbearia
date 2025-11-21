@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 100dvh;
     padding: 30px 50px;
-    background-color: #f5f3e7;
+    background-color: #fff;
     font-family: "DM Serif Text", serif;
 }
 
@@ -24,8 +24,8 @@
 .question-title {
     border-radius: 10px;
     padding: 0 30px;
-    background-color: #23221e;
-    color: #ebe5dc;
+    background-color: #006539;
+    color: #fff;
     width: 40dvw;
     cursor: pointer;
     display: flex;
@@ -35,8 +35,8 @@
 }
 
 .question-title:hover {
-    background-color: #ebe5dc;
-    color: #29150c;
+    background-color: #9bcd9c;
+    color: #000;
 }
 
 .question-img {

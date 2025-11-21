@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 100dvh;
     padding-top: 20px;
-    background-color: #9bcd9c;
+    background-color: #fff;
     font-family: "DM Serif Text", serif;
 }
 
@@ -36,7 +36,7 @@
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: #ebe6bc !important; /* your custom color */
+  color: #006539 !important; /* your custom color */
   height: 70px !important;
 }
 
