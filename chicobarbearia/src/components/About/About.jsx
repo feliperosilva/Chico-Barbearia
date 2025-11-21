@@ -1,6 +1,5 @@
 import './About.css'
-import chico from '../../assets/images/chico.jpeg'
-import barbearia from '../../assets/images/barbershop.jpg'
+import barbearia from '../../assets/images/barbershop2.jpeg'
 
 const About = () => {
   return (

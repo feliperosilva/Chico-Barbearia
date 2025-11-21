@@ -15,15 +15,16 @@
 .concept {
     display: flex;
     flex-direction: row-reverse;
-    padding-right: 50px;
-    gap: 15%;
+    padding: 0 10%;
+    gap: 10%;
 }
 
 .about-concept {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .barbershop-img {
     max-width: 60dvh;
+    max-height: 60dvh;
     border-radius: 10px;
 }
