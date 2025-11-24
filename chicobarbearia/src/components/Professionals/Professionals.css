@@ -2,19 +2,35 @@
     width: 100%;
     min-height: 100dvh;
     padding-top: 20px;
-    background-color: #fff;
+    background-color: #161616;
     font-family: "DM Serif Text", serif;
+    color: #fff;
+}
+
+.professionals h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
 }
 
 .professionals h1 {
     display: flex;
     justify-content: center;
-    color: #23221e;
-    font-size: 40px;
+    font-size: 96px;
+    margin: 0;
+    padding: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    padding-left: 50px;
+    font-weight: 500;
+    color: #006539;
 }
 
 .prof-swiper {
-    max-width: 85%;
+    max-width: 70%;
     padding: 20px 40px !important;
     display: flex !important;
     justify-content: center !important;

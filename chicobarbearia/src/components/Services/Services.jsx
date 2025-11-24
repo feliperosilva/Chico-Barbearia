@@ -10,6 +10,7 @@ import masstantra from '../../assets/images/mass-tantra.jpg'
 import pedicure from '../../assets/images/pedicure.jpg'
 import pedrasquentes from '../../assets/images/pedras-quentes.jpg'
 import tintura from '../../assets/images/tintura.jpg'
+import massage from '../../assets/images/massage.png'
 
 import Modal from '../Modal/Modal'
 
@@ -75,23 +76,28 @@ const Services = () => {
   const [selected, setSelected] = useState(services[0]);
 
   return (
-    <section id='services' className='services'>
-      <h2>Nossos</h2>
-      <h1>Serviços</h1>
-      <div className='serv-list'>
-        <ul className='serv-items'>
-          {services.map(serv => (
-            <li key={serv.id} onClick={() => setSelected(serv)} className={selected.id === serv.id ? 'serv-name serv-selected' : 'serv-name'}>
-              {serv.name}
-            </li>
-          ))}
-        </ul> 
-        {selected && 
-          <div className={'serv-description'}>
-            <img src={selected.image} alt={selected.name}/>
-            <p>{selected.description}</p>
-          </div>            
-        }              
+    <section id='services'>
+      <div className='services'>
+        <h2>Nossos</h2>
+        <h1>Serviços</h1>
+        <div className='serv-list'>
+          <ul className='serv-items'>
+            {services.map(serv => (
+              <li key={serv.id} onClick={() => setSelected(serv)} className={selected.id === serv.id ? 'serv-name serv-selected' : 'serv-name'}>
+                {serv.name}
+              </li>
+            ))}
+          </ul> 
+          {selected && 
+            <div className={'serv-description'}>
+              <img src={selected.image} alt={selected.name}/>
+              <p>{selected.description}</p>
+            </div>            
+          }              
+        </div>
+      </div>      
+      <div className='massage'>
+        <img src={massage} alt="massage" />
       </div>
     </section>
   )

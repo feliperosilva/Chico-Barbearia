@@ -11,7 +11,7 @@ import 'swiper/css/autoplay';
 
 import chico from '../../assets/images/chico.jpeg'
 import felipe from '../../assets/images/felipe.jpeg'
-import barber1 from '../../assets/images/barber1.jpg'
+import rafa from '../../assets/images/rafa.png'
 import barber2 from '../../assets/images/barber2.jpg'
 import mass2 from '../../assets/images/mass2.jpg'
 
@@ -22,19 +22,9 @@ const team = [
         img: chico
     },
     {
-        name: 'Barbeiro 1',
-        role: ['Corte','Barba','Tinturas'],
-        img: barber1
-    },
-    {
-        name: 'Barbeiro 2',
-        role: ['Corte','Barba','Químicas'],
-        img: barber2
-    },
-    {
-        name: 'Massagista 2',
-        role: ['Massagem relaxante','Massagem tântrica','Pedras quentes'],
-        img: mass2
+        name: 'Rafa',
+        role: ['Corte','Barba','Barboterapia'],
+        img: rafa
     },
     {
         name: 'Felipe',
@@ -46,11 +36,12 @@ const team = [
 const Professionals = () => {
   return (
     <section id='professionals' className='professionals'>
-      <h1>Conheça a nossa equipa</h1>
+      <h2>Os</h2>
+      <h1>Profissionais</h1>
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
-        slidesPerView={3}
+        slidesPerView={2}
         navigation
         pagination={{clickable: true}}
         loop={true}
