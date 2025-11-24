@@ -1,64 +1,73 @@
 .services {
     width: 100%;
     min-height: 100dvh;
-    padding: 30px 8%;
+    padding: 30px 10%;
     font-family: "DM Serif Text", serif;
+    box-sizing: border-box;
+    background-color: #161616;
+    color: #fff;
 }
 
-.serv-grid {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 85dvw;
+.services h2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
 }
 
-.all-img {
-    width: 100%;
+.services h1 {
+    font-size: 96px;
+    margin: 0;
+    padding: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    padding-left: 50px;
+    font-weight: 500;
+    color: #006539;
+}
+
+.serv-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    align-items: center;
+    grid-template-columns: 40% 60%;
+    column-gap: 10%;
+    padding-top: 50px;
 }
 
-.all-serv {
-    position: relative;
+.serv-items {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    width: 100%;
-    height: 25dvh;
-    z-index: 1;
+    gap: 20px;  
+    margin: 0;
 }
 
-.serv-img {
-    width: 23dvw;
-    height: 27dvh;
-}
-
-.all-serv:hover {
-    opacity: 1;
-}
-
-.serv-title {
-    width: 20dvw;
+.serv-name {
     display: flex;
-    justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    justify-content: center;
+    list-style: none;
     cursor: pointer;
+    border-radius: 5px;
+    height: 40px;
+    width: 80%;
+    padding: 0 15px;
+    background-color: #EBE6DC;
+    color: #000;
+    font-size: 18px;
 }
 
-.all-serv::before {
-  content: '';
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  background-image: url('../../assets/images/courgette.png');
-  background-size: 80%;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.6; /* only affects the background */
-  border-radius: 10px; /* match parent */
-  z-index: -1; /* behind the content */
+.serv-selected {
+    background-color: #ddc594;
+}
+
+.serv-description {
+    cursor: pointer;
+    position: relative;
+    width: 40dvw;
+}
+
+.serv-description img{
+    width: 40dvw;
+    height: 40dvh;
+    border: 3px solid #ddc594;
+    border-radius: 10px;
 }
