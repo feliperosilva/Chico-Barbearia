@@ -10,7 +10,7 @@ import masstantra from '../../assets/images/mass-tantra.jpg'
 import pedicure from '../../assets/images/pedicure.jpg'
 import pedrasquentes from '../../assets/images/pedras-quentes.jpg'
 import tintura from '../../assets/images/tintura.jpg'
-import massage from '../../assets/images/massage.png'
+import pattern from '../../assets/images/pattern.png'
 
 import Modal from '../Modal/Modal'
 
@@ -76,7 +76,7 @@ const Services = () => {
   const [selected, setSelected] = useState(services[0]);
 
   return (
-    <section id='services'>
+    <section id='services' className='services-container'>
       <div className='services'>
         <h2>Nossos</h2>
         <h1>Serviços</h1>
@@ -96,9 +96,7 @@ const Services = () => {
           }              
         </div>
       </div>      
-      <div className='massage'>
-        <img src={massage} alt="massage" />
-      </div>
+      <div className='pattern'></div>
     </section>
   )
 }

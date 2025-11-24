@@ -1,5 +1,5 @@
 import './About.css'
-import nakedman from '../../assets/images/naked-man.png'
+import concept from '../../assets/images/concept.jpg'
 
 const About = () => {
   return (
@@ -21,7 +21,7 @@ const About = () => {
             
           </div>          
         </div>
-        <img src={nakedman} alt="nakedman" className='nakedman'/>
+        <img src={concept} alt="concept" className='concept-img'/>
       </div>
     </section>
   )

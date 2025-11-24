@@ -1,5 +1,5 @@
 import './Faq.css'
-import mascot from '../../assets/images/Mascot_1@4x.png'
+import characters from '../../assets/images/characters.jpg'
 import { useState } from 'react'
 
 const faq = [
@@ -46,7 +46,7 @@ const Faq = () => {
   return (
     <section id='faq' className='faq'>
         <h1>
-          Perguntas Frequentes
+          FAQ
         </h1>
         <div className='questions-cards'>
             <div>
@@ -61,7 +61,7 @@ const Faq = () => {
                 )}
             </div>            
             <div className='question-img'>
-                <img src={mascot} alt="" />
+                <img src={characters} alt="characters" />
             </div>
         </div>      
     </section>
