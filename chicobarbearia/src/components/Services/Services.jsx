@@ -1,7 +1,7 @@
 import './Services.css'
 import { useState, useEffect } from 'react'
 
-import barba from '../../assets/images/barba.jpg'
+import barba from '../../assets/images/beard.jpg'
 import barboterapia from '../../assets/images/barboterapia.jpg'
 import corte from '../../assets/images/corte.jpg'
 import manicure from '../../assets/images/manicure.jpg'

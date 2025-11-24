@@ -1,5 +1,5 @@
 import './Banner.css'
-import naked from '../../assets/images/naked.mp4'
+import naked from '../../assets/images/malebody.mp4'
 
 const Banner = () => {
   return (
