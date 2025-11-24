@@ -1,17 +1,15 @@
 import './Contact.css'
 import maps from '../../assets/images/chico-barbearia.png'
-import pin from '../../assets/images/pin.png'
+import scissor from '../../assets/images/scissor.png'
 7
 const Contact = () => {
   return (
     <section id='contact' className='contact'>
       <div className='contact-title'>
-        <img src={pin} alt="pin" className='pin'/>
-        <h1>Onde estamos?</h1>
+        <h1>Contactos</h1>
       </div>      
       <div className='info'>
         <div className='info-details'>
-          <h2>Contactos</h2>
           <h3>Morada:</h3>
           <p>Rua Lucinda Simões 12E</p>
           <p>1900-305 Lisboa</p>

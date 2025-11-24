@@ -4,7 +4,9 @@
     padding: 40px 50px;   
     display: flex;
     flex-direction: column;
+    background-color: #161616;
     font-family: "DM Serif Text", serif;
+    color: #fff;
 }
 
 .contact-title {
@@ -15,11 +17,24 @@
     margin-bottom: 3%;
 }
 
-.contact-title h1 {
-    font-size: 36px;
+.contact-title h2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
 }
 
-.pin {
+.contact-title h1 {
+    font-size: 96px;
+    margin: 0;
+    padding: 0;
+    font-family: "Cormorant Garamond", serif;
+    font-style: italic;
+    font-weight: 500;
+    color: #006539;
+}
+
+.scissor {
     width: 6dvw;
 }
 
