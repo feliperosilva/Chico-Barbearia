@@ -48,20 +48,42 @@
 .serv-name {
     display: flex;
     align-items: center;
-    justify-content: center;
     list-style: none;
-    cursor: pointer;
-    border-radius: 5px;
     height: 40px;
-    width: 80%;
     padding: 0 15px;
-    background-color: #EBE6DC;
-    color: #000;
+    color: #ddc594;
     font-size: 18px;
 }
 
+.serv-name strong {
+    cursor: pointer;
+    position: relative;
+}
+
+.serv-name strong::before {
+    content: '';
+    position: absolute;
+    height: 0%;
+    width: 1dvw;
+    background-image: url('../../assets/images/courgette_vertical.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: height 0.3s ease-in-out;
+    transform: rotate(45deg);
+    bottom: 60%;
+    left: 105%;
+    z-index: 10;
+}
+
+.serv-name strong:hover::before {
+    height: 130%;
+}
+
 .serv-selected {
-    background-color: #ddc594;
+    text-shadow:
+    2px 2px 12px #006539,
+    3px 3px 12px #006539,
+    4px 4px 12px #006539;
 }
 
 .serv-description {

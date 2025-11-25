@@ -58,7 +58,7 @@ const Services = () => {
           <ul className='serv-items'>
             {services.map(serv => (
               <li key={serv.id} onClick={() => setSelected(serv)} className={selected.id === serv.id ? 'serv-name serv-selected' : 'serv-name'}>
-                {serv.name}
+                <strong>{serv.name}</strong>
               </li>
             ))}
           </ul> 

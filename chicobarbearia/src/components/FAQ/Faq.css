@@ -38,6 +38,7 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    font-size: 18px;
 }
 
 .question-title:hover {
@@ -66,4 +67,5 @@
 .answer-open {
     padding: 0 20px;
     width: 40dvw;
+    font-size: 18px;
 }
