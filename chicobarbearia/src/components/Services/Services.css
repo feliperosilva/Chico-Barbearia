@@ -8,24 +8,22 @@
     width: 100%;
     min-height: 100dvh;
     padding: 30px 10%;
-    font-family: "DM Serif Text", serif;
     box-sizing: border-box;
     background-color: #161616;
     color: #fff;
 }
 
 .services h2 {
-    font-size: 40px;
+    font-size: 36px;
     margin: 0;
     padding: 0;
     font-weight: 400;
 }
 
 .services h1 {
-    font-size: 96px;
+    font-size: 72px;
     margin: 0;
-    padding: 0;
-    font-family: "Cormorant Garamond", serif;
+    padding: 0;    
     font-style: italic;
     padding-left: 50px;
     font-weight: 500;

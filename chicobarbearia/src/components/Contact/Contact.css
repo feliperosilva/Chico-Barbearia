@@ -4,8 +4,7 @@
     padding: 40px 50px;   
     display: flex;
     flex-direction: column;
-    background-color: #161616;
-    font-family: "DM Serif Text", serif;
+    background-color: #161616;    
     color: #fff;
 }
 
@@ -25,10 +24,9 @@
 }
 
 .contact-title h1 {
-    font-size: 96px;
+    font-size: 72px;
     margin: 0;
-    padding: 0;
-    font-family: "Cormorant Garamond", serif;
+    padding: 0;    
     font-style: italic;
     font-weight: 500;
     color: #006539;

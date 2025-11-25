@@ -1,8 +1,7 @@
 .banner {
     width: 100%;
     height: 100dvh;
-    position: relative;
-    font-family: "DM Serif Text", serif;
+    position: relative;    
 }
 
 .video-bg {
@@ -47,8 +46,7 @@
     color: #fff;
     cursor: pointer;
     font-weight: 500;
-    font-size: 14px;
-    font-family: "DM Serif Text", serif;
+    font-size: 14px;    
     position: absolute;
     bottom: -20%;
     right: 0;

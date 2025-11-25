@@ -3,8 +3,7 @@
     height: 40dvh;
     display: grid;
     grid-template-rows: 80% 20%;
-    background-color: #EBE6DC;
-    font-family: "DM Serif Text", serif;
+    background-color: #EBE6DC;    
 }
 
 .copyright {

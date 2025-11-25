@@ -2,8 +2,7 @@
     width: 100%;
     min-height: 100dvh;
     padding: 70px 30px;
-    background-color: #161616;
-    font-family: "DM Serif Text", serif;
+    background-color: #161616;    
     color: #fff;
 }
 
@@ -18,17 +17,16 @@
 }
 
 .about-concept h2 {
-    font-size: 40px;
+    font-size: 36px;
     margin: 0;
     padding: 0;
     font-weight: 400;
 }
 
 .about-concept h1 {
-    font-size: 96px;
+    font-size: 72px;
     margin: 0;
-    padding: 0;
-    font-family: "Cormorant Garamond", serif;
+    padding: 0;    
     font-style: italic;
     padding-left: 50px;
     font-weight: 500;
@@ -40,7 +38,8 @@
 }
 
 .about-concept strong {
-    font-weight: 600;
+    font-weight: bold;
+    color: #006539;
 }
 
 .concept-img {
