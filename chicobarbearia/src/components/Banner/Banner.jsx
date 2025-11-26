@@ -8,7 +8,7 @@ const Banner = () => {
       <div className='header'>        
         <h1>A Primeira Barbearia Nudista da Europa</h1>
         <p>Preparem-se para uma experiência única, intensa e absolutamente sem limites. Aqui, o estilo encontra a liberdade. Esqueça a roupa, esqueça o convencional – é só você, a navalha e o prazer de se sentir completamente livre</p>
-        <button>Marque seu horário</button>
+        <a href="https://buk.pt/chico-barbearia-nudista" target='_blank' rel=' noopener noreferer'><button className='cta'>Marque seu horário</button></a>
       </div>
     </section>
   )

@@ -28,31 +28,6 @@
     align-items: center;
 }
 
-.footer-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.footer-links {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 5px;
-}
-
-.footer-links a {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.footer-links a:hover {
-    text-decoration: underline;
-}
-
 .footer-logo img {
     height: 23dvh;
 }
@@ -86,4 +61,14 @@
 
 .media-link a:hover {
     text-decoration: underline;
+}
+
+.footer-mascot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-mascot img {
+    height: 23dvh;
 }

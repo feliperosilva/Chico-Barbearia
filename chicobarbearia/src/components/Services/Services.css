@@ -108,3 +108,17 @@
     margin: 0;
     background-color: #161616;
 }
+
+.serv-items .cta-service {
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    width: 220px;
+    background-color: #006539;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0 15px;
+}

@@ -1,9 +1,9 @@
 import './Footer.css'
 import emblem from '../../assets/emblem.png'
-import { Link } from 'react-router-dom'
 import instagram from '../../assets/images/instagram.png'
 import facebook from '../../assets/images/facebook.png'
 import twitter from '../../assets/images/twitter.png'
+import scissor from '../../assets/images/scissor.png'
 
 const Footer = () => {
     const scrollToSection = (id) => {
@@ -18,40 +18,11 @@ const Footer = () => {
             <div className='footer-logo'>
                 <img src={emblem} alt="emblem" />                
             </div>
-            <div className='footer-nav'>
-                <ul className='footer-links'>
-                    <li>
-                        <Link onClick={() => scrollToSection('banner')}>
-                            Home
-                        </Link>
-                    </li>
-                    <li>
-                        <Link onClick={() => scrollToSection('about')}>
-                            About us
-                        </Link>
-                    </li>
-                    <li>
-                        <Link onClick={() => scrollToSection('services')}>
-                            Services
-                        </Link>
-                    </li>
-                    <li>
-                        <Link onClick={() => scrollToSection('professionals')}>
-                            Our Professionals
-                        </Link>
-                    </li>
-                    <li>
-                        <Link onClick={() => scrollToSection('contact')}>
-                            Contact
-                        </Link>
-                    </li>
-                </ul>
-            </div>
             <div className='social-media'>
                 <div className='social-links'>
                     <div className='media-link'>
                         <img src={instagram} alt="instagram" />
-                        <a href="">Instagram</a>
+                        <a href="https://www.instagram.com/chicobarbearianudista/" target="_blank" rel="noopener noreferrer">Instagram</a>
                     </div>
                     <div className='media-link'>
                         <img src={facebook} alt="facebook" />
@@ -59,9 +30,12 @@ const Footer = () => {
                     </div>
                     <div className='media-link'>
                         <img src={twitter} alt="twitter" />
-                        <a href="">X</a>
+                        <a href="https://x.com/ChicoBarbearia" target='_blank' rel='noopener noreferrer'>X</a>
                     </div>
                 </div>                
+            </div>
+            <div className='footer-mascot'>
+                <img src={scissor} alt="scissor" />
             </div>
         </div>
         <div className='copyright'>

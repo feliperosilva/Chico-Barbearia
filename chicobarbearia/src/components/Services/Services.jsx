@@ -64,14 +64,16 @@ const Services = () => {
                 <strong>{serv.name}</strong>
               </li>
             ))}
+            <a href="https://buk.pt/chico-barbearia-nudista" target='_blank' rel=' noopener noreferer'><button className='cta-service'>Marque seu horário</button></a>
           </ul> 
           {selected && 
             <div className={'serv-description'}>
               <img src={selected.image} alt={selected.name}/>
               <p>{selected.description}</p>
             </div>            
-          }              
-        </div>
+          }
+                        
+        </div>        
       </div>      
       <div className='pattern'></div>
     </section>
