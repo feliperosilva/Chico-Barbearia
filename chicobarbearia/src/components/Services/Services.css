@@ -51,7 +51,7 @@
     list-style: none;
     height: 40px;
     padding: 0 15px;
-    color: #ddc594;
+    color: #fff;
     font-size: 18px;
 }
 
@@ -95,8 +95,7 @@
 .serv-description img{
     width: 40dvw;
     height: 40dvh;
-    border: 3px solid #ddc594;
-    border-radius: 10px;
+    box-shadow: 4px 4px 10px #006539;
 }
 
 .pattern {

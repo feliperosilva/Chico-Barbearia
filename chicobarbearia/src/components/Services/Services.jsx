@@ -5,6 +5,9 @@ import barba from '../../assets/images/beard.jpg'
 import haircut from '../../assets/images/haircut.jpg'
 import massrelax from '../../assets/images/mass-relax.jpg'
 import pedrasquentes from '../../assets/images/pedras-quentes.jpg'
+import waxing from '../../assets/images/waxing.jpg'
+import scrub from '../../assets/images/scrub.jpg'
+import hotstone from '../../assets/images/hotstone.jpg'
 
 const services = [
   {
@@ -22,7 +25,7 @@ const services = [
   {
     id: 3,
     name: 'Depilação a Cera/Máquina',
-    image: barba,
+    image: waxing,
     description: 'Modelagem completa da barba com técnicas precisas para realçar o formato do rosto. Utilizamos navalha, toalha quente e produtos premium para um acabamento impecável. Ideal para manter um visual limpo e elegante.'
   },
   {
@@ -34,13 +37,13 @@ const services = [
   {
     id: 5,
     name: 'Massagem com Pedras Quentes',
-    image: pedrasquentes,
+    image: hotstone,
     description: 'Massagem terapêutica que utiliza pedras aquecidas para aliviar dores musculares. O calor penetra profundamente, proporcionando relaxamento intenso. Ideal para quem sofre com tensões acumuladas.'
   },
   {
     id: 6,
     name: 'Massagem com Esfoliação Corporal',
-    image: pedrasquentes,
+    image: scrub,
     description: 'Massagem terapêutica que utiliza pedras aquecidas para aliviar dores musculares. O calor penetra profundamente, proporcionando relaxamento intenso. Ideal para quem sofre com tensões acumuladas.'
   },
 ];
