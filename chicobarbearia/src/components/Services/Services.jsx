@@ -20,13 +20,13 @@ const services = [
     id: 2,
     name: 'Barba/Barboterapia',
     image: barba,
-    description: 'Modelagem completa da barba com técnicas precisas para realçar o formato do rosto. Utilizamos navalha, toalha quente e produtos premium para um acabamento impecável. Ideal para manter um visual limpo e elegante.'
+    description: 'Tratamento completo para a barba com hidratação, modelagem e técnicas tradicionais de barbearia. Inclui toalha quente, óleos especiais e finalização profissional para um visual alinhado e renovado.'
   },
   {
     id: 3,
     name: 'Depilação a Cera/Máquina',
     image: waxing,
-    description: 'Modelagem completa da barba com técnicas precisas para realçar o formato do rosto. Utilizamos navalha, toalha quente e produtos premium para um acabamento impecável. Ideal para manter um visual limpo e elegante.'
+    description: 'Serviço de depilação feito com cera ou máquina, conforme preferência do cliente. Remove os pelos de forma eficaz, deixando a pele mais lisa e com sensação de conforto. Ideal para quem busca praticidade e higiene.'
   },
   {
     id: 4,
@@ -44,8 +44,8 @@ const services = [
     id: 6,
     name: 'Massagem com Esfoliação Corporal',
     image: scrub,
-    description: 'Massagem terapêutica que utiliza pedras aquecidas para aliviar dores musculares. O calor penetra profundamente, proporcionando relaxamento intenso. Ideal para quem sofre com tensões acumuladas.'
-  },
+    description: 'Combinação de massagem relaxante com esfoliação corporal completa. Remove células mortas, ativa a circulação e deixa a pele mais macia e renovada. Uma experiência revigorante que une bem-estar e cuidado estético.'
+  }
 ];
 
 
