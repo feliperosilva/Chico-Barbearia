@@ -3,7 +3,7 @@ import emblem from '../../assets/emblem.png'
 import instagram from '../../assets/images/instagram.png'
 import facebook from '../../assets/images/facebook.png'
 import twitter from '../../assets/images/twitter.png'
-import scissor from '../../assets/images/scissor.png'
+import mascot from '../../assets/images/mascot.png'
 
 const Footer = () => {
     const scrollToSection = (id) => {
@@ -35,7 +35,7 @@ const Footer = () => {
                 </div>                
             </div>
             <div className='footer-mascot'>
-                <img src={scissor} alt="scissor" />
+                <img src={mascot} alt="mascot" />
             </div>
         </div>
         <div className='copyright'>
