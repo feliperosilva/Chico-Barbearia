@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/logo.png'
 import france from '../../assets/images/france.png'
@@ -9,7 +9,37 @@ import portugal from '../../assets/images/portugal.png'
 import spain from '../../assets/images/spain.png'
 import uk from '../../assets/images/uk.png'
 
+
 const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false)
+    const [selected, setSelected] = useState(/* i18n.language */)
+    const languages = [
+        {
+            lng: 'fr',
+            flag: france
+        },
+        {
+            lng: 'de',
+            flag: germany
+        },
+        {
+            lng: 'it',
+            flag: italy
+        },
+        {
+            lng: 'pt',
+            flag: portugal
+        },
+        {
+            lng: 'es',
+            flag: spain
+        },
+        {
+            lng: 'en',
+            flag: uk
+        }
+    ]
+
     const scrollToSection = (id) => {
         const section = document.getElementById(id)
         if (section) {
@@ -73,14 +103,7 @@ const Navbar = () => {
             </Link>
         </li>
       </ul>
-      <select name="" id="">
-        <option value="">PT</option>
-        <option value="">EN</option>
-        <option value="">ES</option>
-        <option value="">FR</option>
-        <option value="">IT</option>
-        <option value="">DE</option>
-      </select>
+      <div></div>
     </nav>
   )
 }

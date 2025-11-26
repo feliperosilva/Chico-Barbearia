@@ -62,3 +62,7 @@ select {
 .scrolled {
     background-color: #006539;
 }
+
+@media (max-width: 768px) {
+    
+}
