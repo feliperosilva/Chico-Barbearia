@@ -93,17 +93,17 @@ const Navbar = () => {
             <ul className='links'>
                 <li>
                     <Link onClick={() => scrollToSection('banner')} className='nav-link'>
-                        Home
+                        {t('home')}
                     </Link>
                 </li>
                 <li>
                     <Link onClick={() => scrollToSection('about')} className='nav-link'>
-                        O Conceito
+                        {t('concept')}
                     </Link>
                 </li>
                 <li>
                     <Link onClick={() => scrollToSection('services')} className='nav-link'>
-                        Serviços
+                        {t('services')}
                     </Link>
                 </li>
                 <li>            
@@ -113,17 +113,17 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link onClick={() => scrollToSection('professionals')} className='nav-link'>
-                        Nossos Profissionais
+                        {t('professionals')}
                     </Link>
                 </li>
                 <li>
                     <Link onClick={() => scrollToSection('faq')} className='nav-link'>
-                        FAQ
+                        {t('faq')}
                     </Link>
                 </li>
                 <li>
                     <Link onClick={() => scrollToSection('contact')} className='nav-link'>
-                        Contacto
+                        {t('contact')}
                     </Link>
                 </li>
             </ul>
