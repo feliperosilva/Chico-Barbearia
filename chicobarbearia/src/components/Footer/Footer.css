@@ -39,6 +39,10 @@
     flex-direction: column;    
 }
 
+.follow {
+    margin: 0;
+}
+
 .social-links {
     display: flex;
     flex-direction: column;
