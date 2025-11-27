@@ -8,37 +8,46 @@ import italy from '../../assets/images/italy.png'
 import portugal from '../../assets/images/portugal.png'
 import spain from '../../assets/images/spain.png'
 import uk from '../../assets/images/uk.png'
+import i18n from '../../i18n'
+import { useTranslation } from 'react-i18next'
 
-
-const Navbar = () => {
-    const [isOpen, setIsOpen] = useState(false)
-    const [selected, setSelected] = useState(/* i18n.language */)
-    const languages = [
+const languages = [
         {
             lng: 'fr',
-            flag: france
+            flag: france,
+            name: 'FR'
         },
         {
             lng: 'de',
-            flag: germany
+            flag: germany,
+            name: 'DE'
         },
         {
             lng: 'it',
-            flag: italy
+            flag: italy,
+            name: 'IT'
         },
         {
             lng: 'pt',
-            flag: portugal
+            flag: portugal,
+            name: 'PT'
         },
         {
             lng: 'es',
-            flag: spain
+            flag: spain,
+            name: 'ES'
         },
         {
             lng: 'en',
-            flag: uk
+            flag: uk,
+            name: 'EN'
         }
     ]
+
+const Navbar = () => {
+    const [isOpen, setIsOpen] = useState(false)
+    const [selected, setSelected] = useState(i18n.language)
+    const {t} = useTranslation()
 
     const scrollToSection = (id) => {
         const section = document.getElementById(id)
@@ -64,46 +73,86 @@ const Navbar = () => {
         }        
     }, [])
 
+    const current = languages.find(l => l.lng === selected);
+
+    const toChoose = languages.filter(l => l.lng !== selected);
+
+    const clickDropdown = () => setIsOpen(!isOpen)
+
+    const changeLng = (lng) => {
+        i18n.changeLanguage(lng)
+        setSelected(lng)
+    }
+
+    console.log(selected);
+    
+
   return (
     <nav className='navbar' id='navbar'>
-      <ul className='links'>
-        <li>
-            <Link onClick={() => scrollToSection('banner')} className='nav-link'>
-                Home
-            </Link>
-        </li>
-        <li>
-            <Link onClick={() => scrollToSection('about')} className='nav-link'>
-                O Conceito
-            </Link>
-        </li>
-        <li>
-            <Link onClick={() => scrollToSection('services')} className='nav-link'>
-                Serviços
-            </Link>
-        </li>
-        <li>            
-            <div className='logo'>
-                <img src={logo} alt="logo" />
+        <div>
+            <ul className='links'>
+                <li>
+                    <Link onClick={() => scrollToSection('banner')} className='nav-link'>
+                        Home
+                    </Link>
+                </li>
+                <li>
+                    <Link onClick={() => scrollToSection('about')} className='nav-link'>
+                        O Conceito
+                    </Link>
+                </li>
+                <li>
+                    <Link onClick={() => scrollToSection('services')} className='nav-link'>
+                        Serviços
+                    </Link>
+                </li>
+                <li>            
+                    <div className='logo'>
+                        <img src={logo} alt="logo" />
+                    </div>
+                </li>
+                <li>
+                    <Link onClick={() => scrollToSection('professionals')} className='nav-link'>
+                        Nossos Profissionais
+                    </Link>
+                </li>
+                <li>
+                    <Link onClick={() => scrollToSection('faq')} className='nav-link'>
+                        FAQ
+                    </Link>
+                </li>
+                <li>
+                    <Link onClick={() => scrollToSection('contact')} className='nav-link'>
+                        Contacto
+                    </Link>
+                </li>
+            </ul>
+        </div>
+      
+        <div className='lng'>
+            <div className='lng-dropdown'>
+                {current && (
+                    <Link className='lng-select' onClick={() => clickDropdown()}>
+                        <div className='lng-name'>
+                            <img src={current.flag} alt={current.name} className='lng-flag'/>
+                            <span>{current.name}</span>
+                        </div>
+                    </Link>
+                    
+                )}
+                <div className='lng-list'>
+                    {toChoose.map(lang => (
+                        <Link className={`lng-select ${isOpen ? 'lng-open' : ''}`} onClick={() => clickDropdown()}>
+                            <div key={lang.lng} onClick={() => changeLng(lang.lng)} className={isOpen ? 'lng-name-list' : 'lng-close'}>
+                                <img src={lang.flag} alt={lang.name} className='lng-flag'/>
+                                <span>{lang.name}</span>
+                            </div>
+                        </Link>
+                    ))}
+                </div>
+                
             </div>
-        </li>
-        <li>
-            <Link onClick={() => scrollToSection('professionals')} className='nav-link'>
-                Nossos Profissionais
-            </Link>
-        </li>
-        <li>
-            <Link onClick={() => scrollToSection('faq')} className='nav-link'>
-                FAQ
-            </Link>
-        </li>
-        <li>
-            <Link onClick={() => scrollToSection('contact')} className='nav-link'>
-                Contacto
-            </Link>
-        </li>
-      </ul>
-      <div></div>
+        </div>
     </nav>
   )
 }
