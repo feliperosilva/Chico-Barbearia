@@ -86,5 +86,12 @@
             "6": "Nein, es gibt keinen privaten Bereich. Die Umgebung wurde geschaffen, um Momente der Entspannung und Entdeckung zu ermöglichen. Deshalb fördern wir einen offenen und gemeinschaftlichen Raum.",
             "7": "Rauchen oder der Konsum illegaler Substanzen ist im Barbershop strengstens verboten. Wenn ein Kunde dabei erwischt wird, wird er aufgefordert zu gehen und erhält Hausverbot."
         }
-    }
+    },
+    "address": "Adresse",
+    "lisbon": "Lissabon",
+    "phone": "Telefon",
+    "hours": "Öffnungszeiten",
+    "working_hours": "Mittwoch bis Montag von 13:00 bis 20:00 Uhr.",
+    "follow": "Folge uns",
+    "copyrights": "Alle Rechte vorbehalten."
 }

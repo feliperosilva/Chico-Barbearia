@@ -4,14 +4,10 @@ import instagram from '../../assets/images/instagram.png'
 import facebook from '../../assets/images/facebook.png'
 import twitter from '../../assets/images/twitter.png'
 import mascot from '../../assets/images/mascot.png'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
-    const scrollToSection = (id) => {
-        const section = document.getElementById(id)
-        if (section) {
-            section.scrollIntoView({behavior: 'smooth'})
-        }
-    }
+    const {t} = useTranslation()
   return (
     <section id='footer' className='footer'>
         <div className='footer-info'>
@@ -20,7 +16,7 @@ const Footer = () => {
             </div>
             <div className='social-media'>
                 <div className='social-links'>
-                    <h2 className='follow'><strong>Segue-nos</strong></h2>
+                    <h2 className='follow'><strong>{t('follow')}</strong></h2>
                     <div className='media-link'>
                         <img src={instagram} alt="instagram" />
                         <a href="https://www.instagram.com/chicobarbearianudista/" target="_blank" rel="noopener noreferrer">Instagram</a>
@@ -40,7 +36,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='copyright'>
-            <span>&copy; Todos os direitos reservados.</span>
+            <span>&copy; {t('copyrights')}</span>
         </div>      
     </section>
   )

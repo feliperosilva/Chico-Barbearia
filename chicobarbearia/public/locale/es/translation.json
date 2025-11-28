@@ -86,5 +86,12 @@
             "6": "No, no existe ningún espacio privado. El ambiente de la barbería está pensado para ofrecer momentos de relajación y descubrimiento. Por eso, promovemos un espacio de convivencia abierta.",
             "7": "Fumar o consumir cualquier tipo de sustancia ilícita está estrictamente prohibido dentro de la barbería. Si un cliente es sorprendido haciéndolo, se le pedirá que se retire y se le prohibirá la entrada."
         }
-    }
+    },
+    "address": "Dirección",
+    "lisbon": "Lisboa",
+    "phone": "Teléfono",
+    "hours": "Horario de apertura",
+    "working_hours": "De miércoles a lunes, de 13:00 a 20:00.",
+    "follow": "Síguenos", 
+    "copyrights": "Todos los derechos reservados."
 }

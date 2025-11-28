@@ -86,5 +86,12 @@
             "6": "Non, il n’existe aucun espace privé. L’environnement a été pensé pour offrir des moments de détente et de découvertes. C’est pourquoi nous favorisons un espace de convivialité ouvert.",
             "7": "Fumer ou consommer des substances illicites est strictement interdit dans le barbershop. Tout client surpris en train d’en consommer sera invité à quitter les lieux et se verra interdire l’entrée."
         }
-    }
+    },
+    "address": "Adresse",
+    "lisbon": "Lisbonne",
+    "phone": "Téléphone",
+    "hours": "Horaires d’ouverture",
+    "working_hours": "Du mercredi au lundi de 13h à 20h.",
+    "follow": "Suivez-nous",
+    "copyrights": "Tous droits réservés."
 }

@@ -1,24 +1,25 @@
 import './Contact.css'
 import maps from '../../assets/images/chico-barbearia.png'
-import scissor from '../../assets/images/scissor.png'
-7
+import { useTranslation } from 'react-i18next'
+
 const Contact = () => {
+  const {t} = useTranslation()
   return (
     <section id='contact' className='contact'>
       <div className='contact-title'>
-        <h1>Contactos</h1>
+        <h1>{t('contact')}</h1>
       </div>      
       <div className='info'>
         <div className='info-details'>
-          <h3>Morada:</h3>
+          <h3>{t('address')}:</h3>
           <p>Rua Lucinda Simões 12E</p>
-          <p>1900-305 Lisboa</p>
+          <p>1900-305 {t('lisbon')}</p>
           <br />
-          <h3>Telemóvel:</h3>
+          <h3>{t('phone')}:</h3>
           <p>919919919</p>
           <br />
-          <h3>Horário de funcionamento:</h3>
-          <p>De Quarta à Segunda das 13h às 20h</p>
+          <h3>{t('hours')}:</h3>
+          <p>{t('working_hours')}</p>
         </div>
         <div className='maps'>
           <a 

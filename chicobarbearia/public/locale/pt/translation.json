@@ -86,5 +86,12 @@
             "6": "Não, não há qualquer espaço privativo. O ambiente da Chico Barbearia Nudista foi pensado para que os clientes possam aproveitar um momento de descontração e de descobertas. Por isto, queremos trazer o ambiente do convívio para o nosso espaço.",
             "7": "Fumar ou consumir qualquer tipo de substância ilícita é expressamente proibido dentro da Chico Barbearia Nudista. Caso o cliente seja apanhado a fazer tal uso, será convidado a se retirar da barbearia e sua entrada estará vetada."
         }
-    }
+    },
+    "address": "Morada",
+    "lisbon": "Lisboa",
+    "phone": "Telefone",
+    "hours": "Horário de Funcionamento",
+    "working_hours": "De Quarta a Segunda das 13h às 20h.",
+    "follow": "Segue-nos",
+    "copyrights": "Todos os direitos reservados."
 }
