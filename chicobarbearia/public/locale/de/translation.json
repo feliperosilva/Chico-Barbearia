@@ -9,6 +9,48 @@
         "title": "Der Erste Nacktbarbershop Europas",
         "description": "Mach dich bereit für ein einzigartiges, intensives und absolut grenzenloses Erlebnis. Hier trifft Stil auf Freiheit. Vergiss die Kleidung, vergiss das Gewöhnliche – nur du, das Rasiermesser und das Gefühl völliger Freiheit.",
         "button": "Termin buchen"
+    },
+    "about": {
+        "title": {
+            "h2": "Ein",
+            "h1": "Mutiges Konzept"
+        },
+        "p": {
+            "1": "Der Chico Nacktbarbershop entstand aus einer mutigen und befreienden Idee — inspiriert von Chicos Erfahrungen in anderen Ländern, wo er Orte entdeckte, die der männlichen Pflege ohne Barrieren, ohne Masken und ohne Vorurteile gewidmet sind.",
+            "2": "Hier sind alle Männer willkommen, genau so wie sie sind. Es gibt keine Urteile, nur Akzeptanz, Respekt und eine sichere Umgebung, in der Natürlichkeit gefeiert wird. Der Körper ist nur ein Teil der Erfahrung — der Fokus liegt auf Wohlbefinden, Selbstvertrauen und der Freiheit, authentisch zu sein.",
+            "3": "Mehr als nur ein Barbershop ist dies ein Raum der Entspannung und Entdeckung, in dem jeder Kunde abschalten, reden, lachen und vielleicht neue Empfindungen und Fantasien erleben kann, die er sich nie vorgestellt hätte.",
+            "4": "Am Ende geht es genau darum:",
+            "5": "sich in seiner eigenen Haut wohlzufühlen."
+        }
+    },
+    "our_services": {
+        "our": "Unsere",
+        "services": "Dienstleistungen",
+        "button": "Termin buchen",
+        "1": {
+            "name": "Haarschnitt",
+            "description": "Moderne oder klassische Haarschnitte, durchgeführt von erfahrenen Profis. Wir verwenden aktuelle Techniken, um ein Ergebnis zu erzielen, das zu Ihrem Stil passt. Ein kompletter Service mit hochwertigem Finish."
+        },
+        "2": {
+            "name": "Bart / Barttherapie",
+            "description": "Umfassende Bartpflege mit Hydration, Formgebung und traditionellen Barbiermethoden. Inklusive heißem Handtuch, speziellen Ölen und professionellem Finish für ein gepflegtes und erneuertes Aussehen."
+        },
+        "3": {
+            "name": "Waxing / Maschinenhaarentfernung",
+            "description": "Haarentfernungsservice mit Wachs oder Maschine, je nach Kundenwunsch. Entfernt Haare effektiv und hinterlässt die Haut glatter und angenehmer. Ideal für alle, die Wert auf Hygiene und Praktikabilität legen."
+        },
+        "4": {
+            "name": "Entspannungsmassage",
+            "description": "Sanfte Massage, die Verspannungen löst und Alltagsstress reduziert. Durch leichte und fließende Bewegungen fördert sie tiefe Entspannung. Perfekt, um Energie und Gleichgewicht zurückzugewinnen."
+        },
+        "5": {
+            "name": "Hot-Stone-Massage",
+            "description": "Therapeutische Massage mit warmen Steinen zur Linderung von Muskelschmerzen. Die Wärme dringt tief ein und sorgt für intensive Entspannung. Ideal bei angesammelten Verspannungen."
+        },
+        "6": {
+            "name": "Körperpeeling-Massage",
+            "description": "Kombination aus Entspannungsmassage und vollständigem Körperpeeling. Entfernt abgestorbene Hautzellen, fördert die Durchblutung und macht die Haut weicher und erneuert. Ein belebendes Erlebnis, das Wohlbefinden und Ästhetik verbindet."
+        }
     }
 
 }

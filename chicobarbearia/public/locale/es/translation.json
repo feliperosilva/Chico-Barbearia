@@ -9,6 +9,48 @@
         "title": "La Primera Barbería Nudista de Europa",
         "description": "Prepárate para una experiencia única, intensa y absolutamente sin límites. Aquí, el estilo se encuentra con la libertad. Olvida la ropa, olvida lo convencional: eres tú, la navaja y el placer de sentirte completamente libre.",
         "button": "Reserva tu cita"
+    },
+    "about": {
+        "title": {
+            "h2": "Un Concepto",
+            "h1": "Atrevido"
+        },
+        "p": {
+            "1": "La Barbería Nudista Chico nace de una idea audaz y liberadora — inspirada en las experiencias de Chico en otros países, donde descubrió espacios dedicados al cuidado masculino sin barreras, sin máscaras y sin prejuicios.",
+            "2": "Aquí, todos los hombres son bienvenidos tal como son. No hay juicios, solo aceptación, respeto y un ambiente seguro donde se celebra la naturalidad. El cuerpo es solo parte de la experiencia — el enfoque está en el bienestar, la confianza y la libertad de ser auténtico.",
+            "3": "Más que una simple barbería, este es un espacio de relajación y descubrimiento, donde cada cliente puede desconectar, conversar, reír y, quizás, explorar nuevas sensaciones y fantasías que nunca imaginó.",
+            "4": "Al final, se trata de esto:",
+            "5": "sentirse bien en la propia piel."
+        }
+    },
+    "our_services": {
+        "our": "Nuestros",
+        "services": "Servicios",
+        "button": "Reserve su cita",
+        "1": {
+            "name": "Corte de Pelo",
+            "description": "Cortes modernos o clásicos realizados por profesionales experimentados. Utilizamos técnicas actuales para garantizar un resultado acorde con su estilo. Un servicio completo que incluye finalización con productos de alta calidad."
+        },
+        "2": {
+            "name": "Barba / Barboterapia",
+            "description": "Tratamiento completo para la barba con hidratación, modelado y técnicas tradicionales de barbería. Incluye toalla caliente, aceites especiales y acabado profesional para un aspecto limpio y renovado."
+        },
+        "3": {
+            "name": "Depilación con Cera / Máquina",
+            "description": "Servicio de depilación con cera o máquina, según la preferencia del cliente. Elimina el vello de forma eficaz, dejando la piel más lisa y con sensación de confort. Ideal para quienes buscan practicidad e higiene."
+        },
+        "4": {
+            "name": "Masaje Relajante",
+            "description": "Masaje suave que alivia tensiones y reduce el estrés diario. Utiliza maniobras ligeras y envolventes para promover una relajación profunda. Perfecto para recuperar energía y equilibrio."
+        },
+        "5": {
+            "name": "Masaje con Piedras Calientes",
+            "description": "Masaje terapéutico que utiliza piedras calientes para aliviar dolores musculares. El calor penetra profundamente, proporcionando una intensa sensación de relajación. Ideal para quienes sufren tensiones acumuladas."
+        },
+        "6": {
+            "name": "Masaje con Exfoliación Corporal",
+            "description": "Combinación de masaje relajante con exfoliación corporal completa. Elimina células muertas, activa la circulación y deja la piel más suave y renovada. Una experiencia revitalizante que une bienestar y cuidado estético."
+        }
     }
 
 }

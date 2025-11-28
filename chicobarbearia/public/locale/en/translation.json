@@ -9,6 +9,48 @@
         "title": "The First Nudist Barbershop in Europe",
         "description": "Get ready for a unique, intense, and absolutely limitless experience. Here, style meets freedom. Forget the clothes, forget the conventional – it's just you, the razor, and the pleasure of feeling completely free.",
         "button": "Book Your Appointment"
+    },
+    "about": {
+        "title": {
+            "h2": "A",
+            "h1": "Bold Concept"
+        },
+        "p": {
+            "1": "Chico Nudist Barbershop was born from a bold and liberating idea — inspired by Chico’s experiences in other countries, where he discovered places dedicated to male care without barriers, without masks, and without prejudice.",
+            "2": "Here, all men are welcome exactly as they are. There are no judgments, only acceptance, respect, and a safe environment where naturalness is celebrated. The body is just part of the experience — the focus is on well-being, confidence, and the freedom to be authentic.",
+            "3": "More than just a barbershop, this is a space for relaxation and discovery, where each client can unwind, talk, laugh, and perhaps explore new sensations and fantasies they never imagined.",
+            "4": "In the end, it all comes down to this:",
+            "5": "feeling good in your own skin."
+        }
+    },
+    "our_services": {
+        "our": "Our",
+        "services": "Services",
+        "button": "Book your appointment",
+        "1": {
+            "name": "Haircut",
+            "description": "Modern or classic cuts performed by experienced professionals. We use current techniques to ensure a result that matches your style. A complete service that includes finishing with high-quality products."
+        },
+        "2": {
+            "name": "Beard / Beard Therapy",
+            "description": "Complete beard treatment with hydration, shaping, and traditional barbershop techniques. Includes hot towel, special oils, and professional finishing for a clean and renewed look."
+        },
+        "3": {
+            "name": "Waxing / Machine Hair Removal",
+            "description": "Hair removal service using wax or machine, depending on the client’s preference. Effectively removes hair, leaving the skin smoother and more comfortable. Ideal for those seeking practicality and hygiene."
+        },
+        "4": {
+            "name": "Relaxing Massage",
+            "description": "A gentle massage that relieves tension and reduces everyday stress. Uses light and enveloping movements to promote deep relaxation. Perfect for restoring energy and balance."
+        },
+        "5": {
+            "name": "Hot Stone Massage",
+            "description": "Therapeutic massage using heated stones to relieve muscle pain. The heat penetrates deeply, providing intense relaxation. Ideal for those suffering from accumulated tension."
+        },
+        "6": {
+            "name": "Body Scrub Massage",
+            "description": "A combination of relaxing massage with a full body exfoliation. Removes dead skin cells, stimulates circulation, and leaves the skin softer and renewed. A revitalizing experience that blends well-being and aesthetic care."
+        }
     }
 
 }

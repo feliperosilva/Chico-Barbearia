@@ -9,6 +9,48 @@
         "title": "La Première Barbier Nudiste d'Europe",
         "description": "Préparez-vous pour une expérience unique, intense et absolument sans limites. Ici, le style rencontre la liberté. Oubliez les vêtements, oubliez le conventionnel – juste vous, le rasoir, et le plaisir de vous sentir totalement libre.",
         "button": "Réservez votre rendez-vous"
+    },
+    "about": {
+        "title": {
+            "h2": "Un Concept",
+            "h1": "Audacieux"
+        },
+        "p": {
+            "1": "La Barberie Nudiste Chico est née d’une idée audacieuse et libératrice — inspirée des expériences de Chico dans d’autres pays, où il a découvert des lieux dédiés au soin masculin sans barrières, sans masques et sans préjugés.",
+            "2": "Ici, tous les hommes sont les bienvenus, exactement tels qu’ils sont. Il n’y a aucun jugement, seulement de l’acceptation, du respect et un environnement sûr où la naturalité est célébrée. Le corps n’est qu’une partie de l’expérience — l’accent est mis sur le bien-être, la confiance et la liberté d’être authentique.",
+            "3": "Plus qu’un simple barber shop, c’est un espace de détente et de découverte, où chaque client peut se relaxer, discuter, rire et peut-être explorer de nouvelles sensations et fantasmes qu’il n’aurait jamais imaginés.",
+            "4": "Au final, tout se résume à ceci :",
+            "5": "se sentir bien dans sa propre peau."
+        }
+    },
+    "our_services": {
+        "our": "Nos",
+        "services": "Services",
+        "button": "Réservez votre rendez-vous",
+        "1": {
+            "name": "Coupe de Cheveux",
+            "description": "Coupes modernes ou classiques réalisées par des professionnels expérimentés. Nous utilisons des techniques actuelles pour garantir un résultat adapté à votre style. Un service complet incluant une finition avec des produits de haute qualité."
+        },
+        "2": {
+            "name": "Barbe / Barbotérapie",
+            "description": "Traitement complet de la barbe avec hydratation, modelage et techniques traditionnelles de barbier. Comprend serviette chaude, huiles spéciales et finition professionnelle pour un look propre et renouvelé."
+        },
+        "3": {
+            "name": "Épilation à la Cire / Machine",
+            "description": "Service d’épilation à la cire ou à la machine, selon la préférence du client. Élimine les poils efficacement, laissant la peau plus lisse et plus confortable. Idéal pour ceux qui recherchent praticité et hygiène."
+        },
+        "4": {
+            "name": "Massage Relaxant",
+            "description": "Massage doux qui soulage les tensions et réduit le stress quotidien. Utilise des mouvements légers et enveloppants pour favoriser une relaxation profonde. Parfait pour retrouver énergie et équilibre."
+        },
+        "5": {
+            "name": "Massage aux Pierres Chaudes",
+            "description": "Massage thérapeutique utilisant des pierres chauffées pour soulager les douleurs musculaires. La chaleur pénètre profondément, procurant une relaxation intense. Idéal pour les tensions accumulées."
+        },
+        "6": {
+            "name": "Massage avec Gommage Corporel",
+            "description": "Combinaison de massage relaxant et d’exfoliation corporelle complète. Élimine les cellules mortes, active la circulation et laisse la peau plus douce et renouvelée. Une expérience revitalisante alliant bien-être et soin esthétique."
+        }
     }
 
 }

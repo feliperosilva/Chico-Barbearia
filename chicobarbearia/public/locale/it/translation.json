@@ -9,6 +9,48 @@
         "title": "La Prima Barberia Nudista d'Europa",
         "description": "Preparati per un'esperienza unica, intensa e assolutamente senza limiti. Qui, lo stile incontra la libertà. Dimentica i vestiti, dimentica il convenzionale: sei solo tu, il rasoio e il piacere di sentirti completamente libero.",
         "button": "Prenota il tuo appuntamento"
+    },
+    "about": {
+        "title": {
+            "h2": "Un Concetto",
+            "h1": "Audace"
+        },
+        "p": {
+            "1": "La Barberia Nudista Chico nasce da un’idea audace e liberatoria — ispirata alle esperienze vissute da Chico in altri paesi, dove ha scoperto luoghi dedicati alla cura maschile senza barriere, senza maschere e senza pregiudizi.",
+            "2": "Qui, tutti gli uomini sono i benvenuti esattamente come sono. Non ci sono giudizi, solo accettazione, rispetto e un ambiente sicuro in cui la naturalezza è celebrata. Il corpo è solo una parte dell’esperienza — l’attenzione è rivolta al benessere, alla fiducia e alla libertà di essere autentici.",
+            "3": "Più che una semplice barberia, questo è uno spazio di relax e scoperta, dove ogni cliente può rilassarsi, conversare, ridere e magari esplorare nuove sensazioni e fantasie che non avrebbe mai immaginato.",
+            "4": "Alla fine, tutto si riduce a questo:",
+            "5": "sentirsi bene nella propria pelle."
+        }
+    },
+    "our_services": {
+        "our": "I nostri",
+        "services": "Servizi",
+        "button": "Prenota il tuo appuntamento",
+        "1": {
+            "name": "Taglio di Capelli",
+            "description": "Tagli moderni o classici realizzati da professionisti esperti. Utilizziamo tecniche aggiornate per garantire un risultato in linea con il tuo stile. Un servizio completo che include la rifinitura con prodotti di alta qualità."
+        },
+        "2": {
+            "name": "Barba / Barba Terapia",
+            "description": "Trattamento completo della barba con idratazione, modellatura e tecniche tradizionali da barbiere. Include panno caldo, oli speciali e rifinitura professionale per un aspetto ordinato e rinnovato."
+        },
+        "3": {
+            "name": "Depilazione a Cera / Macchina",
+            "description": "Servizio di depilazione effettuato con cera o macchina, secondo la preferenza del cliente. Rimuove efficacemente i peli, lasciando la pelle più liscia e confortevole. Ideale per chi cerca praticità e igiene."
+        },
+        "4": {
+            "name": "Massaggio Rilassante",
+            "description": "Massaggio delicato che allevia le tensioni e riduce lo stress quotidiano. Utilizza movimenti leggeri e avvolgenti per favorire un profondo rilassamento. Perfetto per recuperare energia ed equilibrio."
+        },
+        "5": {
+            "name": "Massaggio con Pietre Calde",
+            "description": "Massaggio terapeutico che utilizza pietre riscaldate per alleviare i dolori muscolari. Il calore penetra in profondità, offrendo un rilassamento intenso. Ideale per chi soffre di tensioni accumulate."
+        },
+        "6": {
+            "name": "Massaggio con Esfoliazione Corporea",
+            "description": "Combinazione di massaggio rilassante e completa esfoliazione del corpo. Rimuove le cellule morte, stimola la circolazione e lascia la pelle più morbida e rigenerata. Un’esperienza rinvigorente che unisce benessere e cura estetica."
+        }
     }
 
 }
