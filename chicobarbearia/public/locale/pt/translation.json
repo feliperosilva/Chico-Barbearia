@@ -24,8 +24,8 @@
         }
     },
     "our_services": {
-        "our": "Nossos",
-        "services": "Serviços",
+        "h2": "Nossos",
+        "h1": "Serviços",
         "button": "Marque seu horário",
         "1": {
             "name": "Corte de Cabelo",
@@ -50,6 +50,41 @@
         "6": {
             "name": "Massagem com Esfoliação Corporal",
             "description": "Combinação de massagem relaxante com esfoliação corporal completa. Remove células mortas, ativa a circulação e deixa a pele mais macia e renovada. Uma experiência revigorante que une bem-estar e cuidado estético."
+        }
+    },
+    "prof": {
+        "h2": "Os",
+        "h1": "Profissionais",
+        "role": {
+            "1": "Massagem relaxante",
+            "2": "Depilação com cera",
+            "3": "Depilação com máquina",
+            "4": "Corte de cabelo",
+            "5": "Barba",
+            "6": "Barboterapia",
+            "7": "Host",
+            "8": "Plataformas Digitais",
+            "9": "Medias Sociais"
+        }
+    },
+    "faq_section": {
+        "question": {
+            "1": "É obrigatório ficar nu?",
+            "2": "Os profissionais da Chico Barbearia Nudista estão sempre nu?",
+            "3": "Preciso de agendamento para frequentar a Chico Barbearia Nudista?",
+            "4": "Há interação entre clientes e profissionais?",
+            "5": "Há interação entre clientes?",
+            "6": "Há espaço privativo para interação entre clientes?",
+            "7": "É permitido fumar ou fazer uso de outras substâncias dentro da barbearia?"
+        },
+        "answer": {
+            "1": "Não, não és obrigado a ficar nu! Aqui na Chico Barbearia Nudista, podes sentir-te à vontade para vir como quiseres: vestido, em roupa interior ou completamente nu. O importante é que te sintas confortável!",
+            "2": "Todos os profissionais da Chico Barbearia Nudista fazem os seus atendimentos sempre nus. Porém, em momentos de pausa ou de ausência de clientes, os profissionais são livres para ficarem nus ou a usarem roupa interior.",
+            "3": "Sim! A admissão de clientes à barbearia é sempre feita mediante agendamento prévio de serviços oferecidos, seja na área de barbearia, estética ou bem-estar.",
+            "4": "Para que o ambiente mantenha-se agradável a todos e para preservar o profissionalismo de nossos colaboradores, a interação com os funcionários da Chico Barbearia Nudista poderá não acontecer, para que isto não interfira no serviço a ser prestado, seja o teu próprio ou de outros clientes. A lembrar que o respeito mútuo vem sempre em primeiro lugar.",
+            "5": "Na Chico Barbearia Nudista, o ambiente foi pensado para que todos se sintam a vontade. A interação entre clientes pode acontecer, mas sempre mantendo-se o respeito mútuo e também o respeito aos serviços que estiverem a ser prestados dentro da barbearia.",
+            "6": "Não, não há qualquer espaço privativo. O ambiente da Chico Barbearia Nudista foi pensado para que os clientes possam aproveitar um momento de descontração e de descobertas. Por isto, queremos trazer o ambiente do convívio para o nosso espaço.",
+            "7": "Fumar ou consumir qualquer tipo de substância ilícita é expressamente proibido dentro da Chico Barbearia Nudista. Caso o cliente seja apanhado a fazer tal uso, será convidado a se retirar da barbearia e sua entrada estará vetada."
         }
     }
 }

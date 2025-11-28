@@ -12,32 +12,34 @@ import 'swiper/css/autoplay';
 import chico from '../../assets/images/chico.jpeg'
 import felipe from '../../assets/images/felipe.jpeg'
 import rafa from '../../assets/images/rafa.png'
-import barber2 from '../../assets/images/barber2.jpg'
-import mass2 from '../../assets/images/mass2.jpg'
+
+import { useTranslation } from 'react-i18next'
 
 const team = [
     {
         name: 'Chico',
-        role: ['Massagem relaxante','Depilação com cera','Depilação com máquina'],
+        role: ['prof.role.1','prof.role.2','prof.role.3'],
         img: chico
     },
     {
         name: 'Rafa',
-        role: ['Corte','Barba','Barboterapia'],
+        role: ['prof.role.4','prof.role.5','prof.role.6'],
         img: rafa
     },
     {
         name: 'Felipe',
-        role: ['Plataformas Digitais','Host','Medias Sociais'],
+        role: ['prof.role.7','prof.role.8','prof.role.9'],
         img: felipe
     },
 ]
 
 const Professionals = () => {
+  const {t} = useTranslation()
+
   return (
     <section id='professionals' className='professionals'>
-      <h2>Os</h2>
-      <h1>Profissionais</h1>
+      <h2>{t('prof.h2')}</h2>
+      <h1>{t('prof.h1')}</h1>
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
@@ -55,7 +57,7 @@ const Professionals = () => {
             <SwiperSlide key={index} className='prof-slide'>
                 <img src={person.img} alt={person.name} className='prof-img'/>
                 <h2 className='prof-name'>{person.name}</h2>
-                {person.role.map((act, index) => <span key={index} className='prof-role'>{act}</span>)}                
+                {person.role.map((act, index) => <span key={t(`${index}`)} className='prof-role'>{t(`${act}`)}</span>)}                
             </SwiperSlide>
         ))}
       </Swiper>

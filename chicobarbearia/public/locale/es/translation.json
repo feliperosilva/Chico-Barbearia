@@ -24,8 +24,8 @@
         }
     },
     "our_services": {
-        "our": "Nuestros",
-        "services": "Servicios",
+        "h2": "Nuestros",
+        "h1": "Servicios",
         "button": "Reserve su cita",
         "1": {
             "name": "Corte de Pelo",
@@ -51,6 +51,40 @@
             "name": "Masaje con Exfoliación Corporal",
             "description": "Combinación de masaje relajante con exfoliación corporal completa. Elimina células muertas, activa la circulación y deja la piel más suave y renovada. Una experiencia revitalizante que une bienestar y cuidado estético."
         }
+    },
+    "prof": {
+        "h2": "Nuestros",
+        "h1": "Profesionales",
+        "role": {
+            "1": "Masaje relajante",
+            "2": "Depilación con cera",
+            "3": "Depilación con máquina",
+            "4": "Corte de cabello",
+            "5": "Barba",
+            "6": "Barboterapia",
+            "7": "Host",
+            "8": "Plataformas digitales",
+            "9": "Redes sociales"
+        }
+    },
+    "faq_section": {
+        "question": {
+            "1": "¿Es obligatorio estar desnudo?",
+            "2": "¿Los profesionales de Chico Barbería Nudista están siempre desnudos?",
+            "3": "¿Necesito una cita para asistir a Chico Barbería Nudista?",
+            "4": "¿Hay interacción entre clientes y profesionales?",
+            "5": "¿Hay interacción entre clientes?",
+            "6": "¿Existe un espacio privado para interacción entre clientes?",
+            "7": "¿Está permitido fumar o usar otras sustancias dentro de la barbería?"
+        },
+        "answer": {
+            "1": "¡No, no estás obligado a estar desnudo! En Chico Barbería Nudista puedes venir como quieras: vestido, en ropa interior o completamente desnudo. ¡Lo importante es que te sientas cómodo!",
+            "2": "Todos los profesionales de Chico Barbería Nudista realizan sus servicios completamente desnudos. Sin embargo, durante sus descansos o cuando no hay clientes, pueden estar desnudos o llevar ropa interior.",
+            "3": "¡Sí! La entrada a la barbería siempre se realiza mediante cita previa para cualquiera de los servicios ofrecidos, ya sea barbería, estética o bienestar.",
+            "4": "Para mantener un ambiente agradable para todos y preservar el profesionalismo de nuestro equipo, la interacción con los empleados de la barbería puede no ocurrir, para no interferir en tu servicio ni en el de otros clientes. El respeto mutuo siempre es lo primero.",
+            "5": "En Chico Barbería Nudista, el ambiente está diseñado para que todos se sientan cómodos. La interacción entre clientes puede ocurrir, pero siempre con respeto mutuo y respeto por los servicios en curso.",
+            "6": "No, no existe ningún espacio privado. El ambiente de la barbería está pensado para ofrecer momentos de relajación y descubrimiento. Por eso, promovemos un espacio de convivencia abierta.",
+            "7": "Fumar o consumir cualquier tipo de sustancia ilícita está estrictamente prohibido dentro de la barbería. Si un cliente es sorprendido haciéndolo, se le pedirá que se retire y se le prohibirá la entrada."
+        }
     }
-
 }

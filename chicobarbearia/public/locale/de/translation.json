@@ -24,8 +24,8 @@
         }
     },
     "our_services": {
-        "our": "Unsere",
-        "services": "Dienstleistungen",
+        "h2": "Unsere",
+        "h1": "Dienstleistungen",
         "button": "Termin buchen",
         "1": {
             "name": "Haarschnitt",
@@ -51,6 +51,40 @@
             "name": "Körperpeeling-Massage",
             "description": "Kombination aus Entspannungsmassage und vollständigem Körperpeeling. Entfernt abgestorbene Hautzellen, fördert die Durchblutung und macht die Haut weicher und erneuert. Ein belebendes Erlebnis, das Wohlbefinden und Ästhetik verbindet."
         }
+    },
+    "prof": {
+        "h2": "Unsere",
+        "h1": "Profis",
+        "role": {
+            "1": "Entspannungsmassage",
+            "2": "Wachsdepilation",
+            "3": "Maschinelle Haarentfernung",
+            "4": "Haarschnitt",
+            "5": "Bart",
+            "6": "Barbotherapie",
+            "7": "Host",
+            "8": "Digitale Plattformen",
+            "9": "Soziale Medien"
+        }
+    },
+    "faq_section": {
+        "question": {
+            "1": "Ist es verpflichtend, nackt zu sein?",
+            "2": "Sind die Mitarbeiter von Chico Nudist Barbershop immer nackt?",
+            "3": "Brauche ich einen Termin, um den Chico Nudist Barbershop zu besuchen?",
+            "4": "Gibt es Interaktion zwischen Kunden und Mitarbeitern?",
+            "5": "Gibt es Interaktion zwischen den Kunden?",
+            "6": "Gibt es einen privaten Bereich für Interaktionen zwischen Kunden?",
+            "7": "Ist Rauchen oder der Konsum anderer Substanzen im Barbershop erlaubt?"
+        },
+        "answer": {
+            "1": "Nein, du musst nicht nackt sein! Im Chico Nudist Barbershop kannst du kommen, wie du möchtest: angezogen, in Unterwäsche oder komplett nackt. Wichtig ist nur, dass du dich wohlfühlst!",
+            "2": "Alle Mitarbeiter des Chico Nudist Barbershop arbeiten vollständig nackt. In Pausen oder wenn keine Kunden anwesend sind, können sie jedoch nackt bleiben oder Unterwäsche tragen.",
+            "3": "Ja! Der Zutritt zum Barbershop erfolgt immer ausschließlich nach vorheriger Terminvereinbarung für alle angebotenen Dienstleistungen – ob Barbering, Ästhetik oder Wellness.",
+            "4": "Um eine angenehme Atmosphäre für alle zu gewährleisten und die Professionalität unserer Mitarbeiter zu wahren, kann es sein, dass keine Interaktion stattfindet. Dies dient dazu, deinen Service oder den anderer Kunden nicht zu stören. Gegenseitiger Respekt steht immer an erster Stelle.",
+            "5": "Im Chico Nudist Barbershop wurde die Umgebung so gestaltet, dass sich alle wohlfühlen. Interaktionen zwischen Kunden können stattfinden, jedoch immer mit gegenseitigem Respekt und Rücksicht auf laufende Dienstleistungen.",
+            "6": "Nein, es gibt keinen privaten Bereich. Die Umgebung wurde geschaffen, um Momente der Entspannung und Entdeckung zu ermöglichen. Deshalb fördern wir einen offenen und gemeinschaftlichen Raum.",
+            "7": "Rauchen oder der Konsum illegaler Substanzen ist im Barbershop strengstens verboten. Wenn ein Kunde dabei erwischt wird, wird er aufgefordert zu gehen und erhält Hausverbot."
+        }
     }
-
 }

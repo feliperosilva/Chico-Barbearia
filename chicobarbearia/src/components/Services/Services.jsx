@@ -52,8 +52,8 @@ const Services = () => {
   return (
     <section id='services' className='services-container'>
       <div className='services'>
-        <h2>{t('our_services.our')}</h2>
-        <h1>{t('our_services.services')}</h1>
+        <h2>{t('our_services.h2')}</h2>
+        <h1>{t('our_services.h1')}</h1>
         <div className='serv-list'>
           <ul className='serv-items'>
             {services.map(serv => (
