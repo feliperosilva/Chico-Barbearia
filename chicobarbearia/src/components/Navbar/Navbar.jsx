@@ -107,9 +107,9 @@ const Navbar = () => {
                     </Link>
                 </li>
                 <li>            
-                    <div className='logo'>
+                    <Link onClick={() => scrollToSection('banner')} className='logo'>
                         <img src={logo} alt="logo" />
-                    </div>
+                    </Link>
                 </li>
                 <li>
                     <Link onClick={() => scrollToSection('professionals')} className='nav-link'>
