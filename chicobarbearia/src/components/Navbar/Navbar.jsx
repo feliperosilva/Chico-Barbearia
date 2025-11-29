@@ -49,6 +49,8 @@ const Navbar = () => {
     const [selected, setSelected] = useState(i18n.language)
     const {t} = useTranslation()
 
+    const [openBurger, setOpenBurger] = useState(false)
+
     const scrollToSection = (id) => {
         const section = document.getElementById(id)
         if (section) {
@@ -73,6 +75,25 @@ const Navbar = () => {
         }        
     }, [])
 
+    useEffect(() => {
+        if (openBurger) {
+            const scrollY = window.scrollY;
+            document.body.style.position = 'fixed';
+            document.body.style.top = `-${scrollY}px`;
+            document.body.style.width = '100%';
+
+            return () => {
+            document.body.style.position = '';
+            const storedY = document.body.style.top;
+            document.body.style.top = '';
+            window.scrollTo(0, parseInt(storedY || '0') * -1);
+            };
+        }
+    }, [openBurger]);
+
+
+
+
     const current = languages.find(l => l.lng === selected);
 
     const toChoose = languages.filter(l => l.lng !== selected);
@@ -90,43 +111,97 @@ const Navbar = () => {
   return (
     <nav className='navbar' id='navbar'>
         <div>
-            <ul className='links'>
+            <ul className={openBurger ? 'links links-mobile' : 'links'}>
                 <li>
-                    <Link onClick={() => scrollToSection('banner')} className='nav-link'>
+                    <Link 
+                        onClick={() => {
+                            setOpenBurger(false);
+                            setTimeout(() => scrollToSection('banner'), 10);
+                        }} 
+                        className='nav-link'
+                    >
                         {t('home')}
                     </Link>
                 </li>
                 <li>
-                    <Link onClick={() => scrollToSection('about')} className='nav-link'>
+                    <Link 
+                        onClick={() => {
+                            setOpenBurger(false);
+                            setTimeout(() => scrollToSection('about'), 10);
+                        }} 
+                        className='nav-link'
+                    >
                         {t('concept')}
                     </Link>
                 </li>
                 <li>
-                    <Link onClick={() => scrollToSection('services')} className='nav-link'>
+                    <Link 
+                        onClick={() => {
+                            setOpenBurger(false);
+                            setTimeout(() => scrollToSection('services'), 10);
+                        }} 
+                        className='nav-link'
+                    >
                         {t('services')}
                     </Link>
                 </li>
-                <li>            
-                    <Link onClick={() => scrollToSection('banner')} className='logo'>
+                <li className='nav-logo'>            
+                    <Link 
+                        onClick={() => {
+                            setOpenBurger(false);
+                            setTimeout(() => scrollToSection('banner'), 10);
+                        }} 
+                        className='logo'
+                    >
                         <img src={logo} alt="logo" />
                     </Link>
                 </li>
                 <li>
-                    <Link onClick={() => scrollToSection('professionals')} className='nav-link'>
+                    <Link 
+                        onClick={() => {
+                            setOpenBurger(false);
+                            setTimeout(() => scrollToSection('professionals'), 10);
+                        }} 
+                        className='nav-link'
+                    >
                         {t('professionals')}
                     </Link>
                 </li>
                 <li>
-                    <Link onClick={() => scrollToSection('faq')} className='nav-link'>
+                    <Link 
+                        onClick={() => {
+                            setOpenBurger(false);
+                            setTimeout(() => scrollToSection('faq'), 10);
+                        }} 
+                        className='nav-link'
+                    >
                         {t('faq')}
                     </Link>
                 </li>
                 <li>
-                    <Link onClick={() => scrollToSection('contact')} className='nav-link'>
+                    <Link 
+                        onClick={() => {
+                            setOpenBurger(false);
+                            setTimeout(() => scrollToSection('contact'), 10);
+                        }} 
+                        className='nav-link'
+                    >
                         {t('contact')}
                     </Link>
                 </li>
             </ul>
+        </div>
+
+        <div className='mobile-nav'>
+            <Link className='logo-mobile' onClick={() => {scrollToSection('banner'), setOpenBurger(false)}}>
+                <img src={logo} alt="logo" />
+            </Link>
+            <div class="burger" >
+                <input type="checkbox" checked={openBurger} onChange={() => setOpenBurger(!openBurger)}/>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
       
         <div className='lng'>

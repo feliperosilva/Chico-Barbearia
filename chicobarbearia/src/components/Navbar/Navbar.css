@@ -100,3 +100,120 @@
 .scrolled {
     background-color: #006539;
 }
+
+.mobile-nav {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        height: 85px;
+        width: 100dvw;
+        position: fixed;
+        background-color: #006539 !important;
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+
+    .logo-mobile img{
+        height: 70px;
+        display: flex;
+    }
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 99;
+        height: auto;
+        position: absolute;
+        left: 5%;
+        top: 30%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .burger input {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        height: 40px;
+        width: 40px;
+        opacity: 0;
+        z-index: 9;
+    }
+
+    .burger input:checked ~ span:nth-child(2) {
+        opacity: 1;
+        transform: rotate(-45deg) translate(-6px, 5px);
+        background: #fff;
+        box-shadow: 0 0 2em 0.2em #fff;
+    }
+
+    .burger input:checked ~ span:nth-child(3) {
+        opacity: 0;
+    }
+
+    .burger input:checked ~ span:nth-child(4) {
+        display: block;
+        transform: rotate(45deg) translate(-5px, -5px);
+        opacity: 1;
+        margin-top: -3px;
+        width: 25px;
+        background: #fff;
+        box-shadow: 0 0 2em 0.2em #fff;
+    }
+
+    .burger span {
+        width: 25px;
+        height: 3px;
+        background: #fff;
+        position: relative;
+        display: block;
+        margin: 4px 0;
+        border-radius: 2px;
+        transition: all .2s linear;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .lng {
+        display: none;
+    }
+
+    .links-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #006539;
+        position: absolute;
+        top: 85px;
+        left: 0;
+        width: 100dvw;
+        height: 85dvh;
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .links-mobile .nav-logo {
+        display: none;
+    }
+
+    .links-mobile .nav-link {
+        font-size: 28px;
+    }
+
+    .lng {
+        display: flex;
+        position: absolute;
+        right: -5%;
+        top: -20%;
+    }
+}
