@@ -73,6 +73,10 @@
     font-size: 18px;
 }
 
+.character-img {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .professionals {        
         display: flex;

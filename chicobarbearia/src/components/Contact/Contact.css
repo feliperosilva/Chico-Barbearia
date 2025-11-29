@@ -51,4 +51,28 @@
     border-radius: 10px;
 }
 
+@media (max-width:768px) {
+    .contact {
+        padding: 20px 40px;
+    }
+    .info {
+        flex-direction: column-reverse;
+    }
+
+    .info-details h3 {
+        font-size: 24px;
+    }
+
+    .maps-img {
+        width: 70dvw;
+        border: none;
+        border-radius: 10px;
+        order: 2;
+    }
+
+    br {
+        display: none;
+    }
+}
+
 

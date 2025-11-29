@@ -11,15 +11,25 @@ const Contact = () => {
       </div>      
       <div className='info'>
         <div className='info-details'>
-          <h3>{t('address')}:</h3>
-          <p>Rua Lucinda Simões 12E</p>
-          <p>1900-305 {t('lisbon')}</p>
+          <div className='address'>
+            <h3>{t('address')}:</h3>
+            <p>Rua Lucinda Simões 12E</p>
+            <p>1900-305 {t('lisbon')}</p>
+          </div>
+
           <br />
-          <h3>{t('phone')}:</h3>
-          <p>919919919</p>
+
+          <div className='phone'>
+            <h3>{t('phone')}:</h3>
+            <p>919919919</p>
+          </div>
+          
           <br />
-          <h3>{t('hours')}:</h3>
-          <p>{t('working_hours')}</p>
+
+          <div className='hours'>
+            <h3>{t('hours')}:</h3>
+            <p>{t('working_hours')}</p>
+          </div>          
         </div>
         <div className='maps'>
           <a 
