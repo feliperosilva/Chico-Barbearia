@@ -76,3 +76,34 @@
 .footer-mascot img {
     height: 25dvh;
 }
+
+@media (max-width: 768px) {
+    .footer {
+        height: 30dvh;
+    }
+
+    .footer-logo img {
+        height: 15dvh;
+    }
+
+    .footer-mascot img {
+        height: 18dvh;
+    }
+
+    .follow {
+        font-size: 20px;
+    }
+
+    .social-media img {
+        width: 18px;
+        height: 18px;
+    }
+    
+    .media-link a {
+        font-size: 14px;
+    }
+
+    .copyright {
+        font-size: 16px;
+    }
+}
