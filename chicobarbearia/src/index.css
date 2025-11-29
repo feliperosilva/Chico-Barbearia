@@ -12,3 +12,10 @@ section {
   scroll-margin-top: 120px; /* equal to your fixed navbar height */
   box-sizing: border-box;
 }
+
+@media (max-width: 768px) {
+  section {
+    scroll-margin-top: 85px; /* equal to your fixed navbar height */
+    box-sizing: border-box;
+  }
+}

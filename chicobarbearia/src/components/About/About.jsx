@@ -1,6 +1,5 @@
 import './About.css'
 import concept from '../../assets/images/concept.jpg'
-import conceptmobile from '../../assets/images/concept-mobile.png'
 import { useTranslation } from 'react-i18next'
 
 const About = () => {

@@ -61,7 +61,7 @@
     .concept {
         flex-direction: column;
         position: relative;
-        padding: 70px 30px;
+        padding: 40px 30px;
         padding-bottom: 10px;
     }
 
@@ -79,7 +79,7 @@
 
     .concept-img-mobile {
         display: block;
-        height: 120px;
+        height: 115px;
         width: 100%;
         background-color: #fff;
         background-image: url('../../assets/images/concept-mobile.png');
