@@ -72,3 +72,40 @@
 .prof-role {
     font-size: 18px;
 }
+
+@media (max-width: 768px) {
+    .professionals {        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .professionals h1 {
+        padding: 0;
+    }
+
+    .prof-swiper {
+        max-width: 80%;
+    }
+
+    .prof-img {
+        height: 45dvh;
+        width: 70dvw;
+        border-radius: 10px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        height: 50px !important;
+    }
+
+    .character-img img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-height: 60dvh;
+        border-radius: 100%;
+        padding-top: 10%;
+    }
+}

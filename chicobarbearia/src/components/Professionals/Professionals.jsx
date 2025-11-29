@@ -15,6 +15,8 @@ import rafa from '../../assets/images/rafa.png'
 
 import { useTranslation } from 'react-i18next'
 
+import characters from '../../assets/images/characters.jpg'
+
 const team = [
     {
         name: 'Chico',
@@ -43,7 +45,11 @@ const Professionals = () => {
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
-        slidesPerView={2}
+        breakpoints={{
+          0: { slidesPerView: 1, spaceBetween: 20 }, // mobile
+          768: { slidesPerView: 2 }, // tablet
+          1024: { slidesPerView: 3 } // desktop
+        }}
         navigation
         pagination={{clickable: true}}
         loop={true}
@@ -61,6 +67,9 @@ const Professionals = () => {
             </SwiperSlide>
         ))}
       </Swiper>
+      <div className='character-img'>
+          <img src={characters} alt="characters" />
+      </div>
     </section>
   )
 }
