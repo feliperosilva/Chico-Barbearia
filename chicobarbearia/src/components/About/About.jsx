@@ -1,5 +1,6 @@
 import './About.css'
 import concept from '../../assets/images/concept.jpg'
+import conceptmobile from '../../assets/images/concept-mobile.png'
 import { useTranslation } from 'react-i18next'
 
 const About = () => {
@@ -26,6 +27,7 @@ const About = () => {
         </div>
         <img src={concept} alt="concept" className='concept-img'/>
       </div>
+      <div className='concept-img-mobile'/>
     </section>
   )
 }

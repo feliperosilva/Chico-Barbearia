@@ -47,3 +47,43 @@
     border-radius: 30%;
     border: none;
 }
+
+.concept-img-mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .about {
+        padding-bottom: 20px;
+        padding: 0;
+    }
+
+    .concept {
+        flex-direction: column;
+        position: relative;
+        padding: 70px 30px;
+        padding-bottom: 10px;
+    }
+
+    .about-concept h2 {
+        order: 1;
+    }
+
+    .about-concept h1 {
+        order: 2;
+    }
+
+    .concept-img {
+        display: none;
+    }
+
+    .concept-img-mobile {
+        display: block;
+        height: 120px;
+        width: 100%;
+        background-color: #fff;
+        background-image: url('../../assets/images/concept-mobile.png');
+        background-repeat: repeat;
+        background-size: contain;
+    }
+}
