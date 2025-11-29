@@ -127,11 +127,15 @@
     display: none;
 }
 
+.cta-service-mobile {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .services-container {
         padding-bottom: 0;
     }
-    
+
     .serv-list {
         display: flex;
         flex-direction: column;
@@ -185,6 +189,7 @@
     }
 
     .services .cta-service-mobile {
+        display: block;
         height: 50px;
         border: none;
         border-radius: 10px;
