@@ -62,14 +62,36 @@ const Services = () => {
               </li>
             ))}
             <a href="https://buk.pt/chico-barbearia-nudista" target='_blank' rel=' noopener noreferer'><button className='cta-service'>{t('our_services.button')}</button></a>
-          </ul> 
+          </ul>
+
+
+          <div className='serv-mobile'>
+            <select
+              className='serv-options'
+              value={selected.id} // controlled select
+              onChange={(e) => {
+                const chosenId = parseInt(e.target.value); // get the selected value
+                const chosenService = services.find(serv => serv.id === chosenId);
+                setSelected(chosenService);
+              }}
+            >
+              {services.map(serv => (
+                <option key={serv.id} value={serv.id}>
+                  {t(`${serv.key}.name`)}
+                </option>
+              ))}
+            </select>
+          </div>
+
           {selected && 
-            <div className={'serv-description'}>
+            <div className='serv-description'>
               <img src={selected.image} alt={t(`${selected.key}.name`)}/>
               <p>{t(`${selected.key}.description`)}</p>
             </div>            
-          }                        
-        </div>        
+          }
+          <a href="https://buk.pt/chico-barbearia-nudista" target='_blank' rel=' noopener noreferer'><button className='cta-service-mobile'>{t('our_services.button')}</button></a>                        
+        </div>
+                
       </div>      
       <div className='pattern'></div>
     </section>
