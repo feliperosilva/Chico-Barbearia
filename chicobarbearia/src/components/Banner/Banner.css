@@ -29,11 +29,11 @@
 }
 
 .header h1 {
-    font-size: 40px;
+    font-size: clamp(24px, 8vw, 40px);
 }
 
 .header p {
-    font-size: 20px;
+    font-size: clamp(16px, 8vw, 20px);
 }
 
 .cta {
@@ -56,14 +56,6 @@
 @media (max-width: 768px) {
     .header {
         width: 80%;
-    }
-
-    .header h1 {
-        font-size: 36px;
-    }
-
-    .header p {
-        font-size: 18px;
     }
 
     .video-bg {

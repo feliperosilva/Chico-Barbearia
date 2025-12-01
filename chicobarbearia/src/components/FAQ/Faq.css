@@ -7,7 +7,7 @@
 }
 
 .faq h1 {
-    font-size: 72px;
+    font-size: clamp(32px, 16vw, 72px);
     margin: 0;
     padding: 0 0 30px 0;    
     font-style: italic;
