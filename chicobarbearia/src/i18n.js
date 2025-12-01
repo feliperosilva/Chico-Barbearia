@@ -12,7 +12,7 @@ i18n
         supportedLngs: ['fr', 'de', 'it', 'pt', 'es', 'en'],
         debug: true,
         backend: {
-            loadPath: '/locale/{{lng}}/translation.json'
+            loadPath: `${import.meta.env.BASE_URL}locale/{{lng}}/translation.json`
         },
         interpolation: {
         escapeValue: false, // React already escapes by default
