@@ -58,7 +58,7 @@ const Services = () => {
           <ul className='serv-items'>
             {services.map(serv => (
               <li key={serv.id} onClick={() => setSelected(serv)} className={selected.id === serv.id ? 'serv-name serv-selected' : 'serv-name'}>
-                <strong>{t(`${serv.key}.name`)}</strong>
+                {t(`${serv.key}.name`)}
               </li>
             ))}
             <a href="https://buk.pt/chico-barbearia-nudista" target='_blank' rel=' noopener noreferer'><button className='cta-service'>{t('our_services.button')}</button></a>

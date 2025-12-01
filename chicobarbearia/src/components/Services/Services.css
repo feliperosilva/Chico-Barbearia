@@ -53,13 +53,13 @@
     padding: 0 15px;
     color: #fff;
     font-size: 18px;
-}
-
-.serv-name strong {
+    border-radius: 10px;
+    box-shadow:
+    0px 0px 12px #006539;
     cursor: pointer;
-    position: relative;
 }
 
+/*
 .serv-name strong::before {
     content: '';
     position: absolute;
@@ -77,13 +77,13 @@
 
 .serv-name strong:hover::before {
     height: 130%;
-}
+} */
 
 .serv-selected {
-    text-shadow:
-    2px 2px 12px #006539,
-    3px 3px 12px #006539,
-    4px 4px 12px #006539;
+    box-shadow:
+    0 0 12px #006539,
+    0 0 12px #006539,
+    0 0 12px #006539;
 }
 
 .serv-description {
@@ -95,7 +95,9 @@
 .serv-description img{
     width: 40dvw;
     height: 40dvh;
-    box-shadow: 4px 4px 10px #006539;
+    box-shadow: 0 0 10px #006539,
+    0 0 10px #006539;
+    border-radius: 10px;
 }
 
 .pattern {
@@ -120,7 +122,6 @@
     font-weight: 600;
     font-size: 16px;
     font-family: "Nunito Sans", sans-serif;
-    margin: 0 15px;
 }
 
 .serv-mobile {
