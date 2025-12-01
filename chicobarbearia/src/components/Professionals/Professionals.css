@@ -104,10 +104,13 @@
         height: 50px !important;
     }
 
-    .character-img img {
+    .character-img{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .character-img img {
         max-height: 60dvh;
         border-radius: 100%;
         padding-top: 10%;
