@@ -196,7 +196,7 @@ const Navbar = () => {
             <Link className='logo-mobile' onClick={() => {scrollToSection('banner'), setOpenBurger(false)}}>
                 <img src={logo} alt="logo" />
             </Link>
-            <div class="burger" >
+            <div className="burger" >
                 <input type="checkbox" checked={openBurger} onChange={() => setOpenBurger(!openBurger)}/>
                 <span></span>
                 <span></span>

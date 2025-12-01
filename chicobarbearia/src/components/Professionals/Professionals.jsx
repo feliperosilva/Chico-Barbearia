@@ -47,8 +47,8 @@ const Professionals = () => {
         spaceBetween={0}
         breakpoints={{
           0: { slidesPerView: 1, spaceBetween: 20 }, // mobile
-          768: { slidesPerView: 2 }, // tablet
-          1024: { slidesPerView: 3 } // desktop
+          768: { slidesPerView: 2, spaceBetween: 20 }, // tablet
+          1024: { slidesPerView: 2, spaceBetween: 20 } // desktop
         }}
         navigation
         pagination={{clickable: true}}
