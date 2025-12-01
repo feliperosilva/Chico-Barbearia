@@ -2,6 +2,9 @@ import './Contact.css'
 import maps from '../../assets/images/chico-barbearia.png'
 import { useTranslation } from 'react-i18next'
 
+import phone from '../../assets/images/phone.png'
+import email from '../../assets/images/email.png'
+
 const Contact = () => {
   const {t} = useTranslation()
   return (
@@ -19,9 +22,19 @@ const Contact = () => {
 
           <br />
 
-          <div className='phone'>
-            <h3>{t('phone')}:</h3>
-            <p>919919919</p>
+          <div className='contacts'>
+            <h3>{t('contact')}:</h3>
+            <p>
+              <img src={phone} alt="phone" />
+              <a href="tel:+351919673462">
+                +351 919673462
+              </a>
+            </p>
+            <p>
+              <img src={email} alt="email" />
+              <a href="mailto:info@chicobarbearianudista.pt">
+                info@chicobarbearianudista.pt
+              </a></p>
           </div>
           
           <br />

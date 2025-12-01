@@ -51,6 +51,20 @@
     border-radius: 10px;
 }
 
+.contacts p {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contacts a {
+    color: #fff;
+}
+
+.contacts img {
+    height: 20px;
+}
+
 @media (max-width:768px) {
     .contact {
         padding: 20px 40px;
