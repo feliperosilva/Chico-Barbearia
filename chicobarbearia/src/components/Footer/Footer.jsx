@@ -21,10 +21,10 @@ const Footer = () => {
                         <img src={instagram} alt="instagram" />
                         <a href="https://www.instagram.com/chicobarbearianudist/" target="_blank" rel="noopener noreferrer">Instagram</a>
                     </div>
-                    <div className='media-link'>
+                    {/*<div className='media-link'>
                         <img src={facebook} alt="facebook" />
                         <a href="">Facebook</a>
-                    </div>
+                    </div>*/}
                     <div className='media-link'>
                         <img src={twitter} alt="twitter" />
                         <a href="https://x.com/ChicoBarbearia" target='_blank' rel='noopener noreferrer'>X</a>
