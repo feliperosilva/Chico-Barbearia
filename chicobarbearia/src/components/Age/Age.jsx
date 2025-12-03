@@ -73,31 +73,29 @@ const Age = () => {
 
   return (
     <section id="age" className='age'>
-      <div className='age-container'>
-        <div className='lng'>
-            <div className='lng-dropdown'>
+        <div className='lng-age'>
+            <div className='lng-age-dropdown'>
                 {current && (
-                    <Link className='lng-select' onClick={() => clickDropdown()}>
-                        <div className='lng-name'>
-                            <img src={current.flag} alt={current.name} className='lng-flag'/>
+                    <Link className='lng-age-select' onClick={() => clickDropdown()}>
+                        <div className='lng-age-name'>
+                            <img src={current.flag} alt={current.name} className='lng-age-flag'/>
                             <span>{current.name}</span>
                         </div>
-                    </Link>
-                    
+                    </Link>                    
                 )}
-                <div className='lng-list'>
+                <div className='lng-age-list'>
                     {toChoose.map(lang => (
-                        <Link className={`lng-select ${isOpen ? 'lng-open' : ''}`} onClick={() => clickDropdown()}>
-                            <div key={lang.lng} onClick={() => changeLng(lang.lng)} className={isOpen ? 'lng-name-list' : 'lng-close'}>
-                                <img src={lang.flag} alt={lang.name} className='lng-flag'/>
+                        <Link className={`lng-age-select ${isOpen ? 'lng-age-open' : ''}`} onClick={() => clickDropdown()}>
+                            <div key={lang.lng} onClick={() => changeLng(lang.lng)} className={isOpen ? 'lng-age-name-list' : 'lng-age-close'}>
+                                <img src={lang.flag} alt={lang.name} className='lng-age-flag'/>
                                 <span>{lang.name}</span>
                             </div>
                         </Link>
                     ))}
-                </div>
-                
+                </div>                
             </div>
         </div>
+      <div className='age-container'>        
         <div className='logo'>
             <h1 className='welcome'>{t('welcome')}</h1>
             <img src={logo} alt="logo" /> 

@@ -73,3 +73,58 @@
 .no:hover {
     background-color: #cd0000;
 }
+
+.lng-age-dropdown {
+    display: grid;
+    grid-template-columns: repeat(1fr, 3);
+    position: absolute;
+    right: 30px;
+    top: 35px;
+    width: 80px;
+}
+
+.lng-age-close {
+    display: none;
+}
+
+.lng-age-list {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.lng-age-name {
+    background-color: none;
+    color: #fff;
+}
+
+.lng-age-name-list {    
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+}
+
+.lng-age-select {
+    text-decoration: none;
+}
+
+.lng-age-name, .lng-age-name-list {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.lng-age-flag {
+    width: 30px;
+}
+
+@media (max-width: 768px) {
+    .age-container {
+        max-height: 60dvh;
+        width: 70dvw;
+    }
+
+    .yes, .no {
+        width: 30dvw;
+    }
+}

@@ -31,3 +31,10 @@
 .age-denied {
     font-size: 18px;
 }
+
+@media (max-width: 768px) {
+    .denied-container {
+        max-height: 60dvh;
+        width: 70dvw;
+    }
+}

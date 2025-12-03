@@ -183,10 +183,6 @@
         display: none;
     }
 
-    .lng {
-        display: none;
-    }
-
     .links-mobile {
         display: flex;
         flex-direction: column;
