@@ -151,7 +151,7 @@ const Navbar = () => {
                             setOpenBurger(false);
                             setTimeout(() => scrollToSection('banner'), 10);
                         }} 
-                        className='logo'
+                        className='logo-center'
                     >
                         <img src={logo} alt="logo" />
                     </Link>

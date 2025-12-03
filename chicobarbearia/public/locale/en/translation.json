@@ -1,4 +1,13 @@
 {
+    "welcome": "Welcome to",
+    "age": {
+      "p1": "Our services and entry to the barbershop are exclusively for people aged 18 or older.",
+      "p2": "By continuing, you declare that you are 18 years old or older."
+    },
+    "yes": "Yes",
+    "no": "No",
+    "denied": "Access Denied",
+    "noage": "Access allowed only for people aged 18 or older.",
     "home": "Home",
     "concept": "The Concept",
     "services": "Services",

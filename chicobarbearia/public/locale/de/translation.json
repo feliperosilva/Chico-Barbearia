@@ -1,4 +1,13 @@
 {
+    "welcome": "Willkommen bei",
+    "age": {
+      "p1": "Unsere Dienstleistungen und der Zutritt zum Barbershop sind ausschließlich für Personen ab 18 Jahren vorgesehen.",
+      "p2": "Indem Sie fortfahren, erklären Sie, dass Sie 18 Jahre oder älter sind."
+    },
+    "yes": "Ja",
+    "no": "Nein",
+    "denied": "Zugang verweigert",
+    "noage": "Zugang nur für Personen ab 18 Jahren erlaubt.",
     "home": "Startseite",
     "concept": "Das Konzept",
     "services": "Dienstleistungen",

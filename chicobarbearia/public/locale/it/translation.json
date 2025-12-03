@@ -1,4 +1,13 @@
 {
+    "welcome": "Benvenuti a",
+    "age": {
+      "p1": "I nostri servizi e l'accesso al barbershop sono riservati esclusivamente a persone di 18 anni o più.",
+      "p2": "Procedendo, dichiari di avere 18 anni o più."
+    },
+    "yes": "Sì",
+    "no": "No",
+    "denied": "Accesso negato",
+    "noage": "Accesso consentito solo a persone di 18 anni o più.",
     "home": "Inizio",
     "concept": "Il Concetto",
     "services": "Servizi",

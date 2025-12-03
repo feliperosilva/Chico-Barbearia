@@ -1,4 +1,13 @@
 {
+    "welcome": "Bienvenue à",
+    "age": {
+      "p1": "Nos services et l'accès au salon de coiffure sont exclusivement réservés aux personnes âgées de 18 ans ou plus.",
+      "p2": "En continuant, vous déclarez avoir 18 ans ou plus."
+    },
+    "yes": "Oui",
+    "no": "Non",
+    "denied": "Accès refusé",
+    "noage": "Accès autorisé uniquement aux personnes âgées de 18 ans ou plus.",
     "home": "Accueil",
     "concept": "Le Concept",
     "services": "Services",

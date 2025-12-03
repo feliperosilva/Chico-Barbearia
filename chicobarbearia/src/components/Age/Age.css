@@ -1,0 +1,75 @@
+.age {
+    background-color: #161616;
+    width: 100%;
+    min-height: 100dvh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.age-container {
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 60dvh;
+    width: 40dvw;
+    text-align: center;
+    box-shadow: 
+    0 0 12px #006539,
+    0 0 12px #006539,
+    0 0 12px #006539;
+}
+
+.welcome {
+    margin-top: 0;
+}
+
+.logo img {
+    max-height: 140px;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+.age-verify {
+    font-size: 18px;
+}
+
+.yes {
+    background-color: #006539;
+    color: #fff;
+    border: none;
+    width: 10dvw;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.yes:hover {
+    background-color: #008e50;
+}
+
+.no {
+    background-color: #ac0000;
+    color: #fff;
+    border: none;
+    width: 10dvw;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.no:hover {
+    background-color: #cd0000;
+}

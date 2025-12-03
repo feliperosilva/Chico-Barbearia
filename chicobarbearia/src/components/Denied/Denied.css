@@ -1,0 +1,33 @@
+.denied {
+    background-color: #161616;
+    width: 100%;
+    min-height: 100dvh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.denied-container {
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 60dvh;
+    width: 40dvw;
+    text-align: center;
+    box-shadow: 
+    0 0 12px #006539,
+    0 0 12px #006539,
+    0 0 12px #006539;
+}
+
+.access-denied {
+    margin-bottom: 0;
+}
+
+.age-denied {
+    font-size: 18px;
+}

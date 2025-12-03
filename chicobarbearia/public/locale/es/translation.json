@@ -1,4 +1,13 @@
 {
+    "welcome": "Bienvenidos a",
+    "age": {
+      "p1": "Nuestros servicios y la entrada a la barbería están destinados exclusivamente a personas de 18 años o más.",
+      "p2": "Al continuar, declaras que tienes 18 años o más."
+    },
+    "yes": "Sí",
+    "no": "No",
+    "denied": "Acceso denegado",
+    "noage": "Acceso permitido solo a personas de 18 años o más.",
     "home": "Inicio",
     "concept": "El Concepto",
     "services": "Servicios",
