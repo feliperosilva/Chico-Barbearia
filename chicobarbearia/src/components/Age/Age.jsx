@@ -1,6 +1,6 @@
 import './Age.css'
 import logo from '../../assets/logo.png'
-import { useNavigate, Link } from 'react-router-dom'
+import { useNavigate, Link, Navigate } from 'react-router-dom'
 import { useState } from 'react'
 import france from '../../assets/images/france.png'
 import germany from '../../assets/images/germany.png'
@@ -69,6 +69,12 @@ const Age = () => {
     const changeLng = (lng) => {
         i18n.changeLanguage(lng)
         setSelected(lng)
+    }
+
+    const ageVerified = localStorage.getItem('ageVerified') === 'true'
+
+    if (ageVerified) {
+        return <Navigate to='/home' replace />
     }
 
   return (
