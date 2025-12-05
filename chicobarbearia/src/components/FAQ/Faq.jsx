@@ -39,6 +39,16 @@ const faq = [
         question: 'faq_section.question.7',
         answer:'faq_section.answer.7'
     },
+    {
+        id: 8,
+        question: 'faq_section.question.8',
+        answer:'faq_section.answer.8'
+    },
+    {
+        id: 9,
+        question: 'faq_section.question.9',
+        answer:'faq_section.answer.9'
+    }
 ]
 
 const Faq = () => {
