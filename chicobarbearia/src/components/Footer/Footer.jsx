@@ -19,7 +19,7 @@ const Footer = () => {
                     <h2 className='follow'><strong>{t('follow')}</strong></h2>
                     <div className='media-link'>
                         <img src={instagram} alt="instagram" />
-                        <a href="https://www.instagram.com/chicobarbearianudist/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href="https://www.instagram.com/_chicobarbeariaoficial/" target="_blank" rel="noopener noreferrer">Instagram</a>
                     </div>
                     {/*<div className='media-link'>
                         <img src={facebook} alt="facebook" />
