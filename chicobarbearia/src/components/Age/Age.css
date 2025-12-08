@@ -118,7 +118,7 @@
     width: 30px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
     .age-container {
         max-height: 60dvh;
         width: 70dvw;

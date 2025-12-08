@@ -58,7 +58,7 @@
     height: 20px;
 }
 
-@media (max-width:768px) {
+@media (max-width:480px) {
     .contact {
         padding: 20px 40px;
     }
