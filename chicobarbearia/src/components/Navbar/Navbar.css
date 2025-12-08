@@ -193,7 +193,7 @@
         top: 85px;
         left: 0;
         width: 100dvw;
-        height: 85dvh;
+        height: 87dvh;
         margin: 0;
         padding: 20px 0;
     }
@@ -204,6 +204,10 @@
 
     .links-mobile .nav-link {
         font-size: 28px;
+    }
+
+    .links .nav-link::before {
+        content: none;
     }
 
     .lng {
