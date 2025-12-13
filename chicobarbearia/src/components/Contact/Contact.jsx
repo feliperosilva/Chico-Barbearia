@@ -26,8 +26,8 @@ const Contact = () => {
             <h3>{t('contact')}:</h3>
             <p>
               <img src={phone} alt="phone" />
-              <a href="tel:+351919673462">
-                +351 919673462
+              <a href="tel:+351928489012">
+                +351 928489012
               </a>
             </p>
             <p>

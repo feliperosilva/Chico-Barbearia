@@ -17,9 +17,14 @@
 }
 
 .footer-info {
+    /*Setup Provisório*/
+    display: flex;
+    justify-content: space-around;
+
+    /* Setup Original
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding: 0 5%;
+    padding: 0 5%;*/
 }
 
 .footer-logo {
