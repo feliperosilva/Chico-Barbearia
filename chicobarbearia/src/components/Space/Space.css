@@ -1,0 +1,93 @@
+.space {
+    width: 100%;
+    min-height: 100dvh;
+    padding-top: 20px;
+    background-color: #161616;    
+    color: #fff;
+}
+
+.space h2 {
+    display: flex;
+    justify-content: center;
+    font-size: clamp(20px, 8vw, 36px);
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+}
+
+.space h1 {
+    display: flex;
+    justify-content: center;
+    font-size: clamp(32px, 16vw, 72px);
+    margin: 0;
+    padding: 0;    
+    font-style: italic;
+    padding-left: 50px;
+    font-weight: 500;
+    color: #006539;
+}
+
+.space-swiper {
+    max-width: 70%;
+    padding: 20px 40px !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.space-img {
+    max-height: 60dvh;
+    border-radius: 10px;
+}
+
+.space-slide {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-bottom: 30px;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #006539 !important; /* your custom color */
+  height: 70px !important;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ccc !important; /* inactive color */
+  opacity: 1 !important; /* make them fully visible */  
+  height: 10px !important;
+  width: 10px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #006539 !important; /* active bullet color */
+}
+
+@media (max-width: 480px) {
+    .space {        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .space h1 {
+        padding: 0;
+    }
+
+    .space-swiper {
+        max-width: 80%;
+    }
+
+    .space-img {
+        height: 45dvh;
+        border-radius: 10px;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        height: 50px !important;
+    }
+}

@@ -6,6 +6,7 @@ import Services from "../Services/Services"
 import Professionals from "../Professionals/Professionals"
 import Footer from "../Footer/Footer"
 import Faq from "../FAQ/Faq"
+import Space from '../Space/Space'
 import { Navigate } from 'react-router-dom'
 
 const FullSite = () => {
@@ -20,6 +21,7 @@ const FullSite = () => {
         <Navbar />
         <Banner />
         <About />
+        <Space />
         <Services />
         <Professionals />
         <Faq />
