@@ -9,8 +9,8 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/autoplay';
 
-import chico from '../../assets/images/chico.jpeg'
-import felipe from '../../assets/images/felipe.jpeg'
+import chico from '../../assets/images/chico.png'
+import felipe from '../../assets/images/felipe.png'
 import rafa from '../../assets/images/rafa.png'
 
 import { useTranslation } from 'react-i18next'

@@ -36,7 +36,7 @@
 }
 
 .prof-img {
-    max-height: 50dvh;
+    max-height: 60dvh;
     border-radius: 10px;
 }
 
@@ -95,7 +95,6 @@
 
     .prof-img {
         height: 45dvh;
-        width: 70dvw;
         border-radius: 10px;
     }
 
