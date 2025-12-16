@@ -7,6 +7,7 @@ import Professionals from "../Professionals/Professionals"
 import Footer from "../Footer/Footer"
 import Faq from "../FAQ/Faq"
 import Space from '../Space/Space'
+import WhatsApp from '../WhatsApp/WhatsApp'
 import { Navigate } from 'react-router-dom'
 
 const FullSite = () => {
@@ -27,6 +28,10 @@ const FullSite = () => {
         <Faq />
         <Contact />
         <Footer />      
+        <WhatsApp 
+          phone='351928489012'
+          message='Olá, Chico Barbearia Nudista! // Hello, Chico Barbearia Nudista!'
+        />      
     </>
   )
 }
