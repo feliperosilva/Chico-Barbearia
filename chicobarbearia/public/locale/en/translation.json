@@ -16,7 +16,7 @@
     "contact": "Contact",
     "banner": {
         "title": "The First Nudist Barbershop in Europe",
-        "description": "Get ready for a unique, intense, and absolutely limitless experience. Here, style meets freedom. Forget the clothes, forget the conventional – it's just you, the razor, and the pleasure of feeling completely free.",
+        "description": "Prepare yourself for a unique, intense, and completely liberating experience. Here, care for the body and mind meets freedom. Forget stress, forget the conventional – it’s just you and the pleasure of taking care of yourself with comfort and well-being.",
         "button": "Book Your Appointment"
     },
     "about": {
@@ -42,11 +42,11 @@
         "button": "Book your appointment",
         "1": {
             "name": "Haircut",
-            "description": "Modern or classic cuts performed by experienced professionals. We use current techniques to ensure a result that matches your style. A complete service that includes finishing with high-quality products."
+            "description": "Modern or classic haircuts performed by experienced professionals. We work with up-to-date techniques to ensure a result suited to your style. A complete service that includes hair washing and finishing with high-quality products."
         },
         "2": {
-            "name": "Beard / Beard Therapy",
-            "description": "Complete beard treatment with hydration, shaping, and traditional barbershop techniques. Includes hot towel, special oils, and professional finishing for a clean and renewed look."
+            "name": "Simple/Premium Barber Therapy",
+            "description": "Complete beard treatment with hydration, shaping, and traditional barbering techniques. The Premium option includes a hot towel, special oils, and facial massage. Both services focus on professional finishing for a neat and refreshed look."
         },
         "3": {
             "name": "Waxing / Machine Hair Removal",
@@ -54,7 +54,7 @@
         },
         "4": {
             "name": "Relaxing Massage",
-            "description": "A gentle massage that relieves tension and reduces everyday stress. Uses light and enveloping movements to promote deep relaxation. Perfect for restoring energy and balance."
+            "description": "Massage that relieves tension and reduces everyday stress. Uses varied and flowing techniques to promote deep relaxation. Perfect for restoring energy and balance."
         },
         "5": {
             "name": "Hot Stone Massage",
@@ -69,12 +69,12 @@
         "h2": "Our",
         "h1": "Professionals",
         "role": {
-            "1": "Relaxing massage",
+            "1": "Massage",
             "2": "Waxing",
-            "3": "Machine hair removal",
+            "3": "Exfoliation",
             "4": "Haircut",
-            "5": "Beard",
-            "6": "Barbotherapy",
+            "5": "Barber Therapy",
+            "6": "Machine Waxing",
             "7": "Host",
             "8": "Digital Platforms",
             "9": "Social Media"

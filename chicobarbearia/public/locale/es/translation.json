@@ -16,7 +16,7 @@
     "contact": "Contacto",
     "banner": {
         "title": "La Primera Barbería Nudista de Europa",
-        "description": "Prepárate para una experiencia única, intensa y absolutamente sin límites. Aquí, el estilo se encuentra con la libertad. Olvida la ropa, olvida lo convencional: eres tú, la navaja y el placer de sentirte completamente libre.",
+        "description": "Prepárese para una experiencia única, intensa y completamente liberadora. Aquí, el cuidado del cuerpo y la mente se encuentra con la libertad. Olvide el estrés, olvide lo convencional: solo usted y el placer de cuidarse con comodidad y bienestar.",
         "button": "Reserva tu cita"
     },
     "about": {
@@ -42,11 +42,11 @@
         "button": "Reserve su cita",
         "1": {
             "name": "Corte de Pelo",
-            "description": "Cortes modernos o clásicos realizados por profesionales experimentados. Utilizamos técnicas actuales para garantizar un resultado acorde con su estilo. Un servicio completo que incluye finalización con productos de alta calidad."
+            "description": "Cortes de cabello modernos o clásicos realizados por profesionales experimentados. Trabajamos con técnicas actuales para garantizar un resultado acorde a su estilo. Un servicio completo que incluye lavado de cabello y acabado con productos de alta calidad."
         },
         "2": {
-            "name": "Barba / Barboterapia",
-            "description": "Tratamiento completo para la barba con hidratación, modelado y técnicas tradicionales de barbería. Incluye toalla caliente, aceites especiales y acabado profesional para un aspecto limpio y renovado."
+            "name": "Barboterapia Simple/Premium",
+            "description": "Tratamiento completo para la barba con hidratación, moldeado y técnicas tradicionales de barbería. La opción Premium incluye toalla caliente, aceites especiales y masaje facial. Ambos servicios se centran en el acabado profesional para un aspecto alineado y renovado."
         },
         "3": {
             "name": "Depilación con Cera / Máquina",
@@ -54,7 +54,7 @@
         },
         "4": {
             "name": "Masaje Relajante",
-            "description": "Masaje suave que alivia tensiones y reduce el estrés diario. Utiliza maniobras ligeras y envolventes para promover una relajación profunda. Perfecto para recuperar energía y equilibrio."
+            "description": "Masaje que alivia tensiones y reduce el estrés diario. Utiliza técnicas variadas y envolventes para promover una relajación profunda. Perfecto para recuperar energía y equilibrio."
         },
         "5": {
             "name": "Masaje con Piedras Calientes",
@@ -69,15 +69,15 @@
         "h2": "Nuestros",
         "h1": "Profesionales",
         "role": {
-            "1": "Masaje relajante",
-            "2": "Depilación con cera",
-            "3": "Depilación con máquina",
+            "1": "Masaje",
+            "2": "Depilación",
+            "3": "Exfoliación",
             "4": "Corte de cabello",
-            "5": "Barba",
-            "6": "Barboterapia",
-            "7": "Host",
-            "8": "Plataformas digitales",
-            "9": "Redes sociales"
+            "5": "Barboterapia",
+            "6": "Depilación con máquina",
+            "7": "Anfitrión",
+            "8": "Plataformas Digitales",
+            "9": "Redes Sociales"
         }
     },
     "faq_section": {

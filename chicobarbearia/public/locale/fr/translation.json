@@ -16,7 +16,7 @@
     "contact": "Contact",
     "banner": {
         "title": "La Première Barbier Nudiste d'Europe",
-        "description": "Préparez-vous pour une expérience unique, intense et absolument sans limites. Ici, le style rencontre la liberté. Oubliez les vêtements, oubliez le conventionnel – juste vous, le rasoir, et le plaisir de vous sentir totalement libre.",
+        "description": "Préparez-vous à une expérience unique, intense et totalement libératrice. Ici, le soin du corps et de l'esprit rencontre la liberté. Oubliez le stress, oubliez le conventionnel – il n'y a que vous et le plaisir de prendre soin de vous avec confort et bien-être.",
         "button": "Réservez votre rendez-vous"
     },
     "about": {
@@ -42,11 +42,11 @@
         "button": "Réservez votre rendez-vous",
         "1": {
             "name": "Coupe de Cheveux",
-            "description": "Coupes modernes ou classiques réalisées par des professionnels expérimentés. Nous utilisons des techniques actuelles pour garantir un résultat adapté à votre style. Un service complet incluant une finition avec des produits de haute qualité."
+            "description": "Coupes modernes ou classiques réalisées par des professionnels expérimentés. Nous utilisons des techniques actuelles pour garantir un résultat adapté à votre style. Un service complet incluant le lavage des cheveux et la finition avec des produits de haute qualité."
         },
         "2": {
-            "name": "Barbe / Barbotérapie",
-            "description": "Traitement complet de la barbe avec hydratation, modelage et techniques traditionnelles de barbier. Comprend serviette chaude, huiles spéciales et finition professionnelle pour un look propre et renouvelé."
+            "name": "Barbothérapie Simple/Premium",
+            "description": "Soin complet de la barbe avec hydratation, modelage et techniques traditionnelles de barbier. L’option Premium comprend serviette chaude, huiles spéciales et massage facial. Les deux services mettent l’accent sur une finition professionnelle pour un look soigné et rafraîchi."
         },
         "3": {
             "name": "Épilation à la Cire / Machine",
@@ -54,7 +54,7 @@
         },
         "4": {
             "name": "Massage Relaxant",
-            "description": "Massage doux qui soulage les tensions et réduit le stress quotidien. Utilise des mouvements légers et enveloppants pour favoriser une relaxation profonde. Parfait pour retrouver énergie et équilibre."
+            "description": "Massage qui soulage les tensions et réduit le stress quotidien. Utilise des techniques variées et enveloppantes pour favoriser une relaxation profonde. Parfait pour retrouver énergie et équilibre."
         },
         "5": {
             "name": "Massage aux Pierres Chaudes",
@@ -69,12 +69,12 @@
         "h2": "Nos",
         "h1": "Professionnels",
         "role": {
-            "1": "Massage relaxant",
-            "2": "Épilation à la cire",
-            "3": "Épilation à la machine",
+            "1": "Massage",
+            "2": "Épilation",
+            "3": "Exfoliation",
             "4": "Coupe de cheveux",
-            "5": "Barbe",
-            "6": "Barbothérapie",
+            "5": "Barbothérapie",
+            "6": "Épilation à la machine",
             "7": "Hôte",
             "8": "Plateformes numériques",
             "9": "Réseaux sociaux"

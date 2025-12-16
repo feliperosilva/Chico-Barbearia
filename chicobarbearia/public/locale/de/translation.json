@@ -16,7 +16,7 @@
     "contact": "Kontakt",
     "banner": {
         "title": "Der Erste Nacktbarbershop Europas",
-        "description": "Mach dich bereit für ein einzigartiges, intensives und absolut grenzenloses Erlebnis. Hier trifft Stil auf Freiheit. Vergiss die Kleidung, vergiss das Gewöhnliche – nur du, das Rasiermesser und das Gefühl völliger Freiheit.",
+        "description": "Bereiten Sie sich auf ein einzigartiges, intensives und vollkommen befreiendes Erlebnis vor. Hier trifft die Pflege von Körper und Geist auf Freiheit. Vergessen Sie Stress, vergessen Sie das Gewohnte – es sind nur Sie und das Vergnügen, sich mit Komfort und Wohlbefinden zu verwöhnen.",
         "button": "Termin buchen"
     },
     "about": {
@@ -42,11 +42,11 @@
         "button": "Termin buchen",
         "1": {
             "name": "Haarschnitt",
-            "description": "Moderne oder klassische Haarschnitte, durchgeführt von erfahrenen Profis. Wir verwenden aktuelle Techniken, um ein Ergebnis zu erzielen, das zu Ihrem Stil passt. Ein kompletter Service mit hochwertigem Finish."
+            "description": "Moderne oder klassische Haarschnitte, durchgeführt von erfahrenen Fachleuten. Wir arbeiten mit aktuellen Techniken, um ein Ergebnis zu gewährleisten, das Ihrem Stil entspricht. Ein kompletter Service, der Haarwäsche und Styling mit hochwertigen Produkten beinhaltet."
         },
         "2": {
-            "name": "Bart / Barttherapie",
-            "description": "Umfassende Bartpflege mit Hydration, Formgebung und traditionellen Barbiermethoden. Inklusive heißem Handtuch, speziellen Ölen und professionellem Finish für ein gepflegtes und erneuertes Aussehen."
+            "name": "Einfache/Premium Barbotherapie",
+            "description": "Komplette Bartbehandlung mit Hydratation, Formgebung und traditionellen Barbiertechniken. Die Premium-Variante beinhaltet ein heißes Handtuch, spezielle Öle und Gesichtsmassage. Beide Services legen den Fokus auf ein professionelles Finish für ein gepflegtes und frisches Aussehen."
         },
         "3": {
             "name": "Waxing / Maschinenhaarentfernung",
@@ -54,7 +54,7 @@
         },
         "4": {
             "name": "Entspannungsmassage",
-            "description": "Sanfte Massage, die Verspannungen löst und Alltagsstress reduziert. Durch leichte und fließende Bewegungen fördert sie tiefe Entspannung. Perfekt, um Energie und Gleichgewicht zurückzugewinnen."
+            "description": "Massage, die Spannungen löst und den Alltagsstress reduziert. Verwendet abwechslungsreiche und fließende Techniken, um tiefe Entspannung zu fördern. Perfekt, um Energie und Balance wiederherzustellen."
         },
         "5": {
             "name": "Hot-Stone-Massage",
@@ -69,12 +69,12 @@
         "h2": "Unsere",
         "h1": "Profis",
         "role": {
-            "1": "Entspannungsmassage",
-            "2": "Wachsdepilation",
-            "3": "Maschinelle Haarentfernung",
+            "1": "Massage",
+            "2": "Waxing",
+            "3": "Peeling",
             "4": "Haarschnitt",
-            "5": "Bart",
-            "6": "Barbotherapie",
+            "5": "Barber-Therapie",
+            "6": "Maschinen-Waxing",
             "7": "Host",
             "8": "Digitale Plattformen",
             "9": "Soziale Medien"
