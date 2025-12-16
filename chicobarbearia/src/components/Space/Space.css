@@ -75,6 +75,7 @@
 
     .space h1 {
         padding: 0;
+        font-size: clamp(32px, 15vw, 72px);
     }
 
     .space-swiper {
