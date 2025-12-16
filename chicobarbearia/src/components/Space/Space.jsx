@@ -3,6 +3,8 @@ import './Space.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Autoplay } from 'swiper/modules';
 
+import { useTranslation } from 'react-i18next';
+
 import space1 from '../../assets/images/space1.jpg'
 import space2 from '../../assets/images/space2.jpg'
 import space3 from '../../assets/images/space3.jpg'
@@ -22,10 +24,12 @@ const images = [
 ]
 
 const Space = () => {
+  const {t} = useTranslation()
+
   return (
     <section className='space'>
-      <h2>Conheça o</h2>
-      <h1>Nosso Espaço</h1>
+      <h2>{t('space.h2')}</h2>
+      <h1>{t('space.h1')}</h1>
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={0}
