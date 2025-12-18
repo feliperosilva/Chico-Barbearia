@@ -70,6 +70,15 @@
     font-size: 18px;
 }
 
+.url-show {
+    display: flex;
+    color: #006539;
+}
+
+.url-hide {
+    display: none;
+}
+
 @media (max-width: 480px) {
     .faq {
         display: flex;

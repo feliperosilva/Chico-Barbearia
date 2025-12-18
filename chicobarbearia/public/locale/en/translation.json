@@ -90,22 +90,25 @@
             "6": "Is there interaction between clients?",
             "7": "Is there any private space for client interaction?",
             "8": "Is smoking or the use of other substances allowed inside the barbershop?",
-            "9": "Is it allowed to take photos or record videos inside the barbershop?"
+            "9": "Is it allowed to take photos or record videos inside the barbershop?",
+            "10": "Where can I check the available prices and services?"
         },
         "answer": {
-            "1": "As a barbershop, the space was designed mainly with a male audience in mind. However, entry is allowed to anyone aged 18 or over.",
+            "1": "Like any barbershop, the space was designed mainly with a male audience in mind. However, entry is allowed to anyone aged 18 or over.",
             "2": "Yes! Access to the barbershop is always granted through a prior appointment for one of the services offered, whether in barbering, aesthetics, or well-being.",
             "3": "No, you are not required to be naked! At Chico Nudist Barbershop, you may come as you prefer: dressed, in underwear, or completely nude. What matters is that you feel comfortable!",
             "4": "All professionals at Chico Nudist Barbershop perform their services fully nude. However, during breaks or when not attending clients, they may choose to remain nude or wear underwear.",
-            "5": "To maintain a pleasant environment and ensure the professionalism of our staff, interaction with employees may be limited so as not to interfere with the services being provided—whether yours or those of other clients. Mutual respect always comes first.",
+            "5": "To maintain a pleasant environment and preserve the professionalism of our staff, there will be no sexual interaction of any kind between clients and employees. Mutual respect always comes first.",
             "6": "The environment at Chico Nudist Barbershop was designed to make everyone feel comfortable. Interaction between clients may occur, provided mutual respect and respect for ongoing services are maintained.",
             "7": "No, there is no private space. The barbershop was created to offer moments of relaxation and discovery, encouraging social interaction within the shared environment.",
             "8": "Smoking or consuming any type of illegal substance is strictly prohibited inside the barbershop. If a client is caught doing so, they will be asked to leave, and future access will be denied.",
-            "9": "Taking photographs or recording videos inside the barbershop is only permitted with formal written authorization from the management of Chico Barbearia Nudista. Failure to comply with this rule may result in legal action in accordance with applicable law."
+            "9": "Taking photographs or recording videos inside the barbershop is only permitted with formal written authorization from the management of Chico Barbearia Nudista. Failure to comply with this rule may result in legal action in accordance with applicable law.",
+            "10": "All information about prices and available services can be found on our booking platform at "
         }
     },
     "address": "Address",
     "lisbon": "Lisbon",
+    "metro": "(near Alameda metro station – Rua Rosa Damasceno exit)",
     "phone": "Phone",
     "hours": "Opening Hours",
     "working_hours": "Wednesday to Monday from 1 p.m. to 8 p.m.",

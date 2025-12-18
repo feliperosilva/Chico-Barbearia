@@ -90,22 +90,25 @@
             "6": "Gibt es Interaktionen zwischen den Kunden?",
             "7": "Gibt es einen privaten Bereich für Interaktionen zwischen Kunden?",
             "8": "Ist das Rauchen oder der Konsum anderer Substanzen im Barbershop erlaubt?",
-            "9": "Ist es erlaubt, im Barbershop zu fotografieren oder zu filmen?"
+            "9": "Ist es erlaubt, im Barbershop zu fotografieren oder zu filmen?",
+            "10": "Wo kann ich die Preise und verfügbaren Dienstleistungen einsehen?"
         },
         "answer": {
-            "1": "Als Barbershop wurde der Raum hauptsächlich für ein männliches Publikum gestaltet. Dennoch ist der Zutritt allen Personen ab 18 Jahren gestattet.",
+            "1": "Wie jede Barbershop wurde der Raum in erster Linie für ein männliches Publikum konzipiert. Der Zutritt ist jedoch allen Personen ab 18 Jahren gestattet.",
             "2": "Ja! Der Zutritt zum Barbershop erfolgt stets nach vorheriger Terminvereinbarung für eine der angebotenen Dienstleistungen — Barbering, Ästhetik oder Wellness.",
             "3": "Nein, Nacktheit ist nicht verpflichtend! Im Chico Nudisten-Barbershop kannst du kommen, wie du möchtest: angezogen, in Unterwäsche oder vollständig nackt. Wichtig ist, dass du dich wohlfühlst.",
             "4": "Alle Mitarbeiter führen ihre Dienstleistungen vollständig nackt aus. In Pausen oder wenn sie keine Kunden betreuen, können sie jedoch nackt bleiben oder Unterwäsche tragen.",
-            "5": "Um eine angenehme Atmosphäre zu gewährleisten und die Professionalität unseres Teams zu bewahren, kann die Interaktion mit Mitarbeitern eingeschränkt sein, damit laufende Dienstleistungen — deine oder die anderer Kunden — nicht gestört werden. Gegenseitiger Respekt steht immer an erster Stelle.",
+            "5": "Um ein angenehmes Umfeld zu gewährleisten und die Professionalität unserer Mitarbeitenden zu wahren, wird es keinerlei sexuelle Interaktionen zwischen Kunden und Angestellten geben. Gegenseitiger Respekt steht immer an erster Stelle.",
             "6": "Der Raum wurde gestaltet, damit sich alle wohlfühlen. Interaktionen zwischen Kunden können stattfinden, solange gegenseitiger Respekt und Rücksicht auf laufende Dienstleistungen gewahrt bleiben.",
             "7": "Nein, es gibt keinen privaten Bereich. Der Barbershop wurde geschaffen, um Entspannung, Entdeckung und gemeinschaftliches Beisammensein zu fördern.",
             "8": "Das Rauchen oder der Konsum illegaler Substanzen ist im Barbershop strengstens verboten. Wird ein Kunde dabei erwischt, muss er den Raum verlassen und erhält künftig Hausverbot.",
-            "9": "Das Fotografieren oder Filmen innerhalb des Barbershops ist nur mit einer formellen und schriftlichen Genehmigung der Geschäftsführung von Chico Barbearia Nudista gestattet. Bei Nichteinhaltung dieser Regel können rechtliche Schritte gemäß der geltenden Gesetzgebung eingeleitet werden."
+            "9": "Das Fotografieren oder Filmen innerhalb des Barbershops ist nur mit einer formellen und schriftlichen Genehmigung der Geschäftsführung von Chico Barbearia Nudista gestattet. Bei Nichteinhaltung dieser Regel können rechtliche Schritte gemäß der geltenden Gesetzgebung eingeleitet werden.",
+            "10": "Alle Informationen zu Preisen und verfügbaren Dienstleistungen finden Sie auf unserer Buchungsplattform unter "
         }
     },
     "address": "Adresse",
     "lisbon": "Lissabon",
+    "metro": "(in der Nähe der U-Bahn-Station Alameda – Ausgang Rua Rosa Damasceno)",
     "phone": "Telefon",
     "hours": "Öffnungszeiten",
     "working_hours": "Mittwoch bis Montag von 13:00 bis 20:00 Uhr.",

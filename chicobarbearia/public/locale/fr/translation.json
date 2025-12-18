@@ -90,22 +90,25 @@
             "6": "Y a-t-il une interaction entre les clients ?",
             "7": "Existe-t-il un espace privé pour l’interaction entre clients ?",
             "8": "Est-il permis de fumer ou de consommer d’autres substances à l’intérieur du salon ?",
-            "9": "Est-il permis de prendre des photos ou de filmer à l’intérieur du salon ?"
+            "9": "Est-il permis de prendre des photos ou de filmer à l’intérieur du salon ?",
+            "10": "Où puis-je consulter les tarifs et les services disponibles ?"
         },
         "answer": {
-            "1": "En tant que barbershop, l’espace a été conçu principalement pour un public masculin. Cependant, l’accès est autorisé à toute personne âgée de 18 ans ou plus.",
+            "1": "Comme tout salon de barbier, l’espace a été conçu principalement pour un public masculin. Cependant, l’accès est autorisé à toute personne âgée de 18 ans ou plus.",
             "2": "Oui ! L’accès au salon est toujours réalisé sur rendez-vous préalable pour l’un des services proposés : coiffure, esthétique ou bien-être.",
             "3": "Non, il n’est pas obligatoire d’être nu ! À la Chico Barbearia Nudista, vous pouvez venir comme vous le souhaitez : habillé, en sous-vêtements ou complètement nu. L’important est de vous sentir à l’aise !",
             "4": "Tous les professionnels réalisent leurs prestations entièrement nus. Toutefois, pendant les pauses ou lorsqu’ils ne sont pas en service, ils peuvent rester nus ou porter des sous-vêtements.",
-            "5": "Pour préserver une ambiance agréable et garantir le professionnalisme de notre équipe, l’interaction avec les employés peut être limitée afin de ne pas perturber les services en cours — les vôtres ou ceux d’autres clients. Le respect mutuel est essentiel.",
+            "5": "Afin de maintenir un environnement agréable et de préserver le professionnalisme de notre personnel, aucune interaction sexuelle ne sera autorisée entre les clients et les employés. Le respect mutuel passe toujours en premier.",
             "6": "L’espace a été conçu pour que chacun se sente à l’aise. Les interactions entre clients peuvent avoir lieu, tant que le respect mutuel et celui des services en cours sont maintenus.",
             "7": "Non, il n’existe aucun espace privé. Le salon a été conçu pour favoriser la détente, la découverte et la convivialité dans un environnement partagé.",
             "8": "Il est strictement interdit de fumer ou de consommer des substances illicites à l’intérieur du salon. Tout client surpris en infraction sera invité à quitter les lieux et son entrée sera dorénavant interdite.",
-            "9": "La prise de photos ou l’enregistrement de vidéos à l’intérieur du salon n’est autorisée qu’avec une autorisation formelle et écrite de la direction de Chico Barbearia Nudista. Le non-respect de cette règle pourra entraîner des démarches légales conformément à la législation en vigueur."
+            "9": "La prise de photos ou l’enregistrement de vidéos à l’intérieur du salon n’est autorisée qu’avec une autorisation formelle et écrite de la direction de Chico Barbearia Nudista. Le non-respect de cette règle pourra entraîner des démarches légales conformément à la législation en vigueur.",
+            "10": "Toutes les informations concernant les tarifs et les services disponibles sont consultables sur notre plateforme de réservation à "
         }
     },
     "address": "Adresse",
     "lisbon": "Lisbonne",
+    "metro": "(à proximité du métro Alameda – sortie Rua Rosa Damasceno)",
     "phone": "Téléphone",
     "hours": "Horaires d’ouverture",
     "working_hours": "Du mercredi au lundi de 13h à 20h.",

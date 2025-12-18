@@ -48,6 +48,11 @@ const faq = [
         id: 9,
         question: 'faq_section.question.9',
         answer:'faq_section.answer.9'
+    },
+    {
+        id: 10,
+        question: 'faq_section.question.10',
+        answer:'faq_section.answer.10'
     }
 ]
 
@@ -69,7 +74,7 @@ const Faq = () => {
                             <p className='question'>{t(qtn.question)}</p>
                             <span><strong>{open === qtn.id ? '-' : '+'}</strong></span>
                         </div>
-                        <p className={open === qtn.id ? 'answer-open' : 'answer-close'}>{t(qtn.answer)}</p>
+                        <p className={open === qtn.id ? 'answer-open' : 'answer-close'}>{t(qtn.answer)}<a className={qtn.id === 10 ? 'url-show' : 'url-hide'} href='https://buk.pt/chico-barbearia-nudista/'>https://buk.pt/chico-barbearia-nudista/</a></p>
                     </div>
                 )}
             </div>            

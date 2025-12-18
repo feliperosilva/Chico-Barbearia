@@ -90,22 +90,25 @@
             "6": "C’è interazione tra i clienti?",
             "7": "Esiste uno spazio privato per l’interazione tra clienti?",
             "8": "È consentito fumare o consumare altre sostanze all’interno della barberia?",
-            "9": "È permesso fotografare o filmare all’interno della barberia?"
+            "9": "È permesso fotografare o filmare all’interno della barberia?",
+            "10": "Dove posso consultare i prezzi e i servizi disponibili?"
         },
         "answer": {
-            "1": "Essendo una barberia, lo spazio è stato pensato principalmente per un pubblico maschile. Tuttavia, l’accesso è consentito a chiunque abbia almeno 18 anni.",
+            "1": "Come ogni barberia, lo spazio è stato pensato principalmente per un pubblico maschile. Tuttavia, l’accesso è consentito a chiunque abbia almeno 18 anni.",
             "2": "Sì! L’ingresso alla barberia è sempre possibile tramite prenotazione di uno dei servizi offerti, che siano di barberia, estetica o benessere.",
             "3": "No, non sei obbligato a essere nudo! Alla Chico Barberia Nudista puoi presentarti come preferisci: vestito, in biancheria intima o completamente nudo. L’importante è sentirsi a proprio agio.",
             "4": "Tutti i professionisti svolgono i loro servizi completamente nudi. Tuttavia, durante le pause o quando non stanno servendo clienti, possono rimanere nudi o indossare biancheria.",
-            "5": "Per mantenere un ambiente piacevole e garantire il professionalismo del nostro staff, l’interazione con i dipendenti può essere limitata per non disturbare i servizi in corso —i tuoi o quelli di altri clienti—. Il rispetto reciproco è essenziale.",
+            "5": "Per mantenere un ambiente piacevole e preservare la professionalità del nostro personale, non sarà consentito alcun tipo di interazione sessuale tra clienti e dipendenti. Il rispetto reciproco viene sempre al primo posto.",
             "6": "L’ambiente è stato progettato per far sentire tutti a proprio agio. L’interazione tra clienti può avvenire, purché venga mantenuto il rispetto reciproco e per i servizi in corso.",
             "7": "No, non esiste alcuno spazio privato. La barberia è stata creata per offrire momenti di relax, scoperta e socializzazione.",
             "8": "È severamente vietato fumare o consumare sostanze illegali all’interno della barberia. Se un cliente viene sorpreso, sarà invitato a lasciare il locale e gli sarà vietato l’accesso futuro.",
-            "9": "L’effettuazione di fotografie o riprese video all’interno della barberia è consentita solo previa autorizzazione formale e scritta dalla direzione di Chico Barbearia Nudista. Il mancato rispetto di questa regola potrà comportare un’azione legale secondo la normativa vigente."
+            "9": "L’effettuazione di fotografie o riprese video all’interno della barberia è consentita solo previa autorizzazione formale e scritta dalla direzione di Chico Barbearia Nudista. Il mancato rispetto di questa regola potrà comportare un’azione legale secondo la normativa vigente.",
+            "10": "Tutte le informazioni sui prezzi e sui servizi disponibili possono essere consultate sulla nostra piattaforma di prenotazione su "
         }
     },
     "address": "Indirizzo",
     "lisbon": "Lisbona",
+    "metro": "(vicino alla metropolitana Alameda – uscita Rua Rosa Damasceno)",
     "phone": "Telefono",
     "hours": "Orari di apertura",
     "working_hours": "Da mercoledì a lunedì, dalle 13:00 alle 20:00.",

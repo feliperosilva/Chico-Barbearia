@@ -18,6 +18,7 @@ const Contact = () => {
             <h3>{t('address')}:</h3>
             <p>Rua Lucinda Simões 12E</p>
             <p>1900-305 {t('lisbon')}</p>
+            <p>{t('metro')}</p>
           </div>
 
           <br />
