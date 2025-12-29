@@ -14,23 +14,23 @@ const Footer = () => {
             <div className='footer-logo'>
                 <img src={emblem} alt="emblem" />                
             </div>
-            {/*<div className='social-media'>
+            <div className='social-media'>
                 <div className='social-links'>
                     <h2 className='follow'><strong>{t('follow')}</strong></h2>
                     <div className='media-link'>
                         <img src={instagram} alt="instagram" />
-                        <a href="https://www.instagram.com/_chicobarbeariaoficial/" target="_blank" rel="noopener noreferrer">Instagram</a>
+                        <a href="https://www.instagram.com/chico_barbearia_lisboa/" target="_blank" rel="noopener noreferrer">Instagram</a>
                     </div>
-                    <div className='media-link'>
+                    {/*<div className='media-link'>
                         <img src={facebook} alt="facebook" />
                         <a href="">Facebook</a>
-                    </div>
+                    </div>*/}
                     <div className='media-link'>
                         <img src={twitter} alt="twitter" />
                         <a href="https://x.com/ChicoBarbearia" target='_blank' rel='noopener noreferrer'>X</a>
                     </div>
                 </div>                
-            </div>*/}
+            </div>
             <div className='footer-mascot'>
                 <img src={mascot} alt="mascot" />
             </div>
