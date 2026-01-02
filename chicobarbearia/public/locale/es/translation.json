@@ -63,6 +63,10 @@
         "6": {
             "name": "Masaje con Exfoliación Corporal",
             "description": "Combinación de masaje relajante con exfoliación corporal completa. Elimina células muertas, activa la circulación y deja la piel más suave y renovada. Una experiencia revitalizante que une bienestar y cuidado estético."
+        },
+        "7": {
+            "name": "Ducha",
+            "description": "Servicio disponible para quienes desean salir de la barbería con una sensación total de frescura y confort. Aunque la ducha está incluida en algunos servicios, también puede adquirirse de forma independiente por quienes desean ducharse después del servicio o simplemente refrescarse."
         }
     },
     "prof": {

@@ -63,6 +63,10 @@
         "6": {
             "name": "Massagem com Esfoliação Corporal",
             "description": "Combinação de massagem relaxante com esfoliação corporal completa. Remove células mortas, ativa a circulação e deixa a pele mais macia e renovada. Uma experiência revigorante que une bem-estar e cuidado estético."
+        },
+        "7": {
+            "name": "Ducha",
+            "description": "Serviço disponível para quem pretende sair da barbearia já com uma sensação total de frescura e conforto. Apesar de a ducha fazer parte de alguns serviços, pode também ser adquirida de forma independente por quem deseja tomar banho após o atendimento ou simplesmente refrescar-se."
         }
     },
     "prof": {

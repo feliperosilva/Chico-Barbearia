@@ -33,7 +33,7 @@
 .serv-list {
     display: grid;
     grid-template-columns: 40% 60%;
-    column-gap: 10%;
+    column-gap: 15%;
     padding-top: 50px;
     margin-bottom: 70px;
 }
@@ -89,12 +89,11 @@
 .serv-description {
     cursor: pointer;
     position: relative;
-    width: 40dvw;
+    width: 30dvw;
 }
 
 .serv-description img{
-    width: 40dvw;
-    height: 40dvh;
+    height: 60dvh;
     box-shadow: 0 0 10px #006539,
     0 0 10px #006539;
     border-radius: 10px;
@@ -177,7 +176,7 @@
 
     .serv-description img {
         width: 80dvw;
-        height: 35dvh;
+        height: auto;
         border-radius: 10px;
         box-shadow: none;
     }

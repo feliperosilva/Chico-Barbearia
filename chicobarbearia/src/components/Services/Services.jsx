@@ -7,6 +7,7 @@ import massrelax from '../../assets/images/mass-relax.jpg'
 import waxing from '../../assets/images/waxing.jpg'
 import scrub from '../../assets/images/scrub.jpg'
 import hotstone from '../../assets/images/hotstone.jpg'
+import bath from '../../assets/images/bath.jpg'
 
 import { useTranslation } from 'react-i18next'
 
@@ -22,11 +23,6 @@ const services = [
     key: 'our_services.2'
   },
   {
-    id: 3,
-    image: waxing,
-    key: 'our_services.3'
-  },
-  {
     id: 4,
     image: massrelax,
     key: 'our_services.4'
@@ -40,7 +36,17 @@ const services = [
     id: 6,
     image: scrub,
     key: 'our_services.6'
-  }
+  },
+  {
+    id: 3,
+    image: waxing,
+    key: 'our_services.3'
+  },
+  {
+    id: 7,
+    image: bath,
+    key: 'our_services.7'
+  },
 ];
 
 

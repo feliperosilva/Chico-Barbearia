@@ -63,6 +63,10 @@
         "6": {
             "name": "Massage avec Gommage Corporel",
             "description": "Combinaison de massage relaxant et d’exfoliation corporelle complète. Élimine les cellules mortes, active la circulation et laisse la peau plus douce et renouvelée. Une expérience revitalisante alliant bien-être et soin esthétique."
+        },
+        "7": {
+            "name": "Douche",
+            "description": "Service disponible pour ceux qui souhaitent quitter le salon de barbier avec une sensation totale de fraîcheur et de confort. Bien que la douche soit incluse dans certains services, elle peut également être achetée séparément par ceux qui souhaitent se doucher après leur prestation ou simplement se rafraîchir."
         }
     },
     "prof": {

@@ -63,6 +63,10 @@
         "6": {
             "name": "Body Scrub Massage",
             "description": "A combination of relaxing massage with a full body exfoliation. Removes dead skin cells, stimulates circulation, and leaves the skin softer and renewed. A revitalizing experience that blends well-being and aesthetic care."
+        },
+        "7": {
+            "name": "Shower",
+            "description": "Service available for those who wish to leave the barbershop feeling completely fresh and comfortable. Although the shower is included in some services, it can also be purchased separately by those who wish to shower after their appointment or simply refresh themselves."
         }
     },
     "prof": {

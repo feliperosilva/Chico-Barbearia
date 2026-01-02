@@ -63,6 +63,10 @@
         "6": {
             "name": "Massaggio con Esfoliazione Corporea",
             "description": "Combinazione di massaggio rilassante e completa esfoliazione del corpo. Rimuove le cellule morte, stimola la circolazione e lascia la pelle più morbida e rigenerata. Un’esperienza rinvigorente che unisce benessere e cura estetica."
+        },
+        "7": {
+            "name": "Doccia",
+            "description": "Servizio disponibile per chi desidera uscire dal barbiere con una sensazione di totale freschezza e comfort. Sebbene la doccia sia inclusa in alcuni servizi, può anche essere acquistata separatamente da chi desidera fare una doccia dopo il trattamento o semplicemente rinfrescarsi."
         }
     },
     "prof": {
