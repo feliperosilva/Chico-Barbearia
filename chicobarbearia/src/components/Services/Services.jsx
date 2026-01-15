@@ -109,7 +109,7 @@ const Services = ({ onBook, bukRef }) => {
         <h2>{t('our_services.button')}</h2>
         <h4>(PT / EN)</h4>
         <iframe
-        src="https://buk.pt/chico-barbearia-nudista?embed=true"
+        src="https://buk.pt/chico-barbearia-lisboa?embed=true"
         height="930"
         width="100%"
         frameborder="0">
