@@ -67,6 +67,10 @@
         "7": {
             "name": "Ducha",
             "description": "Serviço disponível para quem pretende sair da barbearia já com uma sensação total de frescura e conforto. Apesar de a ducha fazer parte de alguns serviços, pode também ser adquirida de forma independente por quem deseja tomar banho após o atendimento ou simplesmente refrescar-se."
+        },
+        "8": {
+            "name": "Massagem Deep Tissue",
+            "description": "Massagem que atua nas camadas mais profundas dos músculos, ideal para aliviar dores persistentes e tensões acumuladas. Utiliza manobras firmes e precisas para libertar pontos de tensão e melhorar a mobilidade muscular. Perfeita para quem procura um alívio intenso e duradouro, promovendo bem-estar e recuperação física."
         }
     },
     "prof": {

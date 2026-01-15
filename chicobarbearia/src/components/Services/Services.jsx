@@ -8,6 +8,7 @@ import waxing from '../../assets/images/waxing.jpg'
 import scrub from '../../assets/images/scrub.jpg'
 import hotstone from '../../assets/images/hotstone.jpg'
 import bath from '../../assets/images/bath.jpg'
+import deeptissue from '../../assets/images/deeptissue.jpg'
 
 import { useTranslation } from 'react-i18next'
 
@@ -23,9 +24,14 @@ const services = [
     key: 'our_services.2'
   },
   {
-    id: 4,
+    id: 3,
     image: massrelax,
     key: 'our_services.4'
+  },
+  {
+    id: 4,
+    image: deeptissue,
+    key: 'our_services.8'
   },
   {
     id: 5,
@@ -38,12 +44,12 @@ const services = [
     key: 'our_services.6'
   },
   {
-    id: 3,
+    id: 7,
     image: waxing,
     key: 'our_services.3'
   },
   {
-    id: 7,
+    id: 8,
     image: bath,
     key: 'our_services.7'
   },

@@ -67,6 +67,10 @@
         "7": {
             "name": "Douche",
             "description": "Service disponible pour ceux qui souhaitent quitter le salon de barbier avec une sensation totale de fraîcheur et de confort. Bien que la douche soit incluse dans certains services, elle peut également être achetée séparément par ceux qui souhaitent se doucher après leur prestation ou simplement se rafraîchir."
+        },
+        "8": {
+            "name": "Massage Deep Tissue",
+            "description": "Massage qui agit sur les couches musculaires les plus profondes, idéal pour soulager les douleurs persistantes et les tensions accumulées. Utilise des manœuvres fermes et précises pour libérer les points de tension et améliorer la mobilité musculaire. Parfait pour ceux qui recherchent un soulagement intense et durable, favorisant le bien-être et la récupération physique."
         }
     },
     "prof": {

@@ -67,6 +67,10 @@
         "7": {
             "name": "Ducha",
             "description": "Servicio disponible para quienes desean salir de la barbería con una sensación total de frescura y confort. Aunque la ducha está incluida en algunos servicios, también puede adquirirse de forma independiente por quienes desean ducharse después del servicio o simplemente refrescarse."
+        },
+        "8": {
+            "name": "Masaje Deep Tissue",
+            "description": "Masaje que actúa sobre las capas más profundas de los músculos, ideal para aliviar dolores persistentes y tensiones acumuladas. Utiliza maniobras firmes y precisas para liberar puntos de tensión y mejorar la movilidad muscular. Perfecto para quienes buscan un alivio intenso y duradero, promoviendo el bienestar y la recuperación física."
         }
     },
     "prof": {

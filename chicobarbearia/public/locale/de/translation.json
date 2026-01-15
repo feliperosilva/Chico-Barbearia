@@ -67,6 +67,10 @@
         "7": {
             "name": "Dusche",
             "description": "Service für alle, die den Barbershop mit einem rundum frischen und angenehmen Gefühl verlassen möchten. Obwohl die Dusche in einigen Services enthalten ist, kann sie auch separat gebucht werden – ideal für alle, die sich nach dem Termin duschen oder einfach erfrischen möchten."
+        },
+        "8": {
+            "name": "Deep-Tissue-Massage",
+            "description": "Massage, die auf die tieferen Muskelschichten wirkt und ideal ist, um anhaltende Schmerzen und angesammelte Verspannungen zu lindern. Verwendet feste und präzise Griffe, um Spannungspunkte zu lösen und die Muskelbeweglichkeit zu verbessern. Perfekt für alle, die eine intensive und langanhaltende Linderung suchen und Wohlbefinden sowie körperliche Regeneration fördern möchten."
         }
     },
     "prof": {

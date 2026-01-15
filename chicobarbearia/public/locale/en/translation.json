@@ -67,6 +67,10 @@
         "7": {
             "name": "Shower",
             "description": "Service available for those who wish to leave the barbershop feeling completely fresh and comfortable. Although the shower is included in some services, it can also be purchased separately by those who wish to shower after their appointment or simply refresh themselves."
+        },
+        "8": {
+            "name": "Deep Tissue Massage",
+            "description": "Massage that works on the deeper layers of the muscles, ideal for relieving persistent pain and accumulated tension. Uses firm and precise techniques to release tension points and improve muscle mobility. Perfect for those seeking intense and long-lasting relief, promoting well-being and physical recovery."
         }
     },
     "prof": {
