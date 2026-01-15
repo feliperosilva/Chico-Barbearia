@@ -131,6 +131,31 @@
     display: none;
 }
 
+.bookings {
+    width: 100%;
+    background-color: #006539;
+}
+
+.bookings h2 {
+    font-size: clamp(32px, 16vw, 72px);
+    margin: 0;
+    padding: 0;    
+    font-style: italic;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+.bookings h4 {
+    font-size: clamp(16px, 8vw, 36px);
+    margin: 0;
+    padding: 0;    
+    font-style: italic;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
 @media (max-width: 480px) {
     .services-container {
         padding-bottom: 0;
@@ -205,5 +230,25 @@
 
     .pattern {
         display: none;
+    }
+
+    .bookings h2 {
+        font-size: clamp(28px, 16vw, 60px);
+        margin: 0;
+        padding: 0;    
+        font-style: italic;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+    }
+
+    .bookings h4 {
+        font-size: clamp(16px, 8vw, 32px);
+        margin: 0;
+        padding: 0;    
+        font-style: italic;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
     }
 }

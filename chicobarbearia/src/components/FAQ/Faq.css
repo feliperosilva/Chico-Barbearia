@@ -73,6 +73,16 @@
 .url-show {
     display: flex;
     color: #006539;
+    font-weight: bold;
+}
+
+.url-show {
+  display: inline-block; /* or just remove any flex-related behavior */
+}
+
+.url-show:hover {
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .url-hide {

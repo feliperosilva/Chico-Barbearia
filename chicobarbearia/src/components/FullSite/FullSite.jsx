@@ -9,8 +9,13 @@ import Faq from "../FAQ/Faq"
 import Space from '../Space/Space'
 import WhatsApp from '../WhatsApp/WhatsApp'
 import { Navigate } from 'react-router-dom'
+import { useRef } from 'react'
 
 const FullSite = () => {
+  const bukRef = useRef(null)
+  const bukScroll = () => {
+    bukRef.current?.scrollIntoView({ behavior : 'smooth' })
+  }
   const ageVerified = localStorage.getItem('ageVerified') === 'true'
 
   if (!ageVerified) {
@@ -20,12 +25,12 @@ const FullSite = () => {
   return (
     <>
         <Navbar />
-        <Banner />
+        <Banner onBook={bukScroll}/>
         <About />
         <Space />
-        <Services />
+        <Services onBook={bukScroll} bukRef={bukRef}/>
         <Professionals />
-        <Faq />
+        <Faq onBook={bukScroll}/>
         <Contact />
         <Footer />      
         <WhatsApp 

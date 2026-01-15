@@ -56,7 +56,7 @@ const faq = [
     }
 ]
 
-const Faq = () => {
+const Faq = ({ onBook }) => {
     const [open, setOpen] = useState(null)
 
     const {t} = useTranslation()
@@ -74,7 +74,7 @@ const Faq = () => {
                             <p className='question'>{t(qtn.question)}</p>
                             <span><strong>{open === qtn.id ? '-' : '+'}</strong></span>
                         </div>
-                        <p className={open === qtn.id ? 'answer-open' : 'answer-close'}>{t(qtn.answer)}<a className={qtn.id === 10 ? 'url-show' : 'url-hide'} href='https://buk.pt/chico-barbearia-nudista/'>https://buk.pt/chico-barbearia-nudista/</a></p>
+                        <p className={open === qtn.id ? 'answer-open' : 'answer-close'}>{t(qtn.answer)}<span className={qtn.id === 10 ? 'url-show' : 'url-hide'} onClick={onBook}>BUK</span></p>
                     </div>
                 )}
             </div>            

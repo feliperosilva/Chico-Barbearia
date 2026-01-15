@@ -56,7 +56,7 @@ const services = [
 ];
 
 
-const Services = () => {
+const Services = ({ onBook, bukRef }) => {
   const [selected, setSelected] = useState(services[0]);
 
   const {t} = useTranslation()
@@ -73,7 +73,7 @@ const Services = () => {
                 {t(`${serv.key}.name`)}
               </li>
             ))}
-            <a href="https://buk.pt/chico-barbearia-nudista" target='_blank' rel=' noopener noreferer'><button className='cta-service'>{t('our_services.button')}</button></a>
+            <button onClick={onBook} className='cta-service'>{t('our_services.button')}</button>
           </ul>
 
 
@@ -101,10 +101,20 @@ const Services = () => {
               <p>{t(`${selected.key}.description`)}</p>
             </div>            
           }
-          <a href="https://buk.pt/chico-barbearia-nudista" target='_blank' rel=' noopener noreferer'><button className='cta-service-mobile'>{t('our_services.button')}</button></a>                        
+          <button onClick={onBook} className='cta-service-mobile'>{t('our_services.button')}</button>                       
         </div>
                 
-      </div>      
+      </div>
+      <section className='bookings' ref={bukRef}>
+        <h2>{t('our_services.button')}</h2>
+        <h4>(PT / EN)</h4>
+        <iframe
+        src="https://buk.pt/chico-barbearia-nudista?embed=true"
+        height="930"
+        width="100%"
+        frameborder="0">
+        </iframe>      
+      </section>      
       <div className='pattern'></div>
     </section>
   )
