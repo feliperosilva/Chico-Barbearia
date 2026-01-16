@@ -5,6 +5,8 @@ import { useTranslation } from 'react-i18next'
 import phone from '../../assets/images/phone.png'
 import email from '../../assets/images/email.png'
 
+import livro from '../../assets/images/logo_livro_reclamacoes.png'
+
 const Contact = () => {
   const {t} = useTranslation()
   return (
@@ -43,6 +45,9 @@ const Contact = () => {
           <div className='hours'>
             <h3>{t('hours')}:</h3>
             <p>{t('working_hours')}</p>
+          </div>
+          <div className='livro-reclamacoes'>
+            <a href="https://www.livroreclamacoes.pt/Inicio/" rel='noreferrer noopener' target='_blank'><img src={livro} alt="livro de reclamações" /></a>  
           </div>          
         </div>
         <div className='maps'>
