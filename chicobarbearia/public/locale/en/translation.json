@@ -111,7 +111,9 @@
             "7": "No, there is no private space. The barbershop was created to offer moments of relaxation and discovery, encouraging social interaction within the shared environment.",
             "8": "Smoking or consuming any type of illegal substance is strictly prohibited inside the barbershop. If a client is caught doing so, they will be asked to leave, and future access will be denied.",
             "9": "Taking photographs or recording videos inside the barbershop is only permitted with formal written authorization from the management of Chico Barbearia Nudista. Failure to comply with this rule may result in legal action in accordance with applicable law.",
-            "10": "All information about prices and available services can be found on our booking platform at "
+            "10": "All information about prices and available services can be found in our ",
+            "10a": "booking section."
+
         }
     },
     "address": "Address",

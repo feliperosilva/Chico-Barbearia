@@ -74,7 +74,7 @@ const Faq = ({ onBook }) => {
                             <p className='question'>{t(qtn.question)}</p>
                             <span><strong>{open === qtn.id ? '-' : '+'}</strong></span>
                         </div>
-                        <p className={open === qtn.id ? 'answer-open' : 'answer-close'}>{t(qtn.answer)}<span className={qtn.id === 10 ? 'url-show' : 'url-hide'} onClick={onBook}>BUK</span></p>
+                        <p className={open === qtn.id ? 'answer-open' : 'answer-close'}>{t(qtn.answer)}<span className={qtn.id === 10 ? 'url-show' : 'url-hide'} onClick={onBook}>{t('faq_section.answer.10a')}</span></p>
                     </div>
                 )}
             </div>            
