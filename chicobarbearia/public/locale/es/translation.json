@@ -111,7 +111,9 @@
             "7": "No, no existe ningún espacio privado. La barbería fue creada para ofrecer momentos de relajación, descubrimiento y convivencia.",
             "8": "Está estrictamente prohibido fumar o consumir sustancias ilegales dentro de la barbería. Si un cliente es sorprendido haciéndolo, será invitado a abandonar el lugar y se le prohibirá la entrada.",
             "9": "La realización de fotografías o grabaciones dentro de la barbería solo está permitida con autorización formal y por escrito de la gerencia de Chico Barbearia Nudista. El incumplimiento de esta norma podrá dar lugar a acciones legales conforme a la legislación vigente.",
-            "10": "Toda la información sobre los precios y los servicios disponibles puede consultarse en nuestra plataforma de reservas en "
+            "10": "Toda la información sobre precios y servicios disponibles puede consultarse en nuestra ",
+            "10a": "sección de reservas."
+
         }
     },
     "address": "Dirección",
