@@ -45,7 +45,7 @@
             "description": "Modern or classic haircuts performed by experienced professionals. We work with up-to-date techniques to ensure a result suited to your style. A complete service that includes hair washing and finishing with high-quality products."
         },
         "2": {
-            "name": "Simple/Premium Barber Therapy",
+            "name": "Simple / Premium Beard Therapy",
             "description": "Complete beard treatment with hydration, shaping, and traditional barbering techniques. The Premium option includes a hot towel, special oils, and facial massage. Both services focus on professional finishing for a neat and refreshed look."
         },
         "3": {
@@ -61,8 +61,8 @@
             "description": "Therapeutic massage using heated stones to relieve muscle pain. The heat penetrates deeply, providing intense relaxation. Ideal for those suffering from accumulated tension."
         },
         "6": {
-            "name": "Body Scrub Massage",
-            "description": "A combination of relaxing massage with a full body exfoliation. Removes dead skin cells, stimulates circulation, and leaves the skin softer and renewed. A revitalizing experience that blends well-being and aesthetic care."
+            "name": "Body Scrub",
+            "description": "A full body exfoliation with some elements of a relaxing massage. Removes dead skin cells, stimulates circulation, and leaves the skin softer and renewed. A revitalizing experience that blends well-being and aesthetic care."
         },
         "7": {
             "name": "Shower",
@@ -79,10 +79,10 @@
         "role": {
             "1": "Massage",
             "2": "Waxing",
-            "3": "Exfoliation",
+            "3": "Body Scrub",
             "4": "Haircut",
-            "5": "Barber Therapy",
-            "6": "Machine Waxing",
+            "5": "Beard Therapy",
+            "6": "Body Trimming",
             "7": "Host",
             "8": "Digital Platforms",
             "9": "Social Media"
