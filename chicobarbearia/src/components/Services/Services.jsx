@@ -108,6 +108,11 @@ const Services = ({ onBook, bukRef }) => {
       <section className='bookings' ref={bukRef}>
         <h2>{t('our_services.button')}</h2>
         <h4>(PT / EN)</h4>
+        <p>Instruções de Marcação // Booking Instructions</p>
+        <span>Selecione um ou mais serviços que queira marcar. Lembramos que para garantir o mais alto nível de profissionalismo, durante seu atendimento, não haverá interações sexuais com funcionários da Chico Barbearia Nudista. O respeito mútuo vem sempre em primeiro lugar.</span>
+        <span>//</span>
+        <span>Select one or more services you would like to book. Please note that to ensure the highest level of professionalism, there will be no sexual interactions with Chico Nudist Barbershop staff during your appointment. Mutual respect always comes first.</span> <br />
+        
         <iframe
         src="https://buk.pt/chico-barbearia-lisboa?embed=true"
         height="930"

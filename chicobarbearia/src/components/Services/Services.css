@@ -134,6 +134,10 @@
 .bookings {
     width: 100%;
     background-color: #006539;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .bookings h2 {
@@ -154,6 +158,19 @@
     font-weight: 500;
     color: #fff;
     text-align: center;
+}
+
+.bookings p {
+    text-align: center;
+    width: 50%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.bookings span {
+    text-align: center;
+    width: 50%;
+    color: #fff;
 }
 
 @media (max-width: 480px) {
@@ -250,5 +267,17 @@
         font-weight: 500;
         color: #fff;
         text-align: center;
+    }
+
+    .bookings p {
+        text-align: center;
+        width: 80%;
+        color: #fff;
+    }
+
+    .bookings span {
+        text-align: center;
+        width: 80%;
+        color: #fff;
     }
 }
