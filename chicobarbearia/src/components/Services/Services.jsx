@@ -9,7 +9,7 @@ import scrub from '../../assets/images/scrub.jpg'
 import hotstone from '../../assets/images/hotstone.jpg'
 import bath from '../../assets/images/bath.jpg'
 import deeptissue from '../../assets/images/deeptissue.jpg'
-import pedicure from '../../assets/images/pedicure.png'
+import pedicure from '../../assets/images/pedicure.PNG'
 
 import { useTranslation } from 'react-i18next'
 
