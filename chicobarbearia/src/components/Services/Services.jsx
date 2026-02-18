@@ -9,6 +9,7 @@ import scrub from '../../assets/images/scrub.jpg'
 import hotstone from '../../assets/images/hotstone.jpg'
 import bath from '../../assets/images/bath.jpg'
 import deeptissue from '../../assets/images/deeptissue.jpg'
+import pedicure from '../../assets/images/pedicure.png'
 
 import { useTranslation } from 'react-i18next'
 
@@ -50,6 +51,11 @@ const services = [
   },
   {
     id: 8,
+    image: pedicure,
+    key: 'our_services.9'
+  },
+  {
+    id: 9,
     image: bath,
     key: 'our_services.7'
   },

@@ -61,8 +61,8 @@
             "description": "Therapeutische Massage mit warmen Steinen zur Linderung von Muskelschmerzen. Die Wärme dringt tief ein und sorgt für intensive Entspannung. Ideal bei angesammelten Verspannungen."
         },
         "6": {
-            "name": "Körperpeeling-Massage",
-            "description": "Kombination aus Entspannungsmassage und vollständigem Körperpeeling. Entfernt abgestorbene Hautzellen, fördert die Durchblutung und macht die Haut weicher und erneuert. Ein belebendes Erlebnis, das Wohlbefinden und Ästhetik verbindet."
+            "name": "Körperpeeling",
+            "description": "Ein Ganzkörperpeeling mit Elementen einer entspannenden Massage. Entfernt abgestorbene Hautzellen, regt die Durchblutung an und hinterlässt die Haut weicher und erneuert. Ein revitalisierendes Erlebnis, das Wohlbefinden und ästhetische Pflege vereint."
         },
         "7": {
             "name": "Dusche",
@@ -71,6 +71,10 @@
         "8": {
             "name": "Deep-Tissue-Massage",
             "description": "Massage, die auf die tieferen Muskelschichten wirkt und ideal ist, um anhaltende Schmerzen und angesammelte Verspannungen zu lindern. Verwendet feste und präzise Griffe, um Spannungspunkte zu lösen und die Muskelbeweglichkeit zu verbessern. Perfekt für alle, die eine intensive und langanhaltende Linderung suchen und Wohlbefinden sowie körperliche Regeneration fördern möchten."
+        },
+        "9": {
+            "name": "Pediküre/Fuß-Spa",
+            "description": "Eine umfassende Pflege, damit Ihre Füße makellos und erfrischt wirken. Der Service umfasst die Pflege von Nägeln und Nagelhaut, die Entfernung von Hornhaut und Schwielen sowie ein Peeling und eine intensive Feuchtigkeitspflege. Für ein noch entspannenderes Erlebnis ergänzt das Fuß-Spa eine Deluxe-Feuchtigkeitsmaske und eine Fußmassage, die zusätzliches Wohlbefinden und extra Geschmeidigkeit bietet."
         }
     },
     "prof": {

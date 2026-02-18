@@ -71,6 +71,10 @@
         "8": {
             "name": "Deep Tissue Massage",
             "description": "Massage that works on the deeper layers of the muscles, ideal for relieving persistent pain and accumulated tension. Uses firm and precise techniques to release tension points and improve muscle mobility. Perfect for those seeking intense and long-lasting relief, promoting well-being and physical recovery."
+        },
+        "9": {
+            "name": "Pedicure/Foot Spa",
+            "description": "A complete treatment to leave your feet flawless and refreshed. The service includes nail and cuticle care, removal of calluses and rough skin, as well as exfoliation and deep hydration. For an even more relaxing experience, the Foot Spa adds a deluxe hydrating mask and a foot massage, providing extra comfort and softness."
         }
     },
     "prof": {

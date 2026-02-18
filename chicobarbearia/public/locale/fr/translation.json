@@ -61,8 +61,8 @@
             "description": "Massage thérapeutique utilisant des pierres chauffées pour soulager les douleurs musculaires. La chaleur pénètre profondément, procurant une relaxation intense. Idéal pour les tensions accumulées."
         },
         "6": {
-            "name": "Massage avec Gommage Corporel",
-            "description": "Combinaison de massage relaxant et d’exfoliation corporelle complète. Élimine les cellules mortes, active la circulation et laisse la peau plus douce et renouvelée. Une expérience revitalisante alliant bien-être et soin esthétique."
+            "name": "Gommage Corporel",
+            "description": "Une exfoliation complète du corps avec quelques éléments d’un massage relaxant. Élimine les cellules mortes, stimule la circulation et laisse la peau plus douce et renouvelée. Une expérience revitalisante qui allie bien-être et soin esthétique."
         },
         "7": {
             "name": "Douche",
@@ -71,6 +71,10 @@
         "8": {
             "name": "Massage Deep Tissue",
             "description": "Massage qui agit sur les couches musculaires les plus profondes, idéal pour soulager les douleurs persistantes et les tensions accumulées. Utilise des manœuvres fermes et précises pour libérer les points de tension et améliorer la mobilité musculaire. Parfait pour ceux qui recherchent un soulagement intense et durable, favorisant le bien-être et la récupération physique."
+        },
+        "9": {
+            "name": "Pédicure/Spa des pieds",
+            "description": "Un soin complet pour laisser vos pieds impeccables et revitalisés. Le service comprend le soin des ongles et des cuticules, l’élimination des callosités et des zones rugueuses, ainsi qu’une exfoliation et une hydratation profonde. Pour une expérience encore plus relaxante, le Spa des Pieds ajoute un masque hydratant deluxe et un massage des pieds, offrant davantage de bien-être et de douceur."
         }
     },
     "prof": {

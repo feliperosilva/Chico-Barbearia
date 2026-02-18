@@ -61,8 +61,8 @@
             "description": "Massagem terapêutica que utiliza pedras aquecidas para aliviar dores musculares. O calor penetra profundamente, proporcionando relaxamento intenso. Ideal para quem sofre com tensões acumuladas."
         },
         "6": {
-            "name": "Massagem com Esfoliação Corporal",
-            "description": "Combinação de massagem relaxante com esfoliação corporal completa. Remove células mortas, ativa a circulação e deixa a pele mais macia e renovada. Uma experiência revigorante que une bem-estar e cuidado estético."
+            "name": "Esfoliação Corporal",
+            "description": "Uma esfoliação corporal completa com alguns elementos de uma massagem relaxante. Remove as células mortas, estimula a circulação e deixa a pele mais suave e renovada. Uma experiência revitalizante que combina bem-estar e cuidado estético."
         },
         "7": {
             "name": "Ducha",
@@ -71,6 +71,10 @@
         "8": {
             "name": "Massagem Deep Tissue",
             "description": "Massagem que atua nas camadas mais profundas dos músculos, ideal para aliviar dores persistentes e tensões acumuladas. Utiliza manobras firmes e precisas para libertar pontos de tensão e melhorar a mobilidade muscular. Perfeita para quem procura um alívio intenso e duradouro, promovendo bem-estar e recuperação física."
+        },
+        "9": {
+            "name": "Pedicure/Spa dos pés",
+            "description": "Um cuidado completo para deixar os seus pés impecáveis e renovados. O serviço inclui tratamento das unhas e cutículas, remoção de calos e calosidades, além de esfoliação e hidratação profunda. Para uma experiência ainda mais relaxante, o Spa dos Pés acrescenta uma máscara hidratante deluxe e uma massagem podal, proporcionando bem-estar e suavidade extra."
         }
     },
     "prof": {
