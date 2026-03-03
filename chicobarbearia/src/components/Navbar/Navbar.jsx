@@ -138,11 +138,11 @@ const Navbar = () => {
                     <Link 
                         onClick={() => {
                             setOpenBurger(false);
-                            setTimeout(() => scrollToSection('services'), 10);
+                            setTimeout(() => scrollToSection('professionals'), 10);
                         }} 
                         className='nav-link'
                     >
-                        {t('services')}
+                        {t('professionals')}
                     </Link>
                 </li>
                 <li className='nav-logo'>            
@@ -160,11 +160,11 @@ const Navbar = () => {
                     <Link 
                         onClick={() => {
                             setOpenBurger(false);
-                            setTimeout(() => scrollToSection('professionals'), 10);
+                            setTimeout(() => scrollToSection('services'), 10);
                         }} 
                         className='nav-link'
                     >
-                        {t('professionals')}
+                        {t('services')}
                     </Link>
                 </li>
                 <li>

@@ -125,8 +125,7 @@ const Services = ({ onBook, bukRef }) => {
         width="100%"
         frameborder="0">
         </iframe>      
-      </section>      
-      <div className='pattern'></div>
+      </section>
     </section>
   )
 }

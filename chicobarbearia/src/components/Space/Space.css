@@ -65,6 +65,17 @@
   background-color: #006539 !important; /* active bullet color */
 }
 
+.pattern {
+    width: 100%;
+    height: 25dvh;
+    background-image: url('../../assets/images/pattern.png');
+    background-repeat: repeat;
+    background-size: contain;
+    padding: 0;
+    margin: 20px 0 0 0;
+    background-color: #161616;
+}
+
 @media (max-width: 480px) {
     .space {        
         display: flex;
@@ -91,5 +102,9 @@
     .swiper-button-prev,
     .swiper-button-next {
         height: 50px !important;
+    }
+
+    .pattern {
+        display: none;
     }
 }

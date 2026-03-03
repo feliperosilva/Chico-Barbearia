@@ -52,7 +52,8 @@ const Space = () => {
                 <img src={image} alt={image} className='space-img'/>                
             </SwiperSlide>
         ))}
-      </Swiper>
+      </Swiper>            
+      <div className='pattern'></div>
     </section>
   )
 }

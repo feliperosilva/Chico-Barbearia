@@ -28,8 +28,8 @@ const FullSite = () => {
         <Banner onBook={bukScroll}/>
         <About />
         <Space />
-        <Services onBook={bukScroll} bukRef={bukRef}/>
         <Professionals />
+        <Services onBook={bukScroll} bukRef={bukRef}/>
         <Faq onBook={bukScroll}/>
         <Contact />
         <Footer />      
