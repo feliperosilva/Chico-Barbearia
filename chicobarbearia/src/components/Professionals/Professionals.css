@@ -73,13 +73,30 @@
     font-size: 18px;
 }
 
+.prof-invite {
+    padding-top: 30px;
+}
+
+.invite-h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 !important;
+}
+
+.prof-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: cente;
+    align-items: center;
+}
+
 .character-img {
     display: none;
 }
 
 @media (max-width: 480px) {
-    .professionals {        
-        display: flex;
+    .professionals {
         flex-direction: column;
         justify-content: center;
         align-items: center;
