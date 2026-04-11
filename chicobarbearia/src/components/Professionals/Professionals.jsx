@@ -14,6 +14,7 @@ import felipe from '../../assets/images/felipe.png'
 import rafa from '../../assets/images/rafa.png'
 import ze from '../../assets/images/ze.png'
 import edu from '../../assets/images/edu.jpg'
+import alex from '../../assets/images/alex.png'
 
 import { useTranslation } from 'react-i18next'
 
@@ -31,14 +32,19 @@ const team = [
         img: rafa
     },
     {
-        name: 'Felipe',
-        role: ['prof.role.7','prof.role.8','prof.role.9'],
-        img: felipe
-    },
-    {
         name: 'Zé',
         role: ['prof.role.1','prof.role.3'],
         img: ze
+    },
+    {
+      name: 'Alex',
+      role: ['prof.role.7','prof.role.2'],
+      img: alex
+    },
+    {
+        name: 'Felipe',
+        role: ['prof.role.7','prof.role.8'],
+        img: felipe
     },
 ]
 
