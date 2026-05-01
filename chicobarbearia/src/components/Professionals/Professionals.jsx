@@ -30,7 +30,7 @@ const team = [
     },
     {
         name: 'Rafa',
-        role: ['prof.role.4','prof.role.5','prof.role.6'],
+        role: ['prof.role.4','prof.role.5'],
         img: rafa
     },
     {
@@ -53,7 +53,7 @@ const team = [
 const invite = [
   {
       name: 'Edu',
-      role: ['prof.role.4','prof.role.5','prof.role.6'],
+      role: ['prof.role.4','prof.role.5'],
       img: edu
   },
   {
