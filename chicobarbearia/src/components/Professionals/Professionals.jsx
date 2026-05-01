@@ -14,6 +14,8 @@ import felipe from '../../assets/images/felipe.png'
 import rafa from '../../assets/images/rafa.png'
 import ze from '../../assets/images/ze.png'
 import edu from '../../assets/images/edu.jpg'
+import bruno from '../../assets/images/bruno.jpg'
+import hiago from '../../assets/images/hiago.jpg'
 import alex from '../../assets/images/alex.png'
 
 import { useTranslation } from 'react-i18next'
@@ -53,7 +55,17 @@ const invite = [
       name: 'Edu',
       role: ['prof.role.4','prof.role.5','prof.role.6'],
       img: edu
-  }
+  },
+  {
+      name: 'Bruno',
+      role: ['prof.role.1'],
+      img: bruno
+  },
+  {
+      name: 'Hiago',
+      role: ['prof.role.1'],
+      img: hiago
+  },
 ]
 
 const Professionals = () => {
@@ -92,13 +104,38 @@ const Professionals = () => {
       </div>
       <div className='prof-invite'>
         <h1 className='invite-h1'>{t('prof.invite')}</h1>
-        {invite.map((person, index) => (
+        {/*{invite.map((person, index) => (
               <div key={index} className='prof-pic'>
                   <img src={person.img} alt={person.name} className='prof-img'/>
                   <h2 className='prof-name'>{person.name}</h2>
                   {person.role.map((act, index) => <span key={t(`${index}`)} className='prof-role'>{t(`${act}`)}</span>)}                
               </div>
+          ))}*/}
+          <Swiper
+          modules={[Navigation, Pagination, Autoplay]}
+          spaceBetween={0}
+          breakpoints={{
+            0: { slidesPerView: 1, spaceBetween: 20 }, // mobile
+            768: { slidesPerView: 2, spaceBetween: 20 }, // tablet
+            1024: { slidesPerView: 2, spaceBetween: 20 } // desktop
+          }}
+          navigation
+          pagination={{clickable: true}}
+          loop={true}
+          autoplay={{
+            delay: 2500, // Delay between slides (ms)
+            disableOnInteraction: false, // Keeps autoplay even after user interaction
+          }}
+          className='prof-swiper'
+        >
+          {invite.map((person, index) => (
+              <SwiperSlide key={index} className='prof-slide'>
+                  <img src={person.img} alt={person.name} className='prof-img'/>
+                  <h2 className='prof-name'>{person.name}</h2>
+                  {person.role.map((act, index) => <span key={t(`${index}`)} className='prof-role'>{t(`${act}`)}</span>)}                
+              </SwiperSlide>
           ))}
+        </Swiper>
         <div className='character-img'>
             <img src={characters} alt="characters" />
         </div>
