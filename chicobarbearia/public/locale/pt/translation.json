@@ -75,6 +75,10 @@
         "9": {
             "name": "Pedicure/Spa dos pés",
             "description": "Um cuidado completo para deixar os seus pés impecáveis e renovados. O serviço inclui tratamento das unhas e cutículas, remoção de calos e calosidades, além de esfoliação e hidratação profunda. Para uma experiência ainda mais relaxante, o Spa dos Pés acrescenta uma máscara hidratante deluxe e uma massagem podal, proporcionando bem-estar e suavidade extra."
+        },
+        "10": {
+            "name": "Depilação a laser",
+            "description": "Depilação a laser com tecnologia de última geração para uma remoção eficaz, segura e duradoura dos pelos. Um tratamento confortável que ajuda a reduzir o crescimento dos pelos, deixando a pele mais suave, uniforme e cuidada. A combinação perfeita entre inovação, bem-estar e estética."
         }
     },
     "prof": {

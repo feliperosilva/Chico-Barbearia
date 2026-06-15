@@ -75,6 +75,10 @@
         "9": {
             "name": "Pédicure/Spa des pieds",
             "description": "Un soin complet pour laisser vos pieds impeccables et revitalisés. Le service comprend le soin des ongles et des cuticules, l’élimination des callosités et des zones rugueuses, ainsi qu’une exfoliation et une hydratation profonde. Pour une expérience encore plus relaxante, le Spa des Pieds ajoute un masque hydratant deluxe et un massage des pieds, offrant davantage de bien-être et de douceur."
+        },
+        "10": {
+            "name": "Épilation Laser",
+            "description": "Épilation laser avec une technologie de dernière génération pour une réduction durable, efficace et sûre de la pilosité. Un traitement confortable qui aide à limiter la repousse des poils tout en laissant la peau plus douce, uniforme et soignée. L’alliance parfaite entre innovation, bien-être et esthétique."
         }
     },
     "prof": {

@@ -75,6 +75,10 @@
         "9": {
             "name": "Pedicura/Spa de pies",
             "description": "Un cuidado completo para dejar tus pies impecables y renovados. El servicio incluye tratamiento de uñas y cutículas, eliminación de callos y durezas, además de exfoliación e hidratación profunda. Para una experiencia aún más relajante, el Spa de Pies añade una mascarilla hidratante deluxe y un masaje podal, proporcionando bienestar y suavidad extra."
+        },
+        "10": {
+            "name": "Depilación Láser",
+            "description": "Depilación láser con tecnología de última generación para una reducción eficaz, segura y duradera del vello. Un tratamiento cómodo que ayuda a minimizar el crecimiento del vello, dejando la piel más suave, uniforme y cuidada. La combinación perfecta de innovación, bienestar y estética."
         }
     },
     "prof": {

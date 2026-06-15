@@ -75,6 +75,10 @@
         "9": {
             "name": "Pedicure/Foot Spa",
             "description": "A complete treatment to leave your feet flawless and refreshed. The service includes nail and cuticle care, removal of calluses and rough skin, as well as exfoliation and deep hydration. For an even more relaxing experience, the Foot Spa adds a deluxe hydrating mask and a foot massage, providing extra comfort and softness."
+        },
+        "10": {
+            "name": "Laser Hair Removal",
+            "description": "Laser hair removal with state-of-the-art technology for effective, safe, and long-lasting hair reduction. A comfortable treatment that helps minimise hair growth while leaving the skin smoother, more even, and well cared for. The perfect combination of innovation, wellness, and aesthetics."
         }
     },
     "prof": {

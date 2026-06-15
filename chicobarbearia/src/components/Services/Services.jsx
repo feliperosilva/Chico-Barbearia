@@ -10,6 +10,7 @@ import hotstone from '../../assets/images/hotstone.jpg'
 import bath from '../../assets/images/bath.jpg'
 import deeptissue from '../../assets/images/deeptissue.jpg'
 import pedicure from '../../assets/images/pedicure.PNG'
+import laser from '../../assets/images/laser.png'
 
 import { useTranslation } from 'react-i18next'
 
@@ -46,16 +47,21 @@ const services = [
   },
   {
     id: 7,
+    image: laser,
+    key: 'our_services.10'
+  },
+  {
+    id: 8,
     image: waxing,
     key: 'our_services.3'
   },
   {
-    id: 8,
+    id: 9,
     image: pedicure,
     key: 'our_services.9'
   },
   {
-    id: 9,
+    id: 10,
     image: bath,
     key: 'our_services.7'
   },
