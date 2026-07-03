@@ -17,6 +17,7 @@ import edu from '../../assets/images/edu.jpg'
 import bruno from '../../assets/images/bruno.jpg'
 import hiago from '../../assets/images/hiago.jpg'
 import alex from '../../assets/images/alex.png'
+import juan from '../../assets/images/juan.png'
 
 import { useTranslation } from 'react-i18next'
 
@@ -51,12 +52,17 @@ const team = [
 ]
 
 const invite = [
-  /*{
+  {
       name: 'Edu',
       role: ['prof.role.4','prof.role.5'],
       img: edu
-  },*/
+  },
   {
+      name: 'Juan',
+      role: ['prof.role.1'],
+      img: juan
+  },
+  /*{
       name: 'Bruno',
       role: ['prof.role.1'],
       img: bruno
@@ -65,7 +71,7 @@ const invite = [
       name: 'Hiago',
       role: ['prof.role.1'],
       img: hiago
-  },
+  },*/
 ]
 
 const Professionals = () => {
