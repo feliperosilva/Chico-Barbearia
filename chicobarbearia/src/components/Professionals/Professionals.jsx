@@ -52,11 +52,11 @@ const team = [
 ]
 
 const invite = [
-  {
+  /*{
       name: 'Edu',
       role: ['prof.role.4','prof.role.5'],
       img: edu
-  },
+  },*/
   {
       name: 'Juan',
       role: ['prof.role.1'],
