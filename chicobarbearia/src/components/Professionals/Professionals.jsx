@@ -18,6 +18,7 @@ import bruno from '../../assets/images/bruno.jpg'
 import hiago from '../../assets/images/hiago.jpg'
 import alex from '../../assets/images/alex.png'
 import juan from '../../assets/images/juan.png'
+import gustavo from '../../assets/images/gustavo.png'
 
 import { useTranslation } from 'react-i18next'
 
@@ -61,6 +62,11 @@ const invite = [
       name: 'Juan',
       role: ['prof.role.1'],
       img: juan
+  },
+  {
+      name: 'Gustavo',
+      role: ['prof.role.1', 'prof.role.3'],
+      img: gustavo
   },
   /*{
       name: 'Bruno',
