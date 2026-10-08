@@ -67,13 +67,13 @@ const invite = [
       name: 'Gustavo',
       role: ['prof.role.1', 'prof.role.3'],
       img: gustavo
-  },
+  },*/
   {
       name: 'Bruno',
       role: ['prof.role.1'],
       img: bruno
   },
-  {
+  /*{
       name: 'Hiago',
       role: ['prof.role.1'],
       img: hiago
@@ -114,7 +114,7 @@ const Professionals = () => {
           ))}
         </Swiper>
       </div>
-      {/*<div className='prof-invite'>
+      <div className='prof-invite'>
         <h1 className='invite-h1'>{t('prof.invite')}</h1>
         {invite.map((person, index) => (
               <div key={index} className='prof-pic'>
@@ -123,7 +123,7 @@ const Professionals = () => {
                   {person.role.map((act, index) => <span key={t(`${index}`)} className='prof-role'>{t(`${act}`)}</span>)}                
               </div>
           ))}
-          <Swiper
+          {/*<Swiper
           modules={[Navigation, Pagination, Autoplay]}
           spaceBetween={0}
           breakpoints={{
@@ -147,11 +147,11 @@ const Professionals = () => {
                   {person.role.map((act, index) => <span key={t(`${index}`)} className='prof-role'>{t(`${act}`)}</span>)}                
               </SwiperSlide>
           ))}
-        </Swiper>
+        </Swiper>*/}
         <div className='character-img'>
             <img src={characters} alt="characters" />
         </div>
-      </div>*/}      
+      </div>      
     </section>
   )
 }
