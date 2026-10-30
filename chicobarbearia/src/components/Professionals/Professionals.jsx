@@ -26,9 +26,24 @@ import characters from '../../assets/images/characters.jpg'
 
 const team = [
     {
+      name: 'Alex',
+      role: ['prof.role.7','prof.role.2'],
+      img: alex
+    },
+    {
+        name: 'Bruno',
+        role: ['prof.role.1'],
+        img: bruno
+    },
+    {
         name: 'Chico',
         role: ['prof.role.1','prof.role.2','prof.role.3'],
         img: chico
+    },
+    {
+        name: 'Felipe',
+        role: ['prof.role.7','prof.role.8'],
+        img: felipe
     },
     {
         name: 'Rafa',
@@ -40,25 +55,15 @@ const team = [
         role: ['prof.role.1','prof.role.3'],
         img: ze
     },
-    {
-      name: 'Alex',
-      role: ['prof.role.7','prof.role.2'],
-      img: alex
-    },
-    {
-        name: 'Felipe',
-        role: ['prof.role.7','prof.role.8'],
-        img: felipe
-    },
 ]
 
 const invite = [
-  /*{
+  {
       name: 'Edu',
       role: ['prof.role.4','prof.role.5'],
       img: edu
   },
-  {
+  /*{
       name: 'Juan',
       role: ['prof.role.1'],
       img: juan
@@ -67,13 +72,8 @@ const invite = [
       name: 'Gustavo',
       role: ['prof.role.1', 'prof.role.3'],
       img: gustavo
-  },*/
-  {
-      name: 'Bruno',
-      role: ['prof.role.1'],
-      img: bruno
   },
-  /*{
+  {
       name: 'Hiago',
       role: ['prof.role.1'],
       img: hiago
